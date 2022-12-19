@@ -1,7 +1,7 @@
 let allTriggerAnswersJSON = `[
 {"Hund | Maria" : ["Ist das dein Hund?", "Das ist nicht mein Hund. Das ist Marias Hund.", "Ach, dann ist das also ihr Hund.", "Genau, das ist ihr Hund. Du hast es erfasst."],
 "Handy | Tom" : ["Ist das dein Handy?", "Das ist nicht mein Handy. Das ist Toms Handy.", "Ach, dann ist das also sein Handy.", "Genau, das ist sein Handy. Du hast es erfasst."],
-"Tasche | Maria" : ["Ist das deine Tasche?", "Das ist nicht meine Hund. Das ist Marias Tasche.", "Ach, dann ist das also ihre Tasche.", "Genau, das ist ihre Tasche. Du hast es erfasst."],
+"Tasche | Maria" : ["Ist das deine Tasche?", "Das ist nicht meine Tasche. Das ist Marias Tasche.", "Ach, dann ist das also ihre Tasche.", "Genau, das ist ihre Tasche. Du hast es erfasst."],
 "Auto | Tom" : ["Ist das dein Auto?", "Das ist nicht mein Auto. Das ist Toms Auto.", "Ach, dann ist das also sein Auto.", "Genau, das ist sein Auto. Du hast es erfasst."],
 "Portemonnaie | Maria" : ["Ist das dein Portemonnaie?", "Das ist nicht mein Portemonnaie. Das ist Marias Portemonnaie.", "Ach, dann ist das also ihr Portemonnaie.", "Genau, das ist ihr Portemonnaie. Du hast es erfasst."],
 "Wohnung | Tom" : ["Ist das deine Wohnung?", "Das ist nicht meine Wohnung. Das ist Toms Wohnung.", "Ach, dann ist das also seine Wohnung.", "Genau, das ist seine Wohnung. Du hast es erfasst."],
