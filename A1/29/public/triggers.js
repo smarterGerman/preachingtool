@@ -1,5 +1,5 @@
 let allTriggerAnswersJSON = `[
-{"parken" : ["Darf ich Sie mal was fragen?", "Aber klar doch.", "Darf man hier parken?", "Nein, hier dürfen Sie nicht parken.  Das ist hier verboten."],
+{"parken" : ["Darf ich Sie mal was fragen?", "Aber klar doch.", "Darf man hier parken?", "Nein, hier dürfen Sie nicht parken. Das ist hier verboten."],
 "Bier trinken" : ["Darf ich Sie mal was fragen?", "Aber klar doch.", "Darf man hier Bier trinken?", "Nein, hier dürfen Sie nicht Bier trinken. Das ist hier verboten."],
 "grillen" : ["Darf ich Sie mal was fragen?", "Aber klar doch.", "Darf man hier grillen?", "Nein, hier dürfen Sie nicht grillen. Das ist hier verboten."],
 "rauchen" : ["Darf ich Sie mal was fragen?", "Aber klar doch.", "Darf man hier rauchen?", "Nein, hier dürfen Sie nicht rauchen. Das ist hier verboten."],
