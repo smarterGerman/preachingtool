@@ -1,5 +1,5 @@
 let allTriggerAnswersJSON = `[
-{"aussteigen | einsteigen" : ["Steigst du aus?", "Nein, ich steige nicht aus.", "Dann steigst du also ein?", "Genau! Ich steige gerade ein."],
+{"aussteigen | einsteigen" : ["Steigst du ein?", "Nein, ich steige nicht ein.", "Dann steigst du also aus?", "Genau! Ich steige gerade aus."],
 "zumachen | aufmachen" : ["Machst du zu?", "Nein, ich mache nicht zu.", "Dann machst du also auf?", "Genau! Ich mache gerade auf."],
 "abschließen | aufschließen" : ["Schließt du ab?", "Nein, ich schließe nicht ab.", "Dann schließt du also auf?", "Genau! Ich schließe gerade auf."],
 "ausziehen | einziehen" : ["Ziehst du aus?", "Nein, ich ziehe nicht aus.", "Dann ziehst du also ein?", "Genau! Ich ziehe gerade ein."],
