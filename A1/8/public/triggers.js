@@ -5,7 +5,7 @@ let allTriggerAnswersJSON = `[
 "Handy" : ["Brauchst du mein neues Handy?", "Ich brauche dein neues Handy nicht.", "Was? Du brauchst mein neues Handy nicht?", "Nein, ich brauche dein neues Handy nicht."],
 "Fahrrad" : ["Brauchst du mein neues Fahrrad?", "Ich brauche dein neues Fahrrad nicht.", "Was? Du brauchst mein neues Fahrrad nicht?", "Nein, ich brauche dein neues Fahrrad nicht."],
 "Job" : ["Brauchst du meinen neuen Job?", "Ich brauche deinen neuen Job nicht.", "Was? Du brauchst meinen neuen Job nicht?", "Nein, ich brauche deinen neuen Job nicht."],
-"Gabel" : ["Brauchst du meine neue Gabel?", "Ich brauche deinen neue Gabel nicht.", "Was? Du brauchst meine neue Gabel nicht?", "Nein, ich brauche deine neue Gabel nicht."],
+"Gabel" : ["Brauchst du meine neue Gabel?", "Ich brauche deine neue Gabel nicht.", "Was? Du brauchst meine neue Gabel nicht?", "Nein, ich brauche deine neue Gabel nicht."],
 "Freund" : ["Brauchst du meinen neuen Freund?", "Ich brauche deinen neuen Freund nicht.", "Was? Du brauchst meinen neuen Freund nicht?", "Nein, ich brauche deinen neuen  Freund nicht."],
 "Brille" : ["Brauchst du meine neue Brille?", "Ich brauche deine neue Brille nicht.", "Was? Du brauchst meine neue Brille nicht?", "Nein, ich brauche deine neue Brille nicht."],
 "Lunge" : ["Brauchst du meine neue Lunge?", "Ich brauche deine neue Lunge nicht.", "Was? Du brauchst meine neue Lunge nicht?", "Nein, ich brauche deine neue Lunge nicht."]}
