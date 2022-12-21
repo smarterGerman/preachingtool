@@ -188,6 +188,11 @@
     /* margin-bottom: 1.2rem; */
     background-color: #F4628C;
   }
+  .starting-box-konstantin p {
+    color: black;
+    font-size: 15px;
+    font-weight: 300;
+  }
   .finish-screen-konstantin p {
     font-size: 45px;
     font-weight: bold;
