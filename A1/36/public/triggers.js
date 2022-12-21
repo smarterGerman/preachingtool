@@ -1,7 +1,7 @@
 let allTriggerAnswersJSON = `[
 {"Koch" : ["Hilfst du dem Koch?", "Ich helfe dem Koch nicht.", "Warum hilfst du denn dem Koch nicht?", "Weil ich dem Koch einfach nicht helfe."],
 "Finanzamt" : ["Hilfst du dem Finanzamt?", "Ich helfe dem Finanzamt nicht.", "Warum hilfst du denn dem Finanzamt nicht?", "Weil ich dem Finanzamt einfach nicht helfe."],
-"Chefin" : ["Hilfst du der Chefin?", "Ich helfe der Frau nicht.", "Warum hilfst du denn der Frau nicht?", "Weil ich der Frau einfach nicht helfe."],
+"Chefin" : ["Hilfst du der Chefin?", "Ich helfe der Chefin nicht.", "Warum hilfst du denn der Chefin nicht?", "Weil ich der Chefin einfach nicht helfe."],
 "Kinder (pl)" : ["Hilfst du den Kindern?", "Ich helfe den Kindern nicht.", "Warum hilfst du denn den Kindern nicht?", "Weil ich den Kindern einfach nicht helfe."],
 "Steuerberater" : ["Hilfst du dem Steuerberater?", "Ich helfe dem Steuerberater nicht.", "Warum hilfst du denn dem Steuerberater nicht?", "Weil ich dem Steuerberater einfach nicht helfe."],
 "Känguru" : ["Hilfst du dem Känguru?", "Ich helfe dem Känguru nicht.", "Warum hilfst du denn dem Känguru nicht?", "Weil ich dem Känguru einfach nicht helfe."],
