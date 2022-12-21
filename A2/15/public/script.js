@@ -27,6 +27,7 @@ const starting_box = document.querySelector(".starting-box-konstantin");
 const mic_container = document.querySelector(".mic-container");
 const tutorialContainer = document.querySelector(".tutorial-container");
 const navigationContainer = document.querySelector(".navigation");
+const nextButton = document.querySelector(".next-button");
 const triggerTutorialContainer = document.querySelector(".triggers");
 const finishBox = document.querySelector(".finish-screen-konstantin");
 const triggerCounterDiv = document.querySelector(".trigger-counter");
@@ -78,6 +79,7 @@ function startPreaching(){
   starting_box.classList.add("hide-konstantin");
   trigger_content.classList.remove("hide-konstantin");
   mic_container.classList.remove("hide-konstantin");
+  nextButton.classList.add("hide-konstantin");
   gameIsFinished = false;
   // startTutorial();
 }
@@ -384,15 +386,11 @@ function finishGame(){
   });
   // Key command to pause and start the audio 
   window.addEventListener("keydown", (event) => {
+    nextButton.classList.remove("hide-konstantin");
     if(event.isComposing || event.keyCode === 13 && 
       (event.ctrlKey ||event.metaKey) && !gameIsFinished){
       recognition.start();
       audio_img.src = "https://www.filepicker.io/api/file/Vd1N70dPS1yslZ2XwZEJ"
-      // console.log(tutorial_counter);
-      // if(tutorial_counter % 2 == 1 && test){
-      //   deleteEverything();
-      //   tutorial_counter++;
-      // }
       if (computerSpeakingFirst && switchPlaces % 2 == 0 && test) {
         computerFirst();
         computerSpeakingFirst = false;
@@ -403,28 +401,13 @@ function finishGame(){
   });
   // Button to start the microphone 
   function turnOnMicro(){
+    nextButton.classList.remove("hide-konstantin");
     if(initialCounter){
       countTrigger();
       initialCounter = false;
     }
     recognition.start();
     audio_img.src = "https://www.filepicker.io/api/file/Vd1N70dPS1yslZ2XwZEJ"
-    // if(tutorial_counter % 2 == 1 && test){
-    //   deleteEverything();
-    //   tutorial_counter++;
-    // } else if(tutorial_counter)
-    // if (computerSpeakingFirst && switchPlaces % 2 == 0 
-    //   && test) {
-    //   console.log(test);
-    //   computerFirst();
-    //   computerSpeakingFirst = false;
-    // } else {
-    //   // deleteEverything();
-    // }
-    // if(tutorial_counter % 2 == 1 && test){
-    //   deleteEverything();
-    //   tutorial_counter++;
-    // }
     if (computerSpeakingFirst && switchPlaces % 2 == 0 && test) {
       computerFirst();
       computerSpeakingFirst = false;
