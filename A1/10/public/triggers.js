@@ -2,7 +2,7 @@ let allTriggerAnswersJSON = `[
 {"arbeiten" : ["Arbeitest du gern?", "Ich arbeite nicht so gern.", "Und du? Arbeitest du denn gern?", "Ich arbeite sogar ziemlich gern!"],
 "warten" : ["Wartest du gern?", "Ich warte nicht so gern.", "Und du? Wartest du denn gern?", "Ich warte sogar ziemlich gern!"],
 "rechnen" : ["Rechnest du gern?", "Ich rechne nicht so gern.", "Und du? Rechnest du denn gern?", "Ich rechne sogar ziemlich gern!"],
-"baden" : ["Badest du gern?", "Ich arbeite nicht so gern.", "Und du? Arbeitest du denn gern?", "Ich arbeite sogar ziemlich gern!"],
+"baden" : ["Badest du gern?", "Ich bade nicht so gern.", "Und du? Badest du denn gern?", "Ich bade sogar ziemlich gern!"],
 "schneiden" : ["Heiratest du gern?", "Ich schneide nicht so gern.", "Und du? Schneidest du denn gern?", "Ich schneide sogar ziemlich gern!"],
 "reden" : ["Redest du gern?", "Ich rede nicht so gern.", "Und du? Redest du denn gern?", "Ich rede sogar ziemlich gern!"],
 "atmen" : ["Atmest du gern?", "Ich atme nicht so gern.", "Und du? Atmest du denn gern?", "Ich atme sogar ziemlich gern!"],
