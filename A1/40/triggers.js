@@ -6,7 +6,7 @@ let allTriggerAnswersJSON = `[
 "lernen" : ["Lernst du mit mir?", "Ich lerne nicht mit dir.", "Warum lernst du nicht mit mir?", "Weil ich nicht mit dir lerne."],
 "spielen" : ["Spielst du mit mir?", "Ich spiele nicht mit dir.", "Warum spielst du nicht mit mir?", "Weil ich nicht mit dir spiele."],
 "sprechen" : ["Sprichst du mit mir?", "Ich spreche nicht mit dir.", "Warum sprichst du nicht mit mir?", "Weil ich nicht mit dir spreche."],
-"feiern" : ["Feierst du mit mir?", "Ich feier nicht mit dir.", "Warum feierst du nicht mit mir?", "Weil ich nicht mit dir feier."],
+"feiern" : ["Feierst du mit mir?", "Ich feiere nicht mit dir.", "Warum feierst du nicht mit mir?", "Weil ich nicht mit dir feiere."],
 "telefonieren" : ["Telefonierst du mit mir?", "Ich telefoniere nicht mit dir.", "Warum telefonierst du nicht mit mir?", "Weil ich nicht mit dir telefoniere."],
 "kämpfen" : ["Kämpfst du mit mir?", "Ich kämpfe nicht mit dir.", "Warum kämpfst du nicht mit mir?", "Weil ich nicht mit dir kämpfe."]}
 ]`;
