@@ -1,14 +1,14 @@
 let allTriggerAnswersJSON = `[
-{"5.2." : ["Der Wievielte ist heute?", "Heute ist der fünfte zweite.", "Der Wievielte?", "Der fünfte zweite."],
-"3.8." : ["Der Wievielte ist heute?", "Heute ist der dritte achte.", "Der Wievielte?", "Der dritte achte."],
-"22.1." : ["Der Wievielte ist heute?", "Heute ist der zweiundzwanzigste erste.", "Der Wievielte?", "Der zweiundzwanzigste erste."],
-"30.7." : ["Der Wievielte ist heute?", "Heute ist der dreißigste siebte.", "Der Wievielte?", "Der dreißigste siebte."],
-"17.8." : ["Der Wievielte ist heute?", "Heute ist der siebzehnte achte.", "Der Wievielte?", "Der siebzehnte achte."],
-"27.4." : ["Der Wievielte ist heute?", "Heute ist der siebenundzwanzigste vierte.", "Der Wievielte?", "Der siebenundzwanzigste vierte."],
-"11.11." : ["Der Wievielte ist heute?", "Heute ist der elfte elfte.", "Der Wievielte?", "Der elfte elfte."],
-"7.12." : ["Der Wievielte ist heute?", "Heute ist der siebte zwölfte.", "Der Wievielte?", "Der siebte zwölfte."],
-"23.3." : ["Der Wievielte ist heute?", "Heute ist der dreiundzwanzigste dritte.", "Der Wievielte?", "Der dreiundzwanzigste dritte."],
-"31.3." : ["Der Wievielte ist heute?", "Heute ist der einunddreißigste dritte.", "Der Wievielte?", "Der einunddreißigste dritte."]}
+{"5. Februar" : ["Der Wievielte ist heute?", "Heute ist der 5. Februar", "Der Wievielte?", "Der 5. Februar."],
+"3. August" : ["Der Wievielte ist heute?", "Heute ist der 3. August.", "Der Wievielte?", "Der 3. August."],
+"22. Januar" : ["Der Wievielte ist heute?", "Heute ist der 22. Januar.", "Der Wievielte?", "Der 22. Januar."],
+"30. Juli" : ["Der Wievielte ist heute?", "Heute ist der 30. Juli.", "Der Wievielte?", "Der 30. Juli."],
+"17. August" : ["Der Wievielte ist heute?", "Heute ist der 17. August.", "Der Wievielte?", "Der 17. August."],
+"27. April" : ["Der Wievielte ist heute?", "Heute ist der 27. April.", "Der Wievielte?", "Der 27. April."],
+"11. November" : ["Der Wievielte ist heute?", "Heute ist der 11. November.", "Der Wievielte?", "Der 11. November."],
+"7. Dezember" : ["Der Wievielte ist heute?", "Heute ist der 7. Dezember.", "Der Wievielte?", "Der 7. Dezember."],
+"23. März" : ["Der Wievielte ist heute?", "Heute ist der 23. März.", "Der Wievielte?", "Der 23. März."],
+"31. März" : ["Der Wievielte ist heute?", "Heute ist der 31. März.", "Der Wievielte?", "Der 31. März."]}
 ]`;
 
-const triggers = ['5.2.', '3.8.', '22.1.', '30.7.', '17.8.', '27.4.', '11.11.', '7.12.', '23.3.', '31.3.'];
+const triggers = ['5. Februar', '3. August', '22. Januar', '30. Juli', '17. August', '27. April', '11. November', '7. Dezember', '23. März', '31. März'];
