@@ -8,7 +8,7 @@ let allTriggerAnswersJSON = `[
 "verzeihen" : ["Verzeihst du mir?", "Ich verzeihe dir nicht.", "Warum verzeihst du mir denn nicht?", "Weil ich dir einfach nicht verzeihe."],
 "glauben" : ["Glaubst du mir?", "Ich glaube dir nicht.", "Warum glaubst du mir denn nicht?", "Weil ich dir einfach nicht glaube."],
 "vergeben" : ["Vergibst du mir?", "Ich vergebe dir nicht.", "Warum vergibst du mir denn nicht?", "Weil ich dir einfach nicht vergebe."],
-"widersprechen" : ["Widersprichst du mir?", "Ich widerspreche dir nicht.", "Warum widersprichst du mir denn nicht?", "Weil ich dir einfach nicht widerspreche."]}
+"widersprechen" : ["Versprichst du mir?", "Ich verspreche dir nicht.", "Warum versprichst du mir denn nicht?", "Weil ich dir einfach nicht verspreche."]}
 ]`;
 
 const triggers = ['antworten', 'helfen', 'gratulieren', 'danken', 'vertrauen', 'folgen', 'verzeihen', 'glauben', 'vergeben', 'widersprechen'];
