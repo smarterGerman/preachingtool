@@ -1,0 +1,14 @@
+let allTriggerAnswersJSON = `[
+{"er | behaupten | fließend Japanisch sprechen" : ["Er behauptet, fließend Japanisch zu sprechen.", "Spricht er denn fließend Japanisch?", "Keine Ahnung. Er behauptet aber, dass er fließend Japanisch spricht.", "Na wenn er das behauptet, wird es wohl so sein."],
+"er | behaupten | mit dem Rauchen aufhören" : ["Er behauptet, mit dem Rauchen aufzuhören.", "Hört er denn mit dem Rauchen auf?", "Keine Ahnung. Er behauptet aber, dass er mit dem Rauchen aufhört.", "Na wenn er das behauptet, wird es wohl so sein."],
+"er | behaupten | hochbegabt sein" : ["Er behauptet, hochbegabt zu sein.", "Ist er denn hochbegabt?", "Keine Ahnung. Er behauptet aber, dass er hochbegabt ist.", "Na wenn er das behauptet, wird es wohl so sein."],
+"er | behaupten | der Schnellste sein" : ["Er behauptet, der Schnellste zu sein.", "Ist er denn der Schnellste?", "Keine Ahnung. Er behauptet aber, dass er der Schnellste ist.", "Na wenn er das behauptet, wird es wohl so sein."],
+"er | behaupten | gut küssen" : ["Er behauptet, gut küssen zu können.", "Kann er denn gut küssen?", "Keine Ahnung. Er behauptet aber, dass er gut küssen kann.", "Na wenn er das behauptet, wird es wohl so sein."],
+"sie | sich bemühen | leise sein" : ["Sie bemüht sich, leise zu sein.", "Ist sie denn leise?", "Keine Ahnung. Sie bemüht sich aber, dass sie leise ist.", "Na wenn sie sich bemüht, wird es wohl so sein."],
+"sie | sich bemühen | die Aufnahmeprüfung | schaffen" : ["Sie bemüht sich, die Aufnahmeprüfung zu schaffen.", "Schafft sie denn die Aufnahmeprüfung?", "Keine Ahnung. Sie bemüht sich aber, dass sie die Aufnahmeprüfung schafft.", "Na wenn sie sich bemüht, wird es wohl so sein."],
+"sie | sich bemühen | Deutsch lernen" : ["Sie bemüht sich, Deutsch zu lernen.", "Lernt sie denn Deutsch?", "Keine Ahnung. Sie bemüht sich aber, dass sie Deutsch lernt.", "Na wenn sie sich bemüht, wird es wohl so sein."],
+"sie | sich bemühen | alles richtig machen" : ["Sie bemüht sich, alles richtig zu machen.", "Macht sie denn alles richtig?", "Keine Ahnung. Sie bemüht sich aber, alles richtig zu machen.", "Na wenn sie sich bemüht, wird es wohl so sein."],
+"sie | sich bemühen | Konzertkarten bekommen" : ["Sie bemüht sich, Konzertkarten zu bekommen.", "Bekommt sie denn Konzertkarten?", "Keine Ahnung. Sie bemüht sich aber, dass sie Konzertkarten bekommt.", "Na wenn sie sich bemüht, wird es wohl so sein."]}
+]`;
+
+const triggers = ['er | behaupten | fließend Japanisch sprechen', 'er | behaupten | mit dem Rauchen aufhören', 'er | behaupten | hochbegabt sein', 'er | behaupten | der Schnellste sein', 'er | behaupten | gut küssen', 'sie | sich bemühen | leise sein', 'sie | sich bemühen | die Aufnahmeprüfung | schaffen', 'sie | sich bemühen | Deutsch lernen', 'sie | sich bemühen | alles richtig machen', 'sie | sich bemühen | Konzertkarten bekommen'];
