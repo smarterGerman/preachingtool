@@ -1,5 +1,5 @@
 let allTriggerAnswersJSON = `[
-{"bezahlen" : ["Bezahl mal!", "Ich bezahle aber nicht.", "Warum bezahlst du denn nicht?", "Weil ich nicht gern bezahle."],
+{"bezahlen" : ["Bezahl mal!", "Ich bezahle aber nicht.", "Warum bezahlst du denn nicht?", "Weil ich nicht gerne bezahle."],
 "aufräumen" : ["Räum mal auf.", "Ich räume aber nicht auf.", "Warum räumst du denn nicht auf?", "Weil ich nicht gerne aufräume."],
 "zuhören" : ["Hör mal zu.", "Ich höre aber nicht zu.", "Warum hörst du denn nicht zu?", "Weil ich nicht gerne zuhöre."],
 "erzählen" : ["Erzähl mal.", "Ich erzähle aber nicht.", "Warum erzählst du denn nicht?", "Weil ich nicht gerne erzähle."],
