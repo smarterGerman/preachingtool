@@ -1,14 +1,14 @@
 let allTriggerAnswersJSON = `[
-{"bestrafen" : ["Bestrafst du gern?", "Ich bestrafe nicht gern.", "Warum bestrafst du nicht gern?", "Weil ich einfach nicht gern bestrafe."],
-"betrügen" : ["Betrügst du gern?", "Ich betrüge nicht gern.", "Warum betrügst du nicht gern?", "Weil ich einfach nicht gern betrüge."],
-"enttäuschen" : ["Enttäuschst du gern?", "Ich enttäusche nicht gern.", "Warum enttäuschst du nicht gern?", "Weil ich einfach nicht gern enttäusche."],
-"erklären" : ["Erklärst du gern?", "Ich erkläre nicht gern.", "Warum erklärst du nicht gern?", "Weil ich einfach nicht gern erkläre."],
-"erzählen" : ["Erzählst du gern?", "Ich erzähle nicht gern.", "Warum erzählst du nicht gern?", "Weil ich einfach nicht gern erzähle."],
-"erziehen" : ["Erziehst du gern?", "Ich erziehe nicht gern.", "Warum erziehst du nicht gern?", "Weil ich einfach nicht gern erziehe."],
-"verlieren" : ["Verlierst du gern?", "Ich verliere nicht gern.", "Warum verlierst du nicht gern?", "Weil ich einfach nicht gern verliere."],
-"zerstören" : ["Zerstörst du gern?", "Ich zerstöre nicht gern.", "Warum zerstörst du nicht gern?", "Weil ich einfach nicht gern zerstöre."],
-"gewinnen" : ["Gewinnst du gern?", "Ich gewinne nicht gern.", "Warum gewinnst du nicht gern?", "Weil ich einfach nicht gern gewinne."],
-"übertreiben" : ["Übertreibst du gern?", "Ich übertreibe nicht gern.", "Warum übertreibst du nicht gern?", "Weil ich einfach nicht gern übertreibe."]}
+{"bestrafen" : ["Bestrafst du gerne?", "Ich bestrafe nicht gerne.", "Warum bestrafst du nicht gerne?", "Weil ich einfach nicht gerne bestrafe."],
+"betrügen" : ["Betrügst du gerne?", "Ich betrüge nicht gerne.", "Warum betrügst du nicht gerne?", "Weil ich einfach nicht gerne betrüge."],
+"enttäuschen" : ["Enttäuschst du gerne?", "Ich enttäusche nicht gerne.", "Warum enttäuschst du nicht gerne?", "Weil ich einfach nicht gerne enttäusche."],
+"erklären" : ["Erklärst du gerne?", "Ich erkläre nicht gerne.", "Warum erklärst du nicht gerne?", "Weil ich einfach nicht gerne erkläre."],
+"erzählen" : ["Erzählst du gerne?", "Ich erzähle nicht gerne.", "Warum erzählst du nicht gerne?", "Weil ich einfach nicht gerne erzähle."],
+"erziehen" : ["Erziehst du gerne?", "Ich erziehe nicht gerne.", "Warum erziehst du nicht gerne?", "Weil ich einfach nicht gerne erziehe."],
+"verlieren" : ["Verlierst du gerne?", "Ich verliere nicht gerne.", "Warum verlierst du nicht gerne?", "Weil ich einfach nicht gerne verliere."],
+"zerstören" : ["Zerstörst du gerne?", "Ich zerstöre nicht gerne.", "Warum zerstörst du nicht gerne?", "Weil ich einfach nicht gerne zerstöre."],
+"gewinnen" : ["Gewinnst du gerne?", "Ich gewinne nicht gerne.", "Warum gewinnst du nicht gerne?", "Weil ich einfach nicht gerne gewinne."],
+"übertreiben" : ["Übertreibst du gerne?", "Ich übertreibe nicht gerne.", "Warum übertreibst du nicht gerne?", "Weil ich einfach nicht gerne übertreibe."]}
 ]`;
 
 const triggers = ['bestrafen', 'betrügen', 'enttäuschen', 'erklären', 'erzählen', 'erziehen', 'verlieren', 'zerstören', 'gewinnen', 'übertreiben'];
