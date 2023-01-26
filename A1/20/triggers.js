@@ -1,6 +1,6 @@
 let allTriggerAnswersJSON = `[
 {"015219211922 (mobile number)" : ["Hey, krieg ich deine Nummer?", "Klar. Meine Nummer ist: 0152 1921 1922.", "0152 1921 1922. Richtig?", "Ja, ruf mich mal kurz an."],
-"06920436149 (Frankfurt landline)" : ["Hey, krieg ich deine Nummer?", "Klar. Meine Nummer ist: 06920 436149.", "06920 436149. Richtig?", "Ja, ruf mich mal kurz an."],
+"06920436149 (Frankfurt landline)" : ["Hey, krieg ich deine Nummer?", "Klar. Meine Nummer ist: 06920436149.", "06920436149. Richtig?", "Ja, ruf mich mal kurz an."],
 "00447868726250 (UK)" : ["Hey, krieg ich deine Nummer?", "Klar. Meine Nummer ist: 00447 86 87 26 250.", "00447 86 87 26 250. Richtig?", "Ja, ruf mich mal kurz an."],
 "030214802537 (Berlin landline)" : ["Hey, krieg ich deine Nummer?", "Klar. Meine Nummer ist: 030 2148 02537.", "030 2148 02537. Richtig?", "Ja, ruf mich mal kurz an."],
 "015757885051 (mobile number)" : ["Hey, krieg ich deine Nummer?", "Klar. Meine Nummer ist: 01 57578 85051.", "01 57578 85051. Richtig?", "Ja, ruf mich mal kurz an."],
