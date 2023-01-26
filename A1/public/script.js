@@ -255,7 +255,8 @@ function finishGame(){
       .map(result => result.transcript)
       .join('');
       
-      const poopScript = transcript.replace(/Baum|poo|shit|dump/gi, '💩');
+      // const poopScript = transcript.replace(/poo|shit|dump/gi, '💩');
+      const poopScript = transcript;
       const deleteScript = transcript.match("löschen");
       if (deleteScript == "löschen" && counter == 0) {
         deleteEverything();
@@ -324,7 +325,8 @@ function finishGame(){
       .map(result => result.transcript)
       .join('');
       
-      const poopScript = transcript.replace(/Baum|poo|shit|dump/gi, '💩');
+      // const poopScript = transcript.replace(/poo|shit|dump/gi, '💩');
+      const poopScript = transcript;
       const deleteScript = transcript.match("löschen");
       if (deleteScript == "löschen" && counter == 0) {
         deleteEverything();
