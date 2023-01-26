@@ -4,7 +4,7 @@ let allTriggerAnswersJSON = `[
 "Handtasche" : ["Ist das deine Handtasche?", "Welche Handtasche meinst du denn?", "Na die Handtasche, die so neu aussieht.", "Die Handtasche, die so neu aussieht, ist nicht meine."],
 "Schuhe" : ["Sind das deine Schuhe?", "Welche Schuhe meinst du denn?", "Na die Schuhe, die so neu aussehen.", "Die Schuhe, die so neu aussehen, sind nicht meine."],
 "Fairphone" : ["Ist das dein Fairphone?", "Welches Fairphone meinst du denn?", "Na das Fairphone, das so neu aussieht.", "Das Fairphone, das so neu aussieht, ist nicht meins."],
-"Wohnung" : ["Ist das deine Wohnung?", "Welches Auto meinst du denn?", "Na die Wohnung, die so neu aussieht.", "Die Wohnung, die so neu aussieht, ist nicht meine."],
+"Wohnung" : ["Ist das deine Wohnung?", "Welche Wohnung meinst du denn?", "Na die Wohnung, die so neu aussieht.", "Die Wohnung, die so neu aussieht, ist nicht meine."],
 "Fahrrad" : ["Ist das dein Fahrrad?", "Welches Fahrrad meinst du denn?", "Na das Fahrrad, das so neu aussieht.", "Das Fahrrad, das so neu aussieht, ist nicht meins."],
 "Kleid" : ["Ist das dein Kleid?", "Welches Kleid meinst du denn?", "Na das Kleid, das so neu aussieht.", "Das Kleid, das so neu aussieht, ist nicht meins."],
 "Sonnenbrille" : ["Ist das deine Sonnenbrille?", "Welche Sonnenbrille meinst du denn?", "Na die Sonnenbrille, die so neu aussieht.", "Die Sonnenbrille, die so neu aussieht, ist nicht meine."],
