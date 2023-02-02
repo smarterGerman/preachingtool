@@ -3,7 +3,7 @@ let allTriggerAnswersJSON = `[
 "warten" : ["Wartest du gerne?", "Ich warte nicht so gerne.", "Und du? Wartest du denn gerne?", "Ich warte sogar ziemlich gerne."],
 "rechnen" : ["Rechnest du gerne?", "Ich rechne nicht so gerne.", "Und du? Rechnest du denn gerne?", "Ich rechne sogar ziemlich gerne."],
 "baden" : ["Badest du gerne?", "Ich bade nicht so gerne.", "Und du? Badest du denn gerne?", "Ich bade sogar ziemlich gerne."],
-"schneiden" : ["Heiratest du gerne?", "Ich schneide nicht so gerne.", "Und du? Schneidest du denn gerne?", "Ich schneide sogar ziemlich gerne."],
+"schneiden" : ["Schneidest du gerne?", "Ich schneide nicht so gerne.", "Und du? Schneidest du denn gerne?", "Ich schneide sogar ziemlich gerne."],
 "reden" : ["Redest du gerne?", "Ich rede nicht so gerne.", "Und du? Redest du denn gerne?", "Ich rede sogar ziemlich gerne."],
 "atmen" : ["Atmest du gerne?", "Ich atme nicht so gerne.", "Und du? Atmest du denn gerne?", "Ich atme sogar ziemlich gerne."],
 "reiten" : ["Reitest du gerne?", "Ich reite nicht so gerne.", "Und du? Reitest du denn gerne?", "Ich reite sogar ziemlich gerne."],
