@@ -1,6 +1,6 @@
 let allTriggerAnswersJSON = `[
 {"Hamster | fressen" : ["Hast du den Hamster gefressen?", "Ich habe den Hamster nicht gefressen.", "Warum hast du den Hamster nicht gefressen?", "Weil ich den Hamster nicht gefressen habe."],
-"Schnitzel | wegessen" : ["Hast du das Schnitzel weggegessen?", "Ich habe das Schnitzel nicht weggegessen.", "Warum hast du das Schnitzel nicht weggegessen?", "Weil ich das Schnitzel nicht weggegessen habe."],
+"Schnitzel | weg essen" : ["Hast du das Schnitzel weg gegessen?", "Ich habe das Schnitzel nicht weg gegessen.", "Warum hast du das Schnitzel nicht weg gegessen?", "Weil ich das Schnitzel nicht weg gegessen habe."],
 "Banane | essen" : ["Hast du die Banane gegessen?", "Ich habe die Banane nicht gegessen.", "Warum hast du die Banane nicht gegessen?", "Weil ich die Banane nicht gegessen habe."],
 "Fieber | messen" : ["Hast du das Fieber gemessen?", "Ich habe das Fieber nicht gemessen.", "Warum hast das Fieber nicht gemessen?", "Weil ich das Fieber nicht gemessen habe."],
 "Farbfilm | vergessen" : ["Hast du den Farbfilm vergessen?", "Ich habe den Farbfilm nicht vergessen.", "Warum hast du den Farbfilm nicht vergessen?", "Weil ich den Farbfilm nicht vergessen habe."],
