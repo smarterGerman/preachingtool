@@ -1,8 +1,8 @@
 let allTriggerAnswersJSON = `[
 {"bügeln | Anzug" : ["Bügel doch endlich mal deinen Anzug!", "Was soll ich?", "Du sollst deinen Anzug bügeln!", "Immer soll ich meinen Anzug bügeln."],
-"saugen | Wohnung" : ["Saug doch endlich mal dein Zimmer!", "Was soll ich?", "Du sollst dein Zimmer saugen!", "Immer soll ich mein Zimmer saugen."],
+"saugen | Wohnung" : ["Saug doch endlich mal deine Wohnung!", "Was soll ich?", "Du sollst deine Wohnung saugen!", "Immer soll ich meine Wohnung saugen."],
 "besuchen | Oma" : ["Besuch doch endlich mal deine Oma!", "Was soll ich?", "Du sollst deine Oma besuchen!", "Immer soll ich meine Oma besuchen."],
-"putzen | Zähne" : ["Putz doch endlich deine Zähne!", "Was soll ich?", "Du sollst deine Zähne putzen!", "Immer soll ich meine Zähne putzen."],
+"putzen | Zähne" : ["Putz doch endlich mal deine Zähne!", "Was soll ich?", "Du sollst deine Zähne putzen!", "Immer soll ich meine Zähne putzen."],
 "Betten beziehen" : ["Bezieh doch endlich mal dein Bett!", "Was soll ich?", "Du sollst dein Bett beziehen!", "Immer soll ich mein Bett beziehen."],
 "schneiden | Nägel" : ["Schneide doch endlich mal deine Nägel!", "Was soll ich?", "Du sollst deine Nägel schneiden!", "Immer soll ich meine Nägel schneiden."],
 "kämmen | Haare" : ["Kämm doch endlich mal deine Haare!", "Was soll ich?", "Du sollst deine Haare kämmen!", "Immer soll ich meine Haare kämmen."],
