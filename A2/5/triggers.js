@@ -7,8 +7,8 @@ let allTriggerAnswersJSON = `[
 "Teller | aufessen" : ["Hast du den Teller aufgegessen?", "Ich habe den Teller nicht aufgegessen.", "Warum hast du den Teller nicht aufgegessen?", "Weil ich den Teller nicht aufgegessen habe."],
 "Küche | ausmessen" : ["Hast du die Küche ausgemessen?", "Ich habe die Küche nicht ausgemessen.", "Warum hast du die Küche nicht ausgemessen?", "Weil ich die Küche nicht ausgemessen habe."],
 "Apfel | anfressen" : ["Hast du den Apfel angefressen?", "Ich habe den Apfel nicht angefressen.", "Warum hast du den Apfel nicht angefressen?", "Weil ich den den Apfel nicht angefressen habe."],
-"Kühlschrank | leerfressen" : ["Hast du den Kühlschrank leergefressen?", "Ich habe den Kühlschrank nicht leergefressen.", "Warum hast du den Kühlschrank nicht leergefressen?", "Weil ich den Kühlschrank nicht leergefressen habe."],
+"Kühlschrank | leer fressen" : ["Hast du den Kühlschrank leer gefressen?", "Ich habe den Kühlschrank nicht leer gefressen.", "Warum hast du den Kühlschrank nicht leer gefressen?", "Weil ich den Kühlschrank nicht leer gefressen habe."],
 "Wohnung | nachmessen" : ["Hast du die Wohnung nachgemessen?", "Ich habe die Wohnung nicht nachgemessen.", "Warum hast du die Wohnung nicht nachgemessen?", "Weil ich die Wohnung nicht nachgemessen habe."]}
 ]`;
 
-const triggers = ['Hamster | fressen', 'Schnitzel | wegessen', 'Banane | essen', 'Fieber | messen', 'Farbfilm | vergessen', 'Teller | aufessen', 'Küche | ausmessen', 'Apfel | anfressen', 'Kühlschrank | leerfressen', 'Wohnung | nachmessen'];
+const triggers = ['Hamster | fressen', 'Schnitzel | weg essen', 'Banane | essen', 'Fieber | messen', 'Farbfilm | vergessen', 'Teller | aufessen', 'Küche | ausmessen', 'Apfel | anfressen', 'Kühlschrank | leer fressen', 'Wohnung | nachmessen'];
