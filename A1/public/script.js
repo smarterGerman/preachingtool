@@ -325,8 +325,10 @@ function finishGame(){
       .map(result => result.transcript)
       .join('');
       
-      // const poopScript = transcript.replace(/poo|shit|dump/gi, '💩');
-      const poopScript = transcript;
+      const poopScript = transcript.replace(/grossen/gi, 'großen');
+      poopScript = transcript.replace(/gross/gi, 'groß');
+      poopScript = transcript.replace(/grosse/gi, 'große');
+      // const poopScript = transcript;
       const deleteScript = transcript.match("löschen");
       if (deleteScript == "löschen" && counter == 0) {
         deleteEverything();
