@@ -328,6 +328,7 @@ function finishGame(){
       const poopScript = transcript.replace(/grossen/gi, 'großen');
       poopScript = transcript.replace(/gross/gi, 'groß');
       poopScript = transcript.replace(/grosse/gi, 'große');
+      poopScript = transcript.replace(/grosses/gi, 'großes');
       // const poopScript = transcript;
       const deleteScript = transcript.match("löschen");
       if (deleteScript == "löschen" && counter == 0) {
