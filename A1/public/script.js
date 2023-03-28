@@ -325,7 +325,7 @@ function finishGame(){
       .map(result => result.transcript)
       .join('');
       
-      const poopScript = transcript.replace(/grossen/gi, 'großen');
+      let poopScript = transcript.replace(/grossen/gi, 'großen');
       poopScript = transcript.replace(/gross/gi, 'groß');
       poopScript = transcript.replace(/grosse/gi, 'große');
       poopScript = transcript.replace(/grosses/gi, 'großes');
