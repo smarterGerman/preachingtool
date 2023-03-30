@@ -396,9 +396,10 @@ function finishGame(){
       countTrigger();
       initialCounter = false;
     }
-    recognition.start();
+
     if (preachingStarted){
       audio_img.src = "https://www.filepicker.io/api/file/Vd1N70dPS1yslZ2XwZEJ"
+      recognition.start();
     }
     preachingStarted = 1;
     if (computerSpeakingFirst && switchPlaces % 2 == 0 && test) {
