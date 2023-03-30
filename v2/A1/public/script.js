@@ -57,7 +57,7 @@ function cancelSpeech() {
 function computerOutput(computerSpeech) {
   // remove all special characters from the input string 
   computerSpeech.replace(/[^a-zA-Z]/g, "");
-  globalThis.audio = new Audio('audio/' + computerSpeech + 'mp3');
+  globalThis.audio = new Audio('../audio/' + computerSpeech + 'mp3');
   // let audio = new Audio('audio/Ich sehe einen Stuhl.mp3');
   audio.play();
 }
