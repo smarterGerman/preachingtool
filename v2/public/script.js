@@ -49,37 +49,17 @@ function resetGame(){
 
 // cancel any ongoing speech output
 function cancelSpeech() {
-  speechSynthesis.cancel();
+  audio.pause();
 }
 
-// Let computer give its answer function 
-// function computerOutput(computerSpeech){
-//   var timer = setInterval(function() {
-//       // var voices = speechSynthesis.getVoices();
-//       // console.log(voices);
-//       let germanVoices = speechSynthesis.getVoices().filter(function(voice) { return voice.lang.includes('de-DE'); });
-//       // console.log(germanVoices);
-//       if (germanVoices.length !== 0) {
-//           var msg = new SpeechSynthesisUtterance(computerSpeech);
-//           msg.rate = 0.8;
-//           msg.pitch = 1.2;
-//           msg.voice = germanVoices[0];
-//           speechSynthesis.speak(msg);
-//           clearInterval(timer);
-//       }
-//   }, 200);
-// }
+
 
 function computerOutput(computerSpeech) {
-  // const germanVoice = speechSynthesis.getVoices().find(voice => voice.lang === "de-DE");
-  // if (germanVoice) {
-  //   const msg = new SpeechSynthesisUtterance(computerSpeech);
-  //   msg.rate = 0.8;
-  //   msg.pitch = 1.2;
-  //   msg.voice = germanVoice;
-  //   speechSynthesis.speak(msg);
-  // }
-  responsiveVoice.speak(computerSpeech, "Deutsch Female");
+  // remove all special characters from the input string 
+  computerSpeech.replace(/[^a-zA-Z]/g, "");
+  globalThis.audio = new Audio('audio/' + computerSpeech + 'mp3');
+  // let audio = new Audio('audio/Ich sehe einen Stuhl.mp3');
+  audio.play();
 }
 
 
@@ -310,9 +290,7 @@ function finishGame(){
             sleepFor(2, toolAnswer);
           }
           if(current_trigger_index == 3){
-            msg.onend = function(){
-              sleepFor(3, nextTrigger);
-            }
+            sleepFor(3, nextTrigger);
           }
         }
         else {
