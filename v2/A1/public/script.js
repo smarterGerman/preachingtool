@@ -56,15 +56,15 @@ function cancelSpeech() {
 
 function computerOutput(computerSpeech) {
   // remove all special characters from the input string 
-  computerSpeech.replace(/ä/g,"ae");
-  computerSpeech.replace(/Ä/g,"Ae");
-  computerSpeech.replace(/ö/g,"oe");
-  computerSpeech.replace(/Ö/g,"Oe");
-  computerSpeech.replace(/ü/g,"ue");
-  computerSpeech.replace(/Ü/g,"Ue");
-  computerSpeech.replace(/ß/g,"ss");
-  computerSpeech.replace(/[^a-zA-Z]/g, "");
-  globalThis.audio = new Audio('../audio/' + computerSpeech + 'mp3');
+  computerSpeech = computerSpeech.replace(/ä/g,"ae");
+  computerSpeech = computerSpeech.replace(/Ä/g,"Ae");
+  computerSpeech = computerSpeech.replace(/ö/g,"oe");
+  computerSpeech = computerSpeech.replace(/Ö/g,"Oe");
+  computerSpeech = computerSpeech.replace(/ü/g,"ue");
+  computerSpeech = computerSpeech.replace(/Ü/g,"Ue");
+  computerSpeech = computerSpeech.replace(/ß/g,"ss");
+  computerSpeech = computerSpeech.replace(/[^a-zA-Z ]/g, "");
+  globalThis.audio = new Audio('../audio/' + computerSpeech + '.mp3');
   // let audio = new Audio('audio/Ich sehe einen Stuhl.mp3');
   audio.play();
 }
