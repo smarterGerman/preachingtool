@@ -64,6 +64,7 @@ function computerOutput(computerSpeech) {
   computerSpeech = computerSpeech.replace(/Ü/g,"Ue");
   computerSpeech = computerSpeech.replace(/ß/g,"ss");
   computerSpeech = computerSpeech.replace(/[^a-zA-Z ]/g, "");
+  console.log(computerSpeech);
   globalThis.audio = new Audio('../audio/' + computerSpeech + '.mp3');
   // let audio = new Audio('audio/Ich sehe einen Stuhl.mp3');
   audio.play();
@@ -382,20 +383,40 @@ function finishGame(){
   }
   });
   // Key command to pause and start the audio 
+  // window.addEventListener("keydown", (event) => {
+  //   nextButton.classList.remove("hide-konstantin");
+  //   if(event.isComposing || event.keyCode === 13 && 
+  //     (event.ctrlKey ||event.metaKey) && !gameIsFinished){
+  //     recognition.start();
+  //     audio_img.src = "https://www.filepicker.io/api/file/Vd1N70dPS1yslZ2XwZEJ"
+  //     if (computerSpeakingFirst && switchPlaces % 2 == 0 && test) {
+  //       computerFirst();
+  //       computerSpeakingFirst = false;
+  //     } else {
+  //       // deleteEverything();
+  //     }
+  //   }
+  // });
   window.addEventListener("keydown", (event) => {
     nextButton.classList.remove("hide-konstantin");
-    if(event.isComposing || event.keyCode === 13 && 
-      (event.ctrlKey ||event.metaKey) && !gameIsFinished){
-      recognition.start();
+    if(initialCounter){
+      countTrigger();
+      initialCounter = false;
+    }
+    if (preachingStarted){
       audio_img.src = "https://www.filepicker.io/api/file/Vd1N70dPS1yslZ2XwZEJ"
-      if (computerSpeakingFirst && switchPlaces % 2 == 0 && test) {
-        computerFirst();
-        computerSpeakingFirst = false;
-      } else {
-        // deleteEverything();
-      }
+      recognition.start();
+    }
+    preachingStarted = 1;
+    if (computerSpeakingFirst && switchPlaces % 2 == 0 && test) {
+      computerFirst();
+      computerSpeakingFirst = false;
+    } else {
+      // deleteEverything();
     }
   });
+
+
   // Button to start the microphone 
   function turnOnMicro(){
     nextButton.classList.remove("hide-konstantin");
@@ -404,6 +425,7 @@ function finishGame(){
       initialCounter = false;
     }
     if (preachingStarted){
+      cancelSpeech();
       audio_img.src = "https://www.filepicker.io/api/file/Vd1N70dPS1yslZ2XwZEJ"
       recognition.start();
     }
