@@ -62,7 +62,7 @@ function computerOutput(computerSpeech) {
   computerSpeech = computerSpeech.replace(/Ö/g,"Oe");
   computerSpeech = computerSpeech.replace(/ü/g,"ue");
   computerSpeech = computerSpeech.replace(/Ü/g,"Ue");
-  computerSpeech = computerSpeech.replace(/ß/g,"ss");
+  // computerSpeech = computerSpeech.replace(/ß/g,"ss");
   computerSpeech = computerSpeech.replace(/[^a-zA-Z ]/g, "");
   globalThis.audio = new Audio('../audio/' + computerSpeech + '.mp3');
   // let audio = new Audio('audio/Ich sehe einen Stuhl.mp3');
