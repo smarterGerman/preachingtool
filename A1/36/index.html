@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../public/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    </head>
+    <body>
+        <section class="preaching-section-konstantin">
+            <div class="preaching-container hide-konstantin">
+                <!-- <div class="content">
+                    <p>Hast du den Apfel gegessen?</p>
+                </div> -->
+                <div class="triggers">
+                    <p class="trigger-content">Placeholder</p>
+                    <!-- <button onclick="startTutorial();" class="tutorial-button"><img src="https://www.filepicker.io/api/file/g2mJctJsRrWcAjCanOv2" title="Show Example"></button> -->
+                </div>
+                <div class="words" id="words">
+                    <div class="trigger-counter"></div>
+                </div>
+                <div class="navigation">
+                    <!--Buttons-->
+                    <div class="mic-container">
+                        <img onclick="turnOnMicro();" src="https://www.filepicker.io/api/file/VyfbFTekQn6m2LEPlNm5" id="audio-img" title="Turn On Microphone">
+                    </div>
+                    <button onclick="nextTrigger();" class="next-button"><img src="https://www.filepicker.io/api/file/WPV0ut4XRqqLIv7R9SYa" title="Next Trigger"></button>
+                </div>
+                <div class="correct-answers">
+                </div>
+                <div class="previous-answers"></div>
+            </div>
+        <div class="starting-box-konstantin">
+            <!-- PREACH AWAY! -->
+            <div class="start-preaching-konstantin">
+                <button class="start-preaching-button-konstantin" onclick="startPreaching()">START</button>
+            </div>
+            <p>Hint: You can also press CTRL+ENTER to start recording.</p>
+        </div>
+        <div class="finish-screen-konstantin hide-konstantin">
+            <p>Well done!</p>
+            <div class="restart-preaching-konstantin">
+                <button class="restart-preaching-button-konstantin" onclick="resetGame();">Try Again</button>
+            </div>
+        </div>
+        <div class="tutorial-container hide-konstantin"></div>
+    </div>
+    </section>
+    </body>
+    <script src="triggers.js"></script>
+    <script src="../public/script.js"></script>
+</html>
