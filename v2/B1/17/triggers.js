@@ -1,0 +1,14 @@
+let allTriggerAnswersJSON = `[
+{"zu wenig / länger schlafen" : ["Ich schlafe zu wenig.", "Ich habe zu wenig geschlafen.", "Ich hätte gerne länger geschlafen.", "Ich wünschte, ich hätte länger geschlafen."],
+"zu spät / früh aufstehen" : ["Ich stehe zu spät auf.", "Ich bin zu spät aufgestanden.", "Ich wäre gerne früher aufgestanden.", "Ich wünschte, ich wäre früher aufgestanden."],
+"einen langweiligen / interessant(er)en Beruf lernen" : ["Ich lerne einen langweiligen Beruf.", "Ich habe einen langweiligen Beruf gelernt.", "Ich hätte gerne einen interessanten Beruf gelernt.", "Ich wünschte, ich hätte einen interessanten Beruf gelernt."],
+"ein gebrauchtes / neues Auto kaufen" : ["Ich kaufe ein gebrauchtes Auto.", "Ich habe ein gebrauchtes Auto gekauft.", "Ich hätte gern ein neues Auto gekauft.", "Ich wünschte, ich hätte ein neues Auto gekauft."],
+"zu viel / weniger Alkohol trinken" : ["Ich trinke zu viel Alkohol", "Ich habe zu viel Alkohol getrunken.", "Ich hätte gerne weniger Alkohol getrunken.", "Ich wünschte, ich hätte weniger Alkohol getrunken."],
+"kranke / gesunde/gesündere Eltern haben" : ["Ich habe kranke Eltern.", "Ich habe kranke Eltern gehabt.", "Ich hätte gern gesunde Eltern gehabt.", "Ich wünschte, ich hätte gesunde Eltern gehabt."],
+"in einem heißen / kühl(er)en Klima leben" : ["Ich lebe in einem heißen Klima.", "Ich habe in einem heißen Klima gelebt.", "Ich hätte gerne in einem kühlen Klima gelebt.", "Ich wünschte, ich hätte in einem kühlen Klima gelebt."],
+"mit einem langsamen / schnell(er)en Zug fahren" : ["Ich fahre mit einem langsamen Zug.", "Ich bin mit einem langsamen Zug gefahren.", "Ich wäre gerne mit einem schnelleren Zug gefahren.", "Ich wünschte, ich wäre mit einem schnelleren Zug gefahren."],
+"für eine große / klein(er)e Firma arbeiten" : ["Ich arbeite für eine große Firma", "Ich habe für eine große Firma gearbeitet.", "Ich hätte gerne für eine kleine Firma gearbeitet.", "Ich wünschte, ich hätte für eine kleine Firma gearbeitet."],
+"in einer lauten / ruhig(er)en Straße leben" : ["Ich lebe in einer lauten Straße.", "Ich habe in einer lauten Straße gelebt.", "Ich hätte gerne in einer ruhigen Straße gelebt.", "Ich wünschte, ich hätte in einer ruhigen Straße gelebt."]}
+]`;
+
+const triggers = ['zu wenig / länger schlafen', 'zu spät / früh aufstehen', 'einen langweiligen / interessant(er)en Beruf lernen', 'ein gebrauchtes / neues Auto kaufen', 'zu viel / weniger Alkohol trinken', 'kranke / gesunde/gesündere Eltern haben', 'in einem heißen / kühl(er)en Klima leben', 'mit einem langsamen / schnell(er)en Zug fahren', 'für eine große / klein(er)e Firma arbeiten', 'in einer lauten / ruhig(er)en Straße leben'];
