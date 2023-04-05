@@ -162,6 +162,8 @@ function finishGame(){
   let nextCounter = 0;
   function nextTrigger() {
     cancelSpeech();
+    recognition.stop();
+    audio_img.src = "https://www.filepicker.io/api/file/VyfbFTekQn6m2LEPlNm5";
     nextCounter++;
     if (next_index + 1 < triggers.length){
       next_index++; 
@@ -181,7 +183,7 @@ function finishGame(){
     deleteEverything();
     correct_answers_div.innerText = "";
     // triggerFocus(words);
-    computerSpeakingFirst = true;
+    // computerSpeakingFirst = true;
     countTrigger();
   }
   // ! DELETE EVERYTHING FUNCTION 
@@ -270,7 +272,14 @@ function finishGame(){
       .join('');
       
       // const poopScript = transcript.replace(/poo|shit|dump/gi, '💩');
-      const poopScript = transcript;
+      let poopScript = transcript.replace(/grossen/gi, 'großen');
+      poopScript = transcript.replace(/gross/gi, 'groß');
+      poopScript = transcript.replace(/grosse/gi, 'große');
+      poopScript = transcript.replace(/grosses/gi, 'großes');
+      poopScript = transcript.replace(/weiss/gi, 'weiß');
+      poopScript = transcript.replace(/beisse/gi, 'beiße');
+      poopScript = transcript.replace(/beisst/gi, 'beißt');
+      poopScript = transcript.replace(/beissen/gi, 'beißen');
       const deleteScript = transcript.match("löschen");
       if (deleteScript == "löschen" && counter == 0) {
         deleteEverything();
@@ -281,7 +290,8 @@ function finishGame(){
         paragraphs[paragraphs.length - 1].style.color = "black";
       }
       p.textContent = poopScript;
-      // Here is where stuff is being written 
+      // Here is where stuff is being written
+      console.log(e.results); 
       if (e.results[0].isFinal) {
         p = document.createElement('p');
         words.appendChild(p);
@@ -332,6 +342,11 @@ function finishGame(){
       let poopScript = transcript.replace(/grossen/gi, 'großen');
       poopScript = transcript.replace(/gross/gi, 'groß');
       poopScript = transcript.replace(/grosse/gi, 'große');
+      poopScript = transcript.replace(/grosses/gi, 'großes');
+      poopScript = transcript.replace(/weiss/gi, 'weiß');
+      poopScript = transcript.replace(/beisse/gi, 'beiße');
+      poopScript = transcript.replace(/beisst/gi, 'beißt');
+      poopScript = transcript.replace(/beissen/gi, 'beißen');
       // const poopScript = transcript;
       const deleteScript = transcript.match("löschen");
       if (deleteScript == "löschen" && counter == 0) {
@@ -378,41 +393,29 @@ function finishGame(){
     }
     recognition.addEventListener('end', () => { 
       // MIC OFF
-      audio_img.src = "https://www.filepicker.io/api/file/VyfbFTekQn6m2LEPlNm5"
+      audio_img.src = "https://www.filepicker.io/api/file/VyfbFTekQn6m2LEPlNm5";
     });
   }
   });
-  // Key command to pause and start the audio 
-  // window.addEventListener("keydown", (event) => {
-  //   nextButton.classList.remove("hide-konstantin");
-  //   if(event.isComposing || event.keyCode === 13 && 
-  //     (event.ctrlKey ||event.metaKey) && !gameIsFinished){
-  //     recognition.start();
-  //     audio_img.src = "https://www.filepicker.io/api/file/Vd1N70dPS1yslZ2XwZEJ"
-  //     if (computerSpeakingFirst && switchPlaces % 2 == 0 && test) {
-  //       computerFirst();
-  //       computerSpeakingFirst = false;
-  //     } else {
-  //       // deleteEverything();
-  //     }
-  //   }
-  // });
+
   window.addEventListener("keydown", (event) => {
-    nextButton.classList.remove("hide-konstantin");
-    if(initialCounter){
-      countTrigger();
-      initialCounter = false;
-    }
-    if (preachingStarted){
-      audio_img.src = "https://www.filepicker.io/api/file/Vd1N70dPS1yslZ2XwZEJ"
-      recognition.start();
-    }
-    preachingStarted = 1;
-    if (computerSpeakingFirst && switchPlaces % 2 == 0 && test) {
-      computerFirst();
-      computerSpeakingFirst = false;
-    } else {
-      // deleteEverything();
+    if((event.metaKey ||  event.ctrlKey) && event.key == "Enter"){
+      nextButton.classList.remove("hide-konstantin");
+      if(initialCounter){
+        countTrigger();
+        initialCounter = false;
+      }
+      if (preachingStarted){
+        audio_img.src = "https://www.filepicker.io/api/file/Vd1N70dPS1yslZ2XwZEJ"
+        recognition.start();
+      }
+      preachingStarted = 1;
+      if (computerSpeakingFirst && switchPlaces % 2 == 0 && test) {
+        computerFirst();
+        computerSpeakingFirst = false;
+      } else {
+        // deleteEverything();
+      }
     }
   });
 
