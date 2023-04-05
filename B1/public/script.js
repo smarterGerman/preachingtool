@@ -63,7 +63,7 @@ function computerOutput(computerSpeech) {
   computerSpeech = computerSpeech.replace(/ü/g,"ue");
   computerSpeech = computerSpeech.replace(/Ü/g,"Ue");
   computerSpeech = computerSpeech.replace(/ß/g,"ss");
-  computerSpeech = computerSpeech.replace(/[^a-zA-Z ]/g, "");
+  computerSpeech = computerSpeech.replace(/[^a-zA-Z0-9 ]/g, "");
   console.log(computerSpeech);
   globalThis.audio = new Audio('../audio/' + computerSpeech + '.mp3');
   // let audio = new Audio('audio/Ich sehe einen Stuhl.mp3');
@@ -290,8 +290,7 @@ function finishGame(){
         paragraphs[paragraphs.length - 1].style.color = "black";
       }
       p.textContent = poopScript;
-      // Here is where stuff is being written
-      console.log(e.results); 
+      // Here is where stuff is being written 
       if (e.results[0].isFinal) {
         p = document.createElement('p');
         words.appendChild(p);
