@@ -64,7 +64,7 @@ function computerOutput(computerSpeech) {
   computerSpeech = computerSpeech.replace(/Ü/g,"Ue");
   computerSpeech = computerSpeech.replace(/ß/g,"ss");
   computerSpeech = computerSpeech.replace(/[^a-zA-Z0-9 ]/g, "");
-  console.log(computerSpeech);
+  // console.log(computerSpeech);
   globalThis.audio = new Audio('../audio/' + computerSpeech + '.mp3');
   // let audio = new Audio('audio/Ich sehe einen Stuhl.mp3');
   audio.play();
@@ -271,27 +271,16 @@ function finishGame(){
       .map(result => result.transcript)
       .join('');
       
-      // const poopScript = transcript.replace(/poo|shit|dump/gi, '💩');
-      let poopScript = transcript.replace(/grossen/gi, 'großen');
-      poopScript = transcript.replace(/gross/gi, 'groß');
-      poopScript = transcript.replace(/grosse/gi, 'große');
-      poopScript = transcript.replace(/grosses/gi, 'großes');
-      poopScript = transcript.replace(/weiss/gi, 'weiß');
-      poopScript = transcript.replace(/beisse/gi, 'beiße');
-      poopScript = transcript.replace(/beisst/gi, 'beißt');
-      poopScript = transcript.replace(/beissen/gi, 'beißen');
-      const deleteScript = transcript.match("löschen");
-      if (deleteScript == "löschen" && counter == 0) {
-        deleteEverything();
-        $('.words').children().last().remove();
-      }
-      
       if(paragraphs.length > 1){
         paragraphs[paragraphs.length - 1].style.color = "black";
+        console.log(paragraphs[paragraphs.length - 1].textContent.replace('großen','grossen'));
       }
-      p.textContent = poopScript;
+      p.textContent = transcript;
       // Here is where stuff is being written 
       if (e.results[0].isFinal) {
+        let poopScript = transcript;
+        poopScript = transcript.replace(/grossen/gi, 'großen').replace(/gross/gi,'groß').replace(/grosse/gi,'große').replace(/grosses/gi,'großes').replace(/weiss/gi,'weiß').replace(/beisse/gi,'beiße').replace(/beisst/gi,'beißt').replace(/beissen/gi,'beißen');
+        p.textContent = poopScript;
         p = document.createElement('p');
         words.appendChild(p);
         // Remove special characters from current_trigger 
@@ -338,26 +327,16 @@ function finishGame(){
       .map(result => result.transcript)
       .join('');
       
-      let poopScript = transcript.replace(/grossen/gi, 'großen');
-      poopScript = transcript.replace(/gross/gi, 'groß');
-      poopScript = transcript.replace(/grosse/gi, 'große');
-      poopScript = transcript.replace(/grosses/gi, 'großes');
-      poopScript = transcript.replace(/weiss/gi, 'weiß');
-      poopScript = transcript.replace(/beisse/gi, 'beiße');
-      poopScript = transcript.replace(/beisst/gi, 'beißt');
-      poopScript = transcript.replace(/beissen/gi, 'beißen');
       // const poopScript = transcript;
-      const deleteScript = transcript.match("löschen");
-      if (deleteScript == "löschen" && counter == 0) {
-        deleteEverything();
-        $('.words').children().last().remove();
-      }
-      
+      p.textContent = transcript;
       if(paragraphs.length > 1){
         paragraphs[paragraphs.length - 1].style.color = "black";
       }
-      p.textContent = poopScript;
+      p.textContent = transcript;
       if (e.results[0].isFinal) {
+        let poopScript = transcript;
+        poopScript = transcript.replace(/grossen/gi, 'großen').replace(/gross/gi,'groß').replace(/grosse/gi,'große').replace(/grosses/gi,'großes').replace(/weiss/gi,'weiß').replace(/beisse/gi,'beiße').replace(/beisst/gi,'beißt').replace(/beissen/gi,'beißen');
+        p.textContent = poopScript;
         p = document.createElement('p');
         words.appendChild(p);
         // Remove special characters from current_trigger 
