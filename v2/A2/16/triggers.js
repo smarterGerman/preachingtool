@@ -2,7 +2,7 @@ let allTriggerAnswersJSON = `[
 {"Hund | Schäferhund | Pudel" : ["Wenn du ein Hund wärst, was für ein Hund wärst du?", "Wenn ich ein Hund wäre, wäre ich ein Schäferhund.", "Und du? Was für ein Hund wärst du?", "Ich wäre ein Pudel."],
 "Getränk | Bier | Limonade" : ["Wenn du ein Getränk wärst, was für ein Getränk wärst du?", "Wenn ich ein Getränk wäre, wäre ich ein Bier.", "Und du? Was für ein Getränk wärst du?", "Ich wäre eine Limonade."],
 "Suppe | Kürbissuppe | Kartoffelsuppe" : ["Wenn du eine Suppe wärst, was für eine Suppe wärst du?", "Wenn ich eine Suppe wäre, wäre ich eine Kürbissuppe.", "Und du? Was für eine Suppe wärst du?", "Ich wäre eine Kartoffelsuppe."],
-"Frucht | Mandarine | Granatapfel" : ["Wenn du eine Frucht wärst, was für eine Frucht wärst du?", "Wenn ich eine Frucht  wäre, wäre ich eine Mandarine.", "Und du? Was für eine Frucht wärst du?", "Ich wäre ein Granatapfel."],
+"Frucht | Mandarine | Granatapfel" : ["Wenn du eine Frucht wärst, was für eine Frucht wärst du?", "Wenn ich eine Frucht wäre, wäre ich eine Mandarine.", "Und du? Was für eine Frucht wärst du?", "Ich wäre ein Granatapfel."],
 "Gemüse | Artischocke | Karotte" : ["Wenn du ein Gemüse wärst, was für ein Gemüse wärst du?", "Wenn ich ein Gemüse wäre, wäre ich eine Artischocke.", "Und du? Was für ein Gemüse wärst du?", "Ich wäre eine Karotte."],
 "Film | Krimi | Komödie" : ["Wenn du ein Film wärst, was für ein Film wärst du?", "Wenn ich ein Film wäre, wäre ich ein Krimi.", "Und du? Was für ein Film wärst du?", "Ich wäre eine Komödie."],
 "Instrument | Harfe | Schlagzeug" : ["Wenn du ein Instrument wärst, was für ein Instrument wärst du?", "Wenn ich ein Instrument wäre, wäre ich eine Harfe.", "Und du? Was für ein Instrument wärst du?", "Ich wäre ein Schlagzeug."],
