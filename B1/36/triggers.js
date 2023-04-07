@@ -1,7 +1,7 @@
 let allTriggerAnswersJSON = `[
 {"die Prüfung bestehen" : ["Ich habe die Prüfung bestanden.", "Ich hatte die Prüfung bestanden.", "Nachdem ich die Prüfung bestanden hatte, war ich glücklich.", "Ich bin heute immer noch glücklich."],
 "durch die Fahrprüfung fallen" : ["Ich bin durch die Fahrprüfung gefallen.", "Ich war durch die Fahrprüfung gefallen.", "Nachdem ich durch die Fahrprüfung gefallen war, war ich traurig.", "Ich bin heute immer noch glücklich."],
-"sein (=one"s) Auto verkaufen" : ["Ich habe mein Auto verkauft.", "Ich hatte mein Auto verkauft.", "Nachdem ich mein Auto verkauft hatte, war ich glücklich.", "Ich bin heute immer noch glücklich."],
+"sein (=one's) Auto verkaufen" : ["Ich habe mein Auto verkauft.", "Ich hatte mein Auto verkauft.", "Nachdem ich mein Auto verkauft hatte, war ich glücklich.", "Ich bin heute immer noch glücklich."],
 "heiraten" : ["Ich habe geheiratet.", "Ich hatte geheiratet.", "Nachdem ich geheiratet hatte, war ich glücklich.", "Ich bin heute immer noch glücklich."],
 "die Scheidung einreichen" : ["Ich habe die Scheidung eingereicht.", "Ich hatte die Scheidung eingereicht.", "Nachdem ich die Scheidung eingereicht hatte, war ich traurig.", "Ich bin heute immer noch glücklich."],
 "sich zum Pastafarismus bekennen" : ["Ich habe mich zum Pastafarismus bekannt.", "Ich hatte mich zum Pastafarismus bekannt.", "Nachdem ich mich zum Pastafarismus bekannt hatte, war ich glücklich.", "Ich bin heute immer noch glücklich."],
