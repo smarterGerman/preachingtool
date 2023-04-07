@@ -1,6 +1,6 @@
 let allTriggerAnswersJSON = `[
 {"Der Iltis stinkt. | riechen" : ["Ich rieche einen stinkenden Iltis."],
-"Das Auto fährt. | sehen" : ["Ich sehe ein fahrendes Auto.",
+"Das Auto fährt. | sehen" : ["Ich sehe ein fahrendes Auto."],
 "Die Säge kreischt. | hören" : ["Ich höre eine kreischende Säge"],
 "Die Oma schmatzt. | hören" : ["Ich höre eine schmatzende Oma."],
 "Der Zug fährt langsam. | sehen" : ["Ich sehe einen langsam fahrenden Zug."],
