@@ -11,4 +11,4 @@ let allTriggerAnswersJSON = `[
 "mit mir ins Kino gehen" : ["Gehst du mit mir ins Kino?", "Ich gehe nicht mit dir ins Kino.", "Du hast aber gesagt, dass du mit mir ins Kino gehst.", "Das kann schon sein, aber ich habe meine Meinung geändert."]}
 ]`;
 
-const triggers = ['auf die Party gehen', 'Hausaufgaben machen', 'Suppe essen', 'zum Frisör gehen', 'deine Mutter anrufen', 'Kaffee mögen', 'in Urlaub fahren', 'mir helfen', 'mit mir spielen', 'mit mir ins Kino gehen'];
+const triggers = ['auf die Party gehen', 'seine Hausaufgaben machen', 'die Suppe essen', 'zum Frisör gehen', 'deine Mutter anrufen', 'den Kaffee mögen', 'in Urlaub fahren', 'mir helfen', 'mit mir spielen', 'mit mir ins Kino gehen'];
