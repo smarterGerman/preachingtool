@@ -279,7 +279,7 @@ function finishGame(){
       // Here is where stuff is being written 
       if (e.results[0].isFinal) {
         let poopScript = transcript;
-        poopScript = transcript.replace(/grossen/gi, 'großen').replace(/gross/gi,'groß').replace(/grosse/gi,'große').replace(/grosses/gi,'großes').replace(/weiss/gi,'weiß').replace(/beisse/gi,'beiße').replace(/beisst/gi,'beißt').replace(/beissen/gi,'beißen').replace(/Haettest/gi,'Hättest').replace(/haettest/gi,'hättest').replace(/Haette/gi,'Haette').replace(/haette/gi,'hätte').replace(/Haetten/gi,'Hätten').replace(/haetten/gi,'hätten').replace(/Autofahren/gi,"Auto fahren").replace(/autofahren/gi,"Auto fahren");
+        poopScript = transcript.replace(/grossen/gi, 'großen').replace(/gross/gi,'groß').replace(/grosse/gi,'große').replace(/grosses/gi,'großes').replace(/weiss/gi,'weiß').replace(/beisse/gi,'beiße').replace(/beisst/gi,'beißt').replace(/beissen/gi,'beißen').replace(/Haettest/gi,'Hättest').replace(/haettest/gi,'hättest').replace(/Haette/gi,'Haette').replace(/haette/gi,'hätte').replace(/Haetten/gi,'Hätten').replace(/haetten/gi,'hätten').replace(/Autofahren/gi,"Auto fahren").replace(/autofahren/gi,"Auto fahren").replace(/zu Hause/gi,"zuhause").replace(/zu hause/gi,"zuhause");
         p.textContent = poopScript;
         p = document.createElement('p');
         words.appendChild(p);
@@ -335,7 +335,7 @@ function finishGame(){
       p.textContent = transcript;
       if (e.results[0].isFinal) {
         let poopScript = transcript;
-        poopScript = transcript.replace(/grossen/gi, 'großen').replace(/gross/gi,'groß').replace(/grosse/gi,'große').replace(/grosses/gi,'großes').replace(/weiss/gi,'weiß').replace(/beisse/gi,'beiße').replace(/beisst/gi,'beißt').replace(/beissen/gi,'beißen').replace(/Haettest/gi,'Hättest').replace(/haettest/gi,'hättest').replace(/Haette/gi,'Haette').replace(/haette/gi,'hätte').replace(/Haetten/gi,'Hätten').replace(/haetten/gi,'hätten').replace(/Autofahren/gi,"Auto fahren").replace(/autofahren/gi,"Auto fahren");
+        poopScript = transcript.replace(/grossen/gi, 'großen').replace(/gross/gi,'groß').replace(/grosse/gi,'große').replace(/grosses/gi,'großes').replace(/weiss/gi,'weiß').replace(/beisse/gi,'beiße').replace(/beisst/gi,'beißt').replace(/beissen/gi,'beißen').replace(/Haettest/gi,'Hättest').replace(/haettest/gi,'hättest').replace(/Haette/gi,'Haette').replace(/haette/gi,'hätte').replace(/Haetten/gi,'Hätten').replace(/haetten/gi,'hätten').replace(/Autofahren/gi,"Auto fahren").replace(/autofahren/gi,"Auto fahren").replace(/zu Hause/gi,"zuhause").replace(/zu hause/gi,"zuhause");
         p.textContent = poopScript;
         p = document.createElement('p');
         words.appendChild(p);
