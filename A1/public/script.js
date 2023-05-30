@@ -273,7 +273,11 @@ function finishGame(){
       correct_answers_div.innerText = "";
       // MIC ON
       audio_img.src = "https://www.filepicker.io/api/file/Vd1N70dPS1yslZ2XwZEJ";
-      const transcript = event.results[event.results.length - 1][0].transcript;
+      // const transcript = event.results[event.results.length - 1][0].transcript;
+      const transcript = Array.from(event.results)
+      .map(result => result[0])
+      .map(result => result.transcript)
+      .join('');
       
       if(paragraphs.length > 1){
         paragraphs[paragraphs.length - 1].style.color = "black";
@@ -317,7 +321,11 @@ function finishGame(){
     correct_answers_div.innerText = "";
     // MIC ON 
     audio_img.src = "https://www.filepicker.io/api/file/Vd1N70dPS1yslZ2XwZEJ"
-    const transcript = event.results[event.results.length - 1][0].transcript;
+    // const transcript = event.results[event.results.length - 1][0].transcript;
+    const transcript = Array.from(event.results)
+      .map(result => result[0])
+      .map(result => result.transcript)
+      .join('');
     
     // const poopScript = transcript;
     p.textContent = transcript;
