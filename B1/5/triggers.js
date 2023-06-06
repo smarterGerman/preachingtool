@@ -1,7 +1,7 @@
 let allTriggerAnswersJSON = `[
 {"folgen | Taxi | Auto" : ["Folgt das Taxi dem Auto?", "Das Taxi folgt dem Auto nicht.", "Warum folgt das Taxi dem Auto nicht?", "Weil das Taxi dem Auto nicht folgt."],
 "absagen | Schülerin | Lehrerin" : ["Sagt die Schülerin der Lehrerin ab?", "Die Schülerin sagt der Lehrerin nicht ab.", "Warum sagt die Schülerin der Lehrerin nicht ab?", "Weil die Schülerin der Lehrerin nicht absagt."],
-"danken | Angestellte | Chef" : ["Dankt der Angestellte dem Chef?", "Der Angestellte dankt dem Chef nicht.", "Warum dankt der Angestellte dem Chef nicht?", "Weil der dem Chef nicht absagt."],
+"danken | Angestellte | Chef" : ["Dankt der Angestellte dem Chef?", "Der Angestellte dankt dem Chef nicht.", "Warum dankt der Angestellte dem Chef nicht?", "Weil der Angestellte dem Chef nicht absagt."],
 "gefallen | Design | Designerin" : ["Gefällt das Design der Designerin?", "Das Design gefällt der Designerin nicht.", "Warum gefällt das Design der Designerin nicht?", "Weil das Design der Designerin nicht gefällt."],
 "gehorchen | Hund | Eigentümer" : ["Gehorcht der Hund dem Eigentümer?", "Der Hund gehorcht dem Eigentümer nicht.", "Warum gehorcht der Hund dem Eigentümer nicht?", "Weil der Hund dem Eigentümer nicht gehorcht."],
 "gratulieren | Nachbarin | Vermieter" : ["Gratuliert die Nachbarin dem Vermieter?", "Die Nachbarin gratuliert dem Vermieter nicht.", "Warum gratuliert die Nachbarin dem Vermieter nicht?", "Weil die Nachbarin dem Vermieter nicht gratuliert."],
