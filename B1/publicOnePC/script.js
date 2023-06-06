@@ -60,6 +60,9 @@ function startPreaching(){
   sleep(3000);
   turnOnMicro();
 }
+function stopRecording(){
+  recognition.stop();
+}
 // ! FINISHED PREACHING 
 let gameIsFinished = true;
 function finishGame(){
@@ -73,12 +76,6 @@ function finishGame(){
   correct_answers_div.innerText = ""
   gameIsFinished = true;
 }
-  // WEB SPEECH API SETTINGS 
-  const recognition = new SpeechRecognition();
-  recognition.interimResults = true;
-  recognition.continuous = false;
-  recognition.lang = 'de-DE';
-  
   allTriggerAnswersData = JSON.parse(allTriggerAnswersJSON);
   trigger_content.innerText = triggers[0];
   
@@ -124,12 +121,13 @@ function finishGame(){
       // console.log("index: " + next_index);
     }
     else{
-      if(nextCounter >= (triggers.length*2-1) || secondHalf){
         finishGame();
-      } else{
-        next_index = 0;
-        switchPlaces++; 
-      }
+    //   if(nextCounter >= (triggers.length*2-1) || secondHalf){
+    //     finishGame();
+    //   } else{
+    //     next_index = 0;
+    //     switchPlaces++; 
+    //   }
     }
     current_trigger = triggers[next_index];
     // console.log(current_trigger);
@@ -204,13 +202,19 @@ function finishGame(){
   let test = true; 
   // recognition.start();
 // ! GET RESULT OF AUDIO 
-  recognition.addEventListener('result', e => {
-    // TOOL SPEAKS FIRST 
+function startRecording(){
+    recognition = new webkitSpeechRecognition();
+    recognition.continuous = true;
+    recognition.interimResults = true;
+    recognition.lang = 'de-DE';
+    recognition.start();
+    recognition.onresult = function (event) {
+// TOOL SPEAKS FIRST 
     // Reset correct answer div 
     correct_answers_div.innerText = "";
     // MIC ON
     audio_img.src = "https://www.filepicker.io/api/file/Vd1N70dPS1yslZ2XwZEJ";
-    const transcript = Array.from(e.results)
+    const transcript = Array.from(event.results)
     .map(result => result[0])
     .map(result => result.transcript)
     .join('');
@@ -228,32 +232,33 @@ function finishGame(){
     }
     p.textContent = poopScript;
     // Here is where stuff is being written 
-    if (e.results[0].isFinal) {
-      p = document.createElement('p');
-      words.appendChild(p);
-      // Remove special characters from current_trigger 
-      current_trigger = current_trigger.replace(/\n/g,"");
-      if(paragraphs.length > 1) {
-        if(paragraphs[paragraphs.length - 2].innerText.toLowerCase().replace(/[.,?!;:]/g,"") == allTriggerAnswersData[0][current_trigger][current_trigger_index].toLowerCase().replace(/[.,?!;:]/g,"")){
-          // console.log("I am in the TOOL LOOP");
-          paragraphs[paragraphs.length - 2].style.color = "green";
-          sleepFor(3, nextTrigger);
-      }
-      else {
-        paragraphs[paragraphs.length - 2].style.color = "red";
-        correct_answers_div.innerHTML = "<span style=\"color: red; font-weight: 500;\">Correct: </span>" + allTriggerAnswersData[0][current_trigger][current_trigger_index];
-      }
+    if (event.results[0].isFinal) {
+        audio_img.src = "https://www.filepicker.io/api/file/VyfbFTekQn6m2LEPlNm5";
+        recognition.stop();
+        let poopScript = transcript;
+        poopScript = transcript.replace(/grossen/gi, 'großen').replace(/gross/gi,'groß').replace(/grosse/gi,'große').replace(/grosses/gi,'großes').replace(/weiss/gi,'weiß').replace(/beisse/gi,'beiße').replace(/beisst/gi,'beißt').replace(/beissen/gi,'beißen').replace(/Fussball/gi,'Fußball');
+        p = document.createElement('p');
+        words.appendChild(p);
+        // Remove special characters from current_trigger 
+        current_trigger = current_trigger.replace(/\n/g,"");
+        if(paragraphs.length > 1) {
+            if(paragraphs[paragraphs.length - 2].innerText.toLowerCase().replace(/[.,?!;:]/g,"") == allTriggerAnswersData[0][current_trigger][current_trigger_index].toLowerCase().replace(/[.,?!;:]/g,"")){
+            // console.log("I am in the TOOL LOOP");
+            paragraphs[paragraphs.length - 2].style.color = "green";
+            sleepFor(3, nextTrigger);
+        }
+        else {
+            paragraphs[paragraphs.length - 2].style.color = "red";
+            correct_answers_div.innerHTML = "<span style=\"color: red; font-weight: 500;\">Correct: </span>" + allTriggerAnswersData[0][current_trigger][current_trigger_index];
+        }
+        }
     }
-  }
-  if(paragraphs.length > 5){
-    paragraphs[0].remove();
-  }
-  recognition.addEventListener('end', () => {
-    // MIC OFF 
-    audio_img.src = "https://www.filepicker.io/api/file/VyfbFTekQn6m2LEPlNm5"
-  });
-  test = false; 
-});
+    if(paragraphs.length > 5){
+        paragraphs[0].remove();
+    }
+    }
+    test = false;
+}
 
   window.addEventListener("keydown", (event) => {
     nextButton.classList.remove("hide-konstantin");
@@ -261,10 +266,8 @@ function finishGame(){
       countTrigger();
       initialCounter = false;
     }
-    if (preachingStarted){
-      audio_img.src = "https://www.filepicker.io/api/file/Vd1N70dPS1yslZ2XwZEJ"
-      recognition.start();
-    }
+    audio_img.src = "https://www.filepicker.io/api/file/Vd1N70dPS1yslZ2XwZEJ";
+    startRecording();
   });
 
   // Button to start the microphone 
@@ -274,8 +277,8 @@ function finishGame(){
       countTrigger();
       initialCounter = false;
     }
-    audio_img.src = "https://www.filepicker.io/api/file/Vd1N70dPS1yslZ2XwZEJ"
-    recognition.start();
+    audio_img.src = "https://www.filepicker.io/api/file/Vd1N70dPS1yslZ2XwZEJ";
+    startRecording();
   }
   // Key command to go to next trigger 
   window.addEventListener("keydown", (event) => {
