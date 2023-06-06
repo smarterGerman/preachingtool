@@ -1,0 +1,15 @@
+let allTriggerAnswersJSON = `[
+{"Was für Musik hörst du gerne?" : ["Was für Musik hörst du gerne?", "Ich habe dich nicht verstanden. Was hast du gefragt?", "Ich habe gefragt, was für Musik du gerne hörst.", "Das geht dich gar nichts an."],
+"Wo warst du gestern?" : ["Wo warst du gestern?", "Ich habe dich nicht verstanden. Was hast du gefragt?", "Ich habe gefragt, wo du gestern warst.", "Das geht dich gar nichts an."],
+"Wo hast du den Pulli gekauft?" : ["Wo hast du den Pulli gekauft?", "Ich habe dich nicht verstanden. Was hast du gefragt?", "Ich habe gefragt, wo du den Pulli gekauft hast.", "Das geht dich gar nichts an."],
+"Wer hat von meinem Tellerchen gegessen?" : ["Wer hat von meinem Tellerchen gegessen?", "Ich habe dich nicht verstanden. Was hast du gefragt?", "Ich habe gefragt, wer von meinem Tellerchen gegessen hat.", "Das geht dich gar nichts an."],
+"Hast du schon mal Froschschenkel gegessen?" : ["Hast du schon mal Froschschenkel gegessen?", "Ich habe dich nicht verstanden. Was hast du gefragt?", "Ich habe gefragt, ob du schon mal Froschschenkel gegessen hast.", "Das geht dich gar nichts an."],
+"Wie viel hat das gekostet?" : ["Wie viel hat das gekostet?", "Ich habe dich nicht verstanden. Was hast du gefragt?", "Ich habe gefragt, wie viel das gekostet hat.", "Das geht dich gar nichts an."],
+"Um wie viel Uhr bist du wieder zurück?" : ["Um wie viel Uhr bist du wieder zurück?", "Ich habe dich nicht verstanden. Was hast du gefragt?", "Ich habe gefragt, um wie viel Uhr du wieder zurück bist.", "Das geht dich gar nichts an."],
+"Welche Jacke soll ich anziehen?" : ["Welche Jacke soll ich anziehen?", "Ich habe dich nicht verstanden. Was hast du gefragt?", "Ich habe gefragt, welche Jacke ich anziehen soll.", "Das geht dich gar nichts an."],
+"Gefällt Dir das Lied von Billie Eilish?" : ["Gefällt Dir das Lied von Billie Eilish?", "Ich habe dich nicht verstanden. Was hast du gefragt?", "Ich habe gefragt, ob dir das Lied von Billie Eilish gefällt.", "Das geht dich gar nichts an."],
+"Wohin fährst du?" : ["Wohin fährst du?", "Ich habe dich nicht verstanden. Was hast du gefragt?", "Ich habe gefragt, wohin du fährst.", "Das geht dich gar nichts an."],
+"Könntest du mir bitte mal kurz helfen?" : ["Könntest du mir bitte mal kurz helfen?", "Ich habe dich nicht verstanden. Was hast du gefragt?", "Ich habe gefragt, ob du mir mal kurz helfen kannst.", "Das geht dich gar nichts an."]}
+]`;
+
+const triggers = ['Was für Musik hörst du gerne?', 'Wo warst du gestern?', 'Wo hast du den Pulli gekauft?', 'Wer hat von meinem Tellerchen gegessen?', 'Hast du schon mal Froschschenkel gegessen?', 'Wie viel hat das gekostet?', 'Um wie viel Uhr bist du wieder zurück?', 'Welche Jacke soll ich anziehen?', 'Gefällt Dir das Lied von Billie Eilish?', 'Wohin fährst du?', 'Könntest du mir bitte mal kurz helfen?'];
