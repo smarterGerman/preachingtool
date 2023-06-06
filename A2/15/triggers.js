@@ -8,7 +8,7 @@ let allTriggerAnswersJSON = `[
 "jung | alt | Katze" : ["Hättest du lieber eine junge oder eine alte Katze?", "Ich hätte lieber eine alte Katze.", "Warum hättest du denn lieber eine alte Katze?", "Weil ich einfach lieber eine alte Katze hätte."],
 "neu | gebraucht | Anzug" : ["Hättest du lieber einen neuen oder einen gebrauchten Anzug?", "Ich hätte lieber einen gebrauchten Anzug.", "Warum hättest du denn lieber einen gebrauchten Anzug?", "Weil ich einfach lieber einen gebrauchten Anzug hätte."],
 "klein | groß | Garten" : ["Hättest du lieber einen großen oder einen kleinen Garten?", "Ich hätte lieber einen kleinen Garten.", "Warum hättest du denn lieber einen kleinen Garten?", "Weil ich einfach lieber einen kleinen Garten hätte."],
-"heiß | kalt |Pizza" : ["Hättest du lieber eine heiße oder eine kalte Pizza?", "Ich hätte lieber eine kalte Pizza.", "Warum hättest du denn lieber eine kalte Pizza?", "Weil ich einfach lieber eine kalte Pizza hätte."]}
+"heiß | kalt | Pizza" : ["Hättest du lieber eine heiße oder eine kalte Pizza?", "Ich hätte lieber eine kalte Pizza.", "Warum hättest du denn lieber eine kalte Pizza?", "Weil ich einfach lieber eine kalte Pizza hätte."]}
 ]`;
 
 const triggers = ['groß | klein | Kaffee', 'neu | gebraucht | Telefon', 'klein | groß | Wohnung', 'klein | groß | Hund', 'klein | groß | Haus', 'Neuwagen | Gebrauchtwagen', 'jung | alt | Katze', 'neu | gebraucht | Anzug', 'klein | groß | Garten', 'heiß | kalt | Pizza'];
