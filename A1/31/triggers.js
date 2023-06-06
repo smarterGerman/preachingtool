@@ -1,6 +1,6 @@
 let allTriggerAnswersJSON = `[
 {"tanzen" : ["Willst du mit mir tanzen?", "Ich will nicht mit dir tanzen.", "Aber alle wollen mit mir tanzen.", "Ich will aber nicht."],
-"Klavierspielen" : ["Willst du mit mir Klavierspielen?", "Ich will nicht mit dir Klavierspielen.", "Aber alle wollen mit mir Klavierspielen.", "Ich will aber nicht."],
+"Klavier spielen" : ["Willst du mit mir Klavier spielen?", "Ich will nicht mit dir Klavier spielen.", "Aber alle wollen mit mir Klavier spielen.", "Ich will aber nicht."],
 "kochen" : ["Willst du mit mir kochen?", "Ich will nicht mit dir kochen.", "Aber alle wollen mit mir kochen.", "Ich will aber nicht."],
 "zeichnen" : ["Willst du mit mir zeichnen?", "Ich will nicht mit dir zeichnen.", "Aber alle wollen mit mir zeichnen.", "Ich will aber nicht."],
 "improvisieren" : ["Willst du mit mir improvisieren?", "Ich will nicht mit dir improvisieren.", "Aber alle wollen mit mir improvisieren.", "Ich will aber nicht."],
