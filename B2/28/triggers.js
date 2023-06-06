@@ -1,0 +1,16 @@
+let allTriggerAnswersJSON = `[
+{"zu wenig≠länger schlafen" : ["Ich habe zu wenig geschlafen.", "Ich hätte gerne länger geschlafen.", "Hätte ich doch nur länger geschlafen.", "Hätte, hätte, Fahradkette."],
+"spät≠früh aufstehen" : ["Ich bin zu spät aufgestanden.", "Ich wäre gerne früher aufgestanden.", "Wäre ich doch nur früher aufgestanden.", "Hätte, hätte, Fahradkette."],
+"einen langweiligen≠interessanten Beruf lernen" : ["Ich habe einen langweiligen Beruf gelernt.", "Ich hätte gerne einen interessant(er)en Beruf gelernt.", "Hätte ich doch nur einen interessant(er)en Beruf gelernt.", "Hätte, hätte, Fahradkette."],
+"einen dummen≠interessanten Mann heiraten" : ["Ich habe einen dummen Mann geheiratet.", "Ich hätte gerne einen interessanten Mann geheiratet.", "Hätte ich doch nur einen interessanten Mann geheiratet.", "Hätte, hätte, Fahrradkette."],
+"ein gebrauchtes≠neues Auto kaufen" : ["Ich habe ein gebrauchtes Auto gekauft.", "Ich hätte gerne ein neues Auto gekauft.", "Hätte ich doch nur ein neues Auto gekauft.", "Hätte, hätte, Fahrradkette."],
+"in einem fremden≠meinem eigenen Bett aufwachen" : ["Ich bin in einem fremden Bett aufgewacht.", "Ich wäre gerne in meinem eigenen Bett aufgewacht.", "Wäre ich doch nur in meinem eigenen Bett aufgewacht.", "Hätte, hätte, Fahrradkette."],
+"zu viel≠weniger Alkohol trinken" : ["Ich habe zu viel Alkohol getrunken.", "Ich hätte gerne weniger Alkohol getrunken.", "Hätte ich doch nur weniger Alkohol getrunken.", "Hätte, hätte, Fahrradkette."],
+"kranke≠gesunde Eltern haben" : ["Ich habe kranke Eltern gehabt.", "Ich hätte gerne gesunde Eltern gehabt.", "Hätte ich doch nur gesunde Eltern gehabt.", "Hätte, hätte, Fahrradkette."],
+"in einem heißen≠kühlen Klima leben" : ["Ich habe in einem heißen Klima gelebt.", "Ich hätte gerne in einem kühlen Klima gelebt.", "Hätte ich doch nur in einem kühlen Klima gelebt.", "Hätte, hätte, Fahrradkette."],
+"mit einem langsamen≠schnellen Zug fahren" : ["Ich bin mit einem langsamen Zug gefahren.", "Ich wäre gerne mit einem schnellen Zug gefahren.", "Wäre ich doch nur mit einem schnellen Zug gefahren.", "Hätte, hätte, Fahrradkette."],
+"für eine große≠kleine Firma arbeiten" : ["Ich habe für eine große Firma gearbeitet.", "Ich hätte gerne für eine kleinere Firma gearbeitet.", "Hätte ich doch nur für eine kleinere Firma gearbeitet.", "Hätte, hätte, Fahrradkette."],
+"in einer lauten≠ruhigen Straße leben" : ["Ich habe in einer lauten Straße gelebt.", "Ich hätte gerne in einer ruhigeren Straße gelebt.", "Hätte ich doch nur in einer ruhigen Straße gelebt.", "Hätte, hätte, Fahrradkette."]}
+]`;
+
+const triggers = ['zu wenig≠länger schlafen', 'spät≠früh aufstehen', 'einen langweiligen≠interessanten Beruf lernen', 'einen dummen≠interessanten Mann heiraten', 'ein gebrauchtes≠neues Auto kaufen', 'in einem fremden≠meinem eigenen Bett aufwachen', 'zu viel≠weniger Alkohol trinken', 'kranke≠gesunde Eltern haben', 'in einem heißen≠kühlen Klima leben', 'mit einem langsamen≠schnellen Zug fahren', 'für eine große≠kleine Firma arbeiten', 'in einer lauten≠ruhigen Straße leben'];
