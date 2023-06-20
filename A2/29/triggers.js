@@ -11,4 +11,4 @@ let allTriggerAnswersJSON = `[
 "sie | sich bemühen | Konzertkarten bekommen" : ["Sie bemüht sich, Konzertkarten zu bekommen.", "Bekommt sie denn Konzertkarten?", "Keine Ahnung. Sie bemüht sich aber, dass sie Konzertkarten bekommt.", "Na wenn sie sich bemüht, wird es wohl so sein."]}
 ]`;
 
-const triggers = ['er | behaupten | fließend Japanisch sprechen', 'er | behaupten | mit dem Rauchen aufhören', 'er | behaupten | hochbegabt sein', 'er | behaupten | der Schnellste sein', 'er | behaupten | gut küssen', 'sie | sich bemühen | leise sein', 'sie | sich bemühen | die Aufnahmeprüfung | schaffen', 'sie | sich bemühen | Deutsch lernen', 'sie | sich bemühen | alles richtig machen', 'sie | sich bemühen | Konzertkarten bekommen'];
+const triggers = ['er | behaupten | fließend Japanisch sprechen', 'er | behaupten | mit dem Rauchen aufhören', 'er | behaupten | hochbegabt sein', 'er | behaupten | der Schnellste sein', 'er | behaupten | gut küssen können', 'sie | sich bemühen | leise sein', 'sie | sich bemühen | die Aufnahmeprüfung | schaffen', 'sie | sich bemühen | Deutsch lernen', 'sie | sich bemühen | alles richtig machen', 'sie | sich bemühen | Konzertkarten bekommen'];
