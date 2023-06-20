@@ -6,7 +6,7 @@ let allTriggerAnswersJSON = `[
 "sich schnell aufregen | öfter einen Schnaps trinken" : ["Was soll ich nur tun? Ich rege mich immer so schnell auf.", "Du solltest öfter einen Schnaps trinken.", "Ich trinke doch schon öfter einen Schnaps.", "Dann solltest du auf jeden Fall zum Arzt gehen!"],
 "gestresst sein | öfter Urlaub machen" : ["Was soll ich nur tun? Ich bin immer so gestresst.", "Du solltest öfter Urlaub machen.", "Ich mache doch schon öfter Urlaub.", "Dann solltest du auf jeden Fall zum Arzt gehen!"],
 "schnell zunehmen | gesünder essen" : ["Was soll ich nur tun? Ich nehme immer so schnell zu.", "Du solltest gesünder essen.", "Ich esse doch schon gesünder.", "Dann solltest du auf jeden Fall zum Arzt gehen!"],
-"angespannt sein | mehr Yoga machen" : ["Was soll ich nur tun? Ich bin immer so angespannt.", "Du solltest mehr Yoga machen.", "Ich mache doch schon mehr Yoga.", "Dann solltest du auf jeden Fall zum Arzt gehen!"],
+"angespannt sein | mehr Yoga machen" : ["Was soll ich nur tun? Ich bin immer so angespannt.", "Du solltest Yoga machen.", "Ich mache doch schon Yoga.", "Dann solltest du auf jeden Fall zum Arzt gehen!"],
 "traurig sein | öfter spazieren gehen" : ["Was soll ich nur tun? Ich bin immer so traurig.", "Du solltest öfter spazieren gehen.", "Ich gehe doch schon oft spazieren.", "Dann solltest du auf jeden Fall zum Arzt gehen!"],
 "antriebslos sein | eine Entspannungskur machen" : ["Was soll ich nur tun? Ich bin immer so antriebslos.", "Du solltest eine Entspannungskur machen.", "Ich mache doch schon eine Entspannungskur.", "Dann solltest du auf jeden Fall zum Arzt gehen!"]}
 ]`;
