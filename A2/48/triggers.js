@@ -6,9 +6,9 @@ let allTriggerAnswersJSON = `[
 "Handy" : ["Magst du mein neues Handy?", "Welches Handy meinst du denn?", "Na das Handy, das ich gestern gekauft habe.", "Das Handy, das du gestern gekauft hast, mag ich nicht."],
 "Wohnung" : ["Magst du meine neue Wohnung?", "Welche Wohnung meinst du denn?", "Na, die Wohnung, die ich gestern gekauft habe.", "Die Wohnung, die du gestern gekauft hast, mag ich nicht."],
 "Fahrrad" : ["Magst du mein neues Fahrrad?", "Welches Fahrrad meinst du denn?", "Na das Fahrrad, das ich gestern gekauft habe.", "Das Fahrrad, das du gestern gekauft hast, mag ich nicht."],
-"Kleid" : ["Magst du mein Kleid?", "Welches Kleid meinst du denn?", "Na das Kleid, das ich gestern gekauft habe.", "Das Kleid, das du gestern gekauft hast, mag ich nicht."],
+"Kleid" : ["Magst du mein neues Kleid?", "Welches Kleid meinst du denn?", "Na das Kleid, das ich gestern gekauft habe.", "Das Kleid, das du gestern gekauft hast, mag ich nicht."],
 "Sonnenbrille" : ["Magst du meine neue Sonnenbrille?", "Welche Sonnenbrille meinst du denn?", "Na die Sonnenbrille, die ich gestern gekauft habe.", "Die Sonnenbrille, die du gestern gekauft hast, mag ich nicht."],
 "Anzug" : ["Magst du meine neuen Anzüge?", "Welche Anzüge meinst du denn?", "Na die Anzüge, die ich gestern gekauft habe.", "Die Anzüge, die du gestern gekauft hast, mag ich nicht."]}
 ]`;
 
-const triggers = ['Computer', 'Auto', 'Handtasche', 'Schuhe', 'Fairphone', 'Wohnung', 'Fahrrad', 'Kleid', 'Sonnenbrille', 'Anzug'];
+const triggers = ['Computer', 'Auto', 'Handtasche', 'Schuhe', 'Handy', 'Wohnung', 'Fahrrad', 'Kleid', 'Sonnenbrille', 'Anzug'];
