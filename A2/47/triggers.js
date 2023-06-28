@@ -11,4 +11,4 @@ let allTriggerAnswersJSON = `[
 "Schal" : ["Ist das dein Schal?", "Welchen Schal meinst du denn?", "Na der Schal, der so schick aussieht.", "Der Schal, der so schick aussieht, ist nicht meiner."]}
 ]`;
 
-const triggers = ['Ring', 'Rennrad', 'Rolex', 'Stiefel', 'Fairphone', 'Gitarre', 'Pullover', 'Wintermantel', 'Handschuhe', 'Schal'];
+const triggers = ['Ring', 'Rennrad', 'Rolex', 'Stiefel (pl)', 'Handy', 'Gitarre', 'Pullover', 'Wintermantel', 'Handschuhe (pl)', 'Schal'];
