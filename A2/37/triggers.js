@@ -11,4 +11,4 @@ let allTriggerAnswersJSON = `[
 "sich schützen vor (+Dat) | Sonne" : ["Schützt du dich vor der Sonne?", "Ich schütze mich nicht vor der Sonne.", "Warum schützt du dich nicht vor der Sonne?", "Weil ich mich nicht vor der Sonne schütze."]}
 ]`;
 
-const triggers = ['sich kümmern um (+Akk.) | Kaninchen', 'sich aufregen über (+Akk.) | Chefin', 'sich ekeln vor (+Dat.) | Gestank', 'sich verlieben in (+Akk.) | Nachbarin', 'sich entscheiden füür (+Akk.) | love', 'sich bedanken bei (+Dat.) | Papagei', 'sich gewöhnen an (+Akk.) | Zustand', 'sich erkundigen nach (+Dat.) | Oma', 'sich freuen auf (+Akk.) | Urlaub', 'sich schützen vor (+Dat) | Sonne'];
+const triggers = ['sich kümmern um (+Akk.) | Kaninchen', 'sich aufregen über (+Akk.) | Chefin', 'sich ekeln vor (+Dat.) | Gestank', 'sich verlieben in (+Akk.) | Nachbarin', 'sich entscheiden für (+Akk.) | love', 'sich bedanken bei (+Dat.) | Papagei', 'sich gewöhnen an (+Akk.) | Zustand', 'sich erkundigen nach (+Dat.) | Oma', 'sich freuen auf (+Akk.) | Urlaub', 'sich schützen vor (+Dat) | Sonne'];
