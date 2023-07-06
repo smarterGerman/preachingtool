@@ -3,7 +3,7 @@ let allTriggerAnswersJSON = `[
 "sich aufregen über (+Akk.) | Chefin" : ["Regst du dich über die Chefin auf?", "Ich rege mich nicht über die Chefin auf.", "Warum regst du dich nicht über die Chefin auf?", "Weil ich mich nicht über die Chefin aufrege."],
 "sich ekeln vor (+Dat.) | Gestank" : ["Ekelst du dich vor dem Gestank?", "Ich ekel mich nicht vor dem Gestank.", "Warum ekelst du dich nicht vor dem Gestank?", "Weil ich mich nicht vor dem Gestank ekel."],
 "sich verlieben in (+Akk.) | Nachbarin" : ["Verliebst du dich in die Nachbarin?", "Ich verliebe mich nicht in die Nachbarin.", "Warum verliebst du dich nicht in die Nachbarin?", "Weil ich mich nicht in die Nachbarin verliebe."],
-"sich entscheiden für (+Akk.) | love" : ["Entscheidest du dich für die Liebe?", "Ich entscheide mich nicht für die Liebe.", "Warum entscheidest du dich nicht für die Liebe?", "Weil ich mich nicht für die Liebe entscheide."],
+"sich entscheiden für (+Akk.) | Liebe" : ["Entscheidest du dich für die Liebe?", "Ich entscheide mich nicht für die Liebe.", "Warum entscheidest du dich nicht für die Liebe?", "Weil ich mich nicht für die Liebe entscheide."],
 "sich bedanken bei (+Dat.) | Papagei" : ["Bedankst du dich beim Papagei?", "Ich bedanke mich nicht beim Papagei.", "Warum bedankst du dich nicht beim Papagei?", "Weil ich mich nicht beim Papagei bedanke."],
 "sich gewöhnen an (+Akk.) | Zustand" : ["Gewöhnst du dich an den Zustand?", "Ich gewöhne mich nicht an den Zustand.", "Warum gewöhnst du dich nicht an den Zustand?", "Weil ich mich nicht an den Zustand gewöhne."],
 "sich erkundigen nach (+Dat.) | Oma" : ["Erkundigst du dich nach der Oma?", "Ich erkundige mich nicht nach der Oma.", "Warum erkundigst du dich nicht nach der Oma?", "Weil ich mich nicht nach der Oma erkundige."],
