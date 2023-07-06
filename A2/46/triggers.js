@@ -11,4 +11,4 @@ let allTriggerAnswersJSON = `[
 "Anzüge" : ["Sind das deine Anzüge?", "Welche Anzüge meinst du denn?", "Na die Anzüge, die so neu aussehen.", "Die Anzüge, die so neu aussehen, sind nicht meine."]}
 ]`;
 
-const triggers = ['Computer', 'Auto', 'Handtasche', 'Schuhe', 'Fairphone', 'Wohnung', 'Fahrrad', 'Kleid', 'Sonnenbrille', 'Anzüge'];
+const triggers = ['Computer', 'Auto', 'Handtasche', 'Schuhe', 'Handy', 'Wohnung', 'Fahrrad', 'Kleid', 'Sonnenbrille', 'Anzüge'];
