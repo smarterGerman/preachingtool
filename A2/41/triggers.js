@@ -7,7 +7,7 @@ let allTriggerAnswersJSON = `[
 "Schnitzel | Kalbfleisch" : ["Woraus werden eigentlich Schnitzel gemacht?","Ich glaube, Schnitzel werden aus Kalbfleisch gemacht. Warum?", "Weil mir davon immer schlecht wird.", "Ach du Arme."],
 "Gummibärchen (pl) | Zucker (m)" : ["Woraus werden eigentlich Gummibärchen gemacht?","Ich glaube, Gummibärchen werden aus Zucker gemacht. Warum?", "Weil mir davon immer schlecht wird.", "Ach du Arme."],
 "Saumagen | Fleischreste" : ["Woraus wird eigentlich Saumagen gemacht?","Ich glaube, Saumagen wird aus Fleischresten gemacht. Warum?", "Weil mir davon immer schlecht wird.", "Ach du Arme."],
-"grüne Soße | frische Kräuter" : ["Woraus eigentlich grüne Soße gemacht?","Ich glaube, grüne Soße wird aus frischen Kräutern gemacht. Warum?", "Weil mir davon immer schlecht wird.", "Ach du Arme."],
+"grüne Soße | frische Kräuter" : ["Woraus wird eigentlich grüne Soße gemacht?","Ich glaube, grüne Soße wird aus frischen Kräutern gemacht. Warum?", "Weil mir davon immer schlecht wird.", "Ach du Arme."],
 "Bier | Hopfen" : ["Woraus wird eigentlich Bier gemacht?", "Ich glaube, Bier wird aus Hopfen gemacht. Warum?", "Weil mir davon immer schlecht wird.", "Ach du Arme."]}
 ]`;
 
