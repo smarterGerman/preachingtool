@@ -290,7 +290,7 @@ function finishGame(){
         recognition.stop();
         let poopScript = transcript;
         // Replace ss and other words with correct spelling 
-        poopScript = transcript.replace(/grossen/gi, 'großen').replace(/gross/gi,'groß').replace(/grosse/gi,'große').replace(/grosses/gi,'großes').replace(/weiss/gi,'weiß').replace(/beisse/gi,'beiße').replace(/beisst/gi,'beißt').replace(/beissen/gi,'beißen').replace(/Fussball/gi,'Fußball').replace(/heissen/gi,'heißen').replace(/Handy, dass/gi, 'Handy das');
+        poopScript = transcript.replace(/grossen/gi, 'großen').replace(/gross/gi,'groß').replace(/grosse/gi,'große').replace(/grosses/gi,'großes').replace(/weiss/gi,'weiß').replace(/beisse/gi,'beiße').replace(/beisst/gi,'beißt').replace(/beissen/gi,'beißen').replace(/Fussball/gi,'Fußball').replace(/heissen/gi,'heißen').replace(/Handy dass/gi, 'Handy das');
         p.textContent = poopScript;
         p = document.createElement('p');
         words.appendChild(p);
@@ -340,7 +340,7 @@ function finishGame(){
       recognition.stop();
       let poopScript = transcript;
       // Replace ss and other words with correct spelling 
-      poopScript = transcript.replace(/grossen/gi, 'großen').replace(/gross/gi,'groß').replace(/grosse/gi,'große').replace(/grosses/gi,'großes').replace(/weiss/gi,'weiß').replace(/beisse/gi,'beiße').replace(/beisst/gi,'beißt').replace(/beissen/gi,'beißen').replace(/Fussball/gi,'Fußball').replace(/heissen/gi,'heißen').replace(/Handy, dass/gi,'Handy das');
+      poopScript = transcript.replace(/grossen/gi, 'großen').replace(/gross/gi,'groß').replace(/grosse/gi,'große').replace(/grosses/gi,'großes').replace(/weiss/gi,'weiß').replace(/beisse/gi,'beiße').replace(/beisst/gi,'beißt').replace(/beissen/gi,'beißen').replace(/Fussball/gi,'Fußball').replace(/heissen/gi,'heißen').replace(/Handy dass/gi,'Handy das');
       p.textContent = poopScript;
       p = document.createElement('p');
       words.appendChild(p);
