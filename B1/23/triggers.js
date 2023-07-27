@@ -1,7 +1,7 @@
 let allTriggerAnswersJSON = `[
 {"Redakteur | Eigentümer | entlassen werden" : ["Ich habe gehört, dass der Redakteur entlassen wird.", "Das stimmt. Der Redakteur wird entlassen.", "Von wem wird der Redakteur denn entlassen?", "Er wird vom Eigentümer entlassen."],
 "Goethe Institut | Bezirksamt | schließen" : ["Ich habe gehört, dass das Goethe Institut geschlossen wird.", "Das stimmt. Das Goethe Institut wird geschlossen.", "Von wem wird das Goethe Institut denn geschlossen?", "Es wird vom Bezirksamt geschlossen."],
-"Kirche | Regierung | umbauen" : ["Ich habe gehört, dass die Kirche umgebaut wird.", "Das stimmt. Die Kirche wird von der Regierung umgebaut.", "Von wem wird die Kirche denn umgebaut?", "Die Kirche wird von der Regierung umgebaut."],
+"Kirche | Regierung | umbauen" : ["Ich habe gehört, dass die Kirche umgebaut wird.", "Das stimmt. Die Kirche wird umgebaut.", "Von wem wird die Kirche denn umgebaut?", "Die Kirche wird von der Regierung umgebaut."],
 "Zirkus | Tierschutzverein | boykottieren" : ["Ich habe gehört, dass der Zirkus boykottiert wird.", "Das stimmt. Der Zirkus wird boykottiert.", "Von wem wird der Zirkus denn boykottiert.", "Er wird vom Tierschutzverein boykottiert."],
 "Preise (pl) | Ölkonzerne (pl) |  erhöhen" : ["Ich habe gehört, dass die Preise erhöht werden.", "Das stimmt. Die Preise werden erhöht.", "Von wem werden die Preise denn erhöht?", "Sie werden von den Ölkonzernen erhöht."],
 "Denkmal | Gemeinde | etwas abreißen" : ["Ich habe gehört, dass das Denkmal abgerissen wird.", "Das stimmt. Das Denkmal wird abgerissen.", "Von wem wird das Denkmal denn abgerissen?", "Es wird von der Gemeinde abgerissen."],
