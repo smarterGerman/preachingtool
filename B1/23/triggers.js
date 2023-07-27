@@ -1,6 +1,6 @@
 let allTriggerAnswersJSON = `[
 {"Redakteur | Eigentümer | entlassen werden" : ["Ich habe gehört, dass der Redakteur entlassen wird.", "Das stimmt. Der Redakteur wird entlassen.", "Von wem wird der Redakteur denn entlassen?", "Er wird vom Eigentümer entlassen."],
-"Goethe-Institut | Bezirksamt | schließen" : ["Ich habe gehört, dass das Goethe-Institut geschlossen wird.", "Das stimmt. Das Goethe-Institut wird geschlossen.", "Von wem wird das Goethe Institut denn geschlossen?", "Es wird vom Bezirksamt geschlossen."],
+"Institut | Bezirksamt | schließen" : ["Ich habe gehört, dass das Institut geschlossen wird.", "Das stimmt. Das Institut wird geschlossen.", "Von wem wird das Institut denn geschlossen?", "Es wird vom Bezirksamt geschlossen."],
 "Kirche | Regierung | umbauen" : ["Ich habe gehört, dass die Kirche umgebaut wird.", "Das stimmt. Die Kirche wird umgebaut.", "Von wem wird die Kirche denn umgebaut?", "Die Kirche wird von der Regierung umgebaut."],
 "Zirkus | Tierschutzverein | boykottieren" : ["Ich habe gehört, dass der Zirkus boykottiert wird.", "Das stimmt. Der Zirkus wird boykottiert.", "Von wem wird der Zirkus denn boykottiert.", "Er wird vom Tierschutzverein boykottiert."],
 "Preise (pl) | Ölkonzerne (pl) |  erhöhen" : ["Ich habe gehört, dass die Preise erhöht werden.", "Das stimmt. Die Preise werden erhöht.", "Von wem werden die Preise denn erhöht?", "Sie werden von den Ölkonzernen erhöht."],
@@ -11,4 +11,4 @@ let allTriggerAnswersJSON = `[
 "Schulen (pl) | Eltern (pl) | renovieren" : ["Ich habe gehört, dass die Schule renoviert wird.", "Das stimmt. Die Schule wird renoviert .", "Von wem wird die Schule denn renoviert?", "Sie wird von den Eltern renoviert."]}
 ]`;
 
-const triggers = ['Redakteur | Eigentümer | entlassen werden', 'Goethe-Institut | Bezirksamt | schließen', 'Kirche | Regierung | umbauen', 'Zirkus | Tierschutzverein | boykottieren', 'Preise (pl) | Ölkonzerne (pl) |  erhöhen', 'Denkmal | Gemeinde | etwas abreißen', 'Kollegin | Chefin |  rausschmeißen', 'Stadion | Bauamt | bauen', 'Kino | Eigentümer | schließen', 'Schulen (pl) | Eltern (pl) | renovieren'];
+const triggers = ['Redakteur | Eigentümer | entlassen werden', 'Institut | Bezirksamt | schließen', 'Kirche | Regierung | umbauen', 'Zirkus | Tierschutzverein | boykottieren', 'Preise (pl) | Ölkonzerne (pl) |  erhöhen', 'Denkmal | Gemeinde | etwas abreißen', 'Kollegin | Chefin |  rausschmeißen', 'Stadion | Bauamt | bauen', 'Kino | Eigentümer | schließen', 'Schulen (pl) | Eltern (pl) | renovieren'];
