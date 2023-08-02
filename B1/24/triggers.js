@@ -1,6 +1,6 @@
 let allTriggerAnswersJSON = `[
 {"Freund (m) | überfallen | unvorsichtig" : ["Was ist mit deinem Freund passiert?", "Er wurde überfallen.", "Warum wurde dein Freund überfallen?", "Weil er unvorsichtig war."],
-"Auto | waschen | dreckig" : ["Was ist mit deinem Auto passiert?", "Es wurde gewaschen.", "Warum wurde es gewaschen?", "Weil es dreckig war."],
+"Auto | waschen | dreckig" : ["Was ist mit deinem Auto passiert?", "Es wurde gewaschen.", "Warum wurde dein Auto gewaschen?", "Weil es dreckig war."],
 "Tasche | stehlen | schick" : ["Was ist mit deiner Tasche passiert?", "Sie wurde gestohlen.", "Warum wurde deine Tasche gestohlen?", "Weil sie schick war."],
 "Frau | anfahren | Ich habe sie nicht gesehen |" : ["Was ist mit deiner Frau passiert?", "Sie wurde angefahren.", "Warum wurde deine Frau angefahren?", "Weil ich sie nicht gesehen habe."],
 "Sohn | entlassen| faul sein" : ["Was ist mit deinem Sohn passiert?", "Er wurde entlassen.", "Warum wurde dein Sohn entlassen?", "Weil er faul war."],
