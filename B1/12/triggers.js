@@ -1,6 +1,6 @@
 let allTriggerAnswersJSON = `[
 {"Deutsch lernen | einen besseren Job finden" : ["Warum lernst du eigentlich Deutsch?", "Ich lerne Deutsch, damit ich einen besseren Job finde.", "Das gefällt mir. Dann lerne ich jetzt auch Deutsch.", "Du Nachmacherin."],
-"so früh schlafen gehen | morgen früh fit sein" : ["Warum gehst du eigentlich früh schlafen?", "Ich gehe früh schlafen, damit ich morgen früh fit bin.", "Das gefällt mir. Dann gehe ich jetzt auch früh schlafen.", "Du Nachmacherin."],
+"so früh schlafen gehen | morgen früh fit sein" : ["Warum gehst du eigentlich so früh schlafen?", "Ich gehe so früh schlafen, damit ich morgen früh fit bin.", "Das gefällt mir. Dann gehe ich jetzt auch so früh schlafen.", "Du Nachmacherin."],
 "Geld sparen | in Urlaub fahren können" : ["Warum sparst du eigentlich Geld?", "Ich spare Geld, damit ich in Urlaub fahren kann.", "Das gefällt mir. Dann spare ich jetzt auch Geld.", "Du Nachmacherin."],
 "ein Fahrrad kaufen | nicht mehr mit der U-Bahn fahren müssen" : ["Warum kaufst du eigentlich ein Fahrrad?", "Ich kaufe ein Fahrrad, damit ich nicht mehr mit der U-Bahn fahren muss.", "Das gefällt mir. Dann kaufe ich jetzt auch ein Fahrrad.", "Du Nachmacherin."],
 "nach Deutschland fliegen | einen Freund besuchen" : ["Warum fliegst du eigentlich nach Deutschland?", "Ich fliege nach Deutschland, damit ich einen Freund besuchen kann.", "Das gefällt mir. Dann fliege ich jetzt auch nach Deutschland.", "Du Nachmacherin."],
