@@ -7,7 +7,7 @@ let allTriggerAnswersJSON = `[
 "Handy | zerkratzen | unachtsam sein" : ["Was ist mit deinem Handy passiert?", "Es wurde zerkratzt.", "Warum wurde dein Handy zerkratzt?", "Weil ich unachtsam war."],
 "Wohnung | demolieren  | in Urlaub sein" : ["Was ist mit deiner Wohnung passiert?", "Sie wurde demoliert.", "Warum wurde deine Wohnung demoliert?", "Weil ich in Urlaub war."],
 "Fahrrad| beschädigen | teuer sein" : ["Was ist mit deinem Fahrrad passiert?", "Es wurde beschädigt.", "Warum wurde dein Fahrrad beschädigt?", "Weil es teuer war."],
-"Nachbar | verprügeln | provoziert haben" : ["Was ist mit deinem Nachbarn passiert?", "Er wurde verprügelt.", "Warum wurde dein Nachbar verprügelt?", "Weil er provokant war."],
+"Nachbar | verprügeln | provoziert haben" : ["Was ist mit deinem Nachbarn passiert?", "Er wurde verprügelt.", "Warum wurde dein Nachbar verprügelt?", "Weil er provoziert hat."],
 "Mutter| über den Tisch ziehen | jemand wollte etwas verkaufen" : ["Was ist mit deiner Mutter passiert?", "Sie wurde über den Tisch gezogen.", "Warum wurde deine Mutter über den Tisch gezogen?", "Weil jemand etwas verkaufen wollte."]}
 ]`;
 
