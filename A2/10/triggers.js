@@ -1,6 +1,5 @@
 let allTriggerAnswersJSON = `[
 {"helfen" : ["Könntest du bitte helfen?", "Könnte ich, möchte ich aber nicht.", "Warum möchtest du denn nicht?", "Weil ich einfach nicht helfen möchte."],
-"kommen" : ["Könntest du bitte kommen?", "Könnte ich, möchte ich aber nicht.", "Warum möchtest du denn nicht?", "Weil ich einfach nicht kommen möchte."],
 "arbeiten" : ["Könntest du bitte arbeiten?", "Könnte ich, möchte ich aber nicht.", "Warum möchtest du denn nicht?", "Weil ich einfach nicht arbeiten möchte."],
 "anfangen" : ["Könntest du bitte anfangen?", "Könnte ich, möchte ich aber nicht.", "Warum möchtest du denn nicht?", "Weil ich einfach nicht anfangen möchte."],
 "aufhören" : ["Könntest du bitte aufhören?", "Könnte ich, möchte ich aber nicht.", "Warum möchtest du denn nicht?", "Weil ich einfach nicht aufhören möchte."],
@@ -11,4 +10,4 @@ let allTriggerAnswersJSON = `[
 "fahren" : ["Könntest du bitte fahren?", "Könnte ich, möchte ich aber nicht.", "Warum möchtest du denn nicht?", "Weil ich einfach nicht fahren möchte."]}
 ]`;
 
-const triggers = ['helfen', 'kommen', 'arbeiten', 'anfangen', 'aufhören', 'antworten', 'fragen', 'kommen', 'unterschreiben', 'fahren'];
+const triggers = ['helfen', 'arbeiten', 'anfangen', 'aufhören', 'antworten', 'fragen', 'kommen', 'unterschreiben', 'fahren'];
