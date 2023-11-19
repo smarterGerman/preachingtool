@@ -297,7 +297,7 @@ function finishGame(){
         // Remove special characters from current_trigger 
         current_trigger = current_trigger.replace(/\n/g,"");
         if(paragraphs.length > 1) {
-          if(paragraphs[paragraphs.length - 2].innerText.toLowerCase().replace(/[.,?!;:]/g,"") == allTriggerAnswersData[0][current_trigger][current_trigger_index].toLowerCase().replace(/[.,?!;:]/g,"")){
+          if(paragraphs[paragraphs.length - 2].innerText.toLowerCase().replace(/[.,?!;:]/g,"").replace(/ß/gi, 'ss') == allTriggerAnswersData[0][current_trigger][current_trigger_index].toLowerCase().replace(/[.,?!;:]/g,"").replace(/ß/gi, 'ss')){
             paragraphs[paragraphs.length - 2].style.color = "green";
             if(allTriggerAnswersData[0][current_trigger][current_trigger_index + 1]){
               sleepFor(2, toolAnswer);
@@ -347,7 +347,7 @@ function finishGame(){
       // Remove special characters from current_trigger 
       current_trigger = current_trigger.replace(/\n/g,"");
       if(paragraphs.length > 1) {
-        if(paragraphs[paragraphs.length - 2].innerText.toLowerCase().replace(/[.,?!;:]/g,"") == allTriggerAnswersData[0][current_trigger][current_trigger_index].toLowerCase().replace(/[.,?!;:]/g,"")){
+        if(paragraphs[paragraphs.length - 2].innerText.toLowerCase().replace(/[.,?!;:]/g,"").replace(/ß/gi, 'ss') == allTriggerAnswersData[0][current_trigger][current_trigger_index].toLowerCase().replace(/[.,?!;:]/g,"").replace(/ß/gi, 'ss')){
           paragraphs[paragraphs.length - 2].style.color = "green";
           if(allTriggerAnswersData[0][current_trigger][current_trigger_index + 1]){
             sleepFor(2, toolAnswer);
