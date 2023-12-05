@@ -7,7 +7,7 @@ let allTriggerAnswersJSON = `[
 "Bus | warten auf + A" : ["Siehst du den Bus?", "Welchen Bus?", "Na den, auf den ich warte.", "Ja klar. Den sehe ich."],
 "Auto | träumen von + D" : ["Siehst du das Auto?", "Welches Auto?", "Na das, von dem ich träume", "Ja klar. Das sehe ich."],
 "Politiker | halten von + D" : ["Kennst du den Politiker?", "Welchen Politiker?", "Na den, von dem ich nichts halte", "Ja klar. Den kenne ich."],
-"Spinne | sich fürchten vor + D" : ["Siehst du die Spinne?", "Welche Spinne?", "Na die,vor der ich mich fürchte.", "Ja klar. Die sehe ich."],
+"Spinne | sich fürchten vor + D" : ["Siehst du die Spinne?", "Welche Spinne?", "Na die, vor der ich mich fürchte.", "Ja klar. Die sehe ich."],
 "Seminar | teilnehmen an + D" : ["Kennst du das Seminar?", "Welches Seminar?", "Na das, an dem ich teilnehme.", "Ja klar. Das kenne ich."]}
 ]`;
 
