@@ -6,9 +6,9 @@ let allTriggerAnswersJSON = `[
 "ein Haar in der Suppe finden" : ["Fandest du gestern ein Haar in der Suppe?", "Das sagt man aber nicht so auf Deutsch.", "Wie sagt man das denn richtig?", "Man sagt: Hast du gestern ein Haar in der Suppe gefunden?"],
 "zu spät kommen" : ["Kamst du gestern zu spät?", "Das sagt man aber nicht so auf Deutsch.", "Wie sagt man das denn richtig?", "Man sagt: Bist du gestern zu spät gekommen?"],
 "die Bedienungsanleitung lesen" : ["Last du gestern die Bedienungsanleitung?", "Das sagt man aber nicht so auf Deutsch.", "Wie sagt man das denn richtig?", "Man sagt: Hast du gestern die Bedienungsanleitung gelesen?"],
-"auf dem Schlauch stehen" : ["Standst du gestern auf dem Schlauch?", "Das sagt man aber nicht so auf Deutsch.", "Wie sagt man das denn richtig?", "Man sagt: Hast du gestern auf dem Schlauch gestanden?"],
+"auf dem Schlauch stehen" : ["Standest du gestern auf dem Schlauch?", "Das sagt man aber nicht so auf Deutsch.", "Wie sagt man das denn richtig?", "Man sagt: Hast du gestern auf dem Schlauch gestanden?"],
 "10 Kilo abnehmen" : ["Nahmst du gestern 10 Kilo ab?", "Das sagt man aber nicht so auf Deutsch.", "Wie sagt man das denn richtig?", "Man sagt: Hast du gestern 10 Kilo abgenommen?"],
 "mir auf die Mailbox sprechen" : ["Sprachst du mir gestern auf die Mailbox?", "Das sagt man aber nicht so auf Deutsch.", "Wie sagt man das denn richtig?", "Man sagt: Hast du mir gestern auf die Mailbox gesprochen?"]}
 ]`;
 
-const triggers = ['in Urlaub fahren', 'ins Kino gehen', 'einen Film sehen', 'alles geben', 'ein Haar in der Suppe finden', 'zu spät kommen', 'die Bedienungsanleitung lesen', 'auf dem Schlauch stehen', '10 Kilo abnehmen', 'mir/dir auf die Mailbox sprechen'];
+const triggers = ['in Urlaub fahren', 'ins Kino gehen', 'einen Film sehen', 'alles geben', 'ein Haar in der Suppe finden', 'zu spät kommen', 'die Bedienungsanleitung lesen', 'auf dem Schlauch stehen', '10 Kilo abnehmen', 'mir auf die Mailbox sprechen'];
