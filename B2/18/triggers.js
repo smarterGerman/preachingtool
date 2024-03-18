@@ -12,4 +12,4 @@ let allTriggerAnswersJSON = `[
 "Gans essen" : ["Ich habe gestern Abend Gans gegessen.", "Oh lecker. Und was hast du gemacht, nachdem du Gans gegessen hattest?", "Nachdem ich Gans gegessen hatte, habe ich mich aufs Sofa gesetzt und einen Film auf Netflix angesehen.", "Richtig so."]}
 ]`;
 
-const triggers = ['bestehen Prüfung', 'durchfallen Prüfung', "sein (=one's) Auto verkaufen", 'heiraten', 'sich zum Pastafarismus bekennen', 'sich anmelden', 'seine Steuererklärung abgeben', 'an einem Osterfeuer teilnehmen', 'einen Weihnachtsbaum schmücken', 'aus der Kirche austreten', 'Gans essen'];
+const triggers = ['bestehen Prüfung', 'durchfallen Prüfung', 'sein (=one's) Auto verkaufen', 'heiraten', 'sich zum Pastafarismus bekennen', 'sich anmelden', 'seine Steuererklärung abgeben', 'an einem Osterfeuer teilnehmen', 'einen Weihnachtsbaum schmücken', 'aus der Kirche austreten', 'Gans essen'];
