@@ -1,7 +1,7 @@
 let allTriggerAnswersJSON = `[
 {"bestehen Prüfung" : ["Ich habe die Prüfung bestanden.", "Das freut mich für dich. Und was hast du gemacht, nachdem du die Prüfung bestanden hattest?", "Nachdem ich die Prüfung bestanden hatte, habe ich gefeiert.", "Richtig so."],
 "durchfallen Prüfung" : ["Ich bin durch die Prüfung durchgefallen.", "Das tut mir leid für dich. Und was hast du gemacht, nachdem du durch die Prüfung durchgefallen warst?", "Nachdem ich durch die Prüfung durchgefallen war, habe ich meine Fehler analysiert.", "Richtig so."],
-"sein (=one's) Auto verkaufen" : ["Ich habe mein Auto verkauft.", "Das ist interessant. Und was hast du gemacht, nachdem du dein Auto verkauft hattest?", "Nachdem ich mein Auto verkauft hatte, bin ich viel Fahrrad gefahren.", "Richtig so."],
+"sein Auto verkaufen" : ["Ich habe mein Auto verkauft.", "Das ist interessant. Und was hast du gemacht, nachdem du dein Auto verkauft hattest?", "Nachdem ich mein Auto verkauft hatte, bin ich viel Fahrrad gefahren.", "Richtig so."],
 "heiraten" : ["Ich habe vor sechs Jahren geheiratet.", "Das wusste ich gar nicht. Und was hast du gemacht, nachdem du geheiratet hattest?", "Nachdem ich geheiratet hatte, habe ich Kinder gekriegt.", "Richtig so."],
 "sich zum Pastafarismus bekennen" : ["Ich habe mich letztes Jahr zum Pastafarismus bekannt.", "Das ist schön. Und was hast du gemacht, nachdem du dich zum Pastafarismus bekannt hattest?", "Nachdem ich mich zum Pastafarismus bekannt hatte, bin nicht zum Jediismus konvertiert.", "Richtig so."],
 "sich anmelden" : ["Ich habe mich letzte Woche in Berlin angemeldet.", "Herzlichen Glückwunsch. Und was hast du gemacht, nachdem du dich angemeldet hattest?", "Nachdem ich mich angemeldet hatte, bin ich ein paar Möbel kaufen gegangen.", "Richtig so."],
@@ -12,4 +12,4 @@ let allTriggerAnswersJSON = `[
 "Gans essen" : ["Ich habe gestern Abend Gans gegessen.", "Oh lecker. Und was hast du gemacht, nachdem du Gans gegessen hattest?", "Nachdem ich Gans gegessen hatte, habe ich mich aufs Sofa gesetzt und einen Film auf Netflix angesehen.", "Richtig so."]}
 ]`;
 
-const triggers = ['bestehen Prüfung', 'durchfallen Prüfung', 'sein (=one's) Auto verkaufen', 'heiraten', 'sich zum Pastafarismus bekennen', 'sich anmelden', 'seine Steuererklärung abgeben', 'an einem Osterfeuer teilnehmen', 'einen Weihnachtsbaum schmücken', 'aus der Kirche austreten', 'Gans essen'];
+const triggers = ['bestehen Prüfung', 'durchfallen Prüfung', 'sein Auto verkaufen', 'heiraten', 'sich zum Pastafarismus bekennen', 'sich anmelden', 'seine Steuererklärung abgeben', 'an einem Osterfeuer teilnehmen', 'einen Weihnachtsbaum schmücken', 'aus der Kirche austreten', 'Gans essen'];
