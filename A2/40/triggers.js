@@ -11,4 +11,4 @@ let allTriggerAnswersJSON = `[
 "Gemeindehaus | sanieren" : ["Hast du schon gehört? Das Gemeindehaus wird geschlossen.", "Warum wird das Gemeindehaus denn geschlossen?", "Es wird endlich saniert.", "Das wurde aber auch Zeit!"]}
 ]`;
 
-const triggers = ['Kino | schließen', 'Handtaschenmuseum | restaurieren', 'Kindergarten | umbauen', 'Stadtpark | vergrößern', 'Wurstfabrik | abreißen', 'Flughafen | ausbauen', 'Musikschule | streichen', 'Tempelhof | neu bepflanzen', 'Zoo | renovieren', 'Gemeindehaus | sanieren'];
+const triggers = ['Kino | renovieren', 'Handtaschenmuseum | restaurieren', 'Kindergarten | umbauen', 'Stadtpark | vergrößern', 'Wurstfabrik | abreißen', 'Flughafen | ausbauen', 'Musikschule | streichen', 'Tempelhof | neu bepflanzen', 'Zoo | renovieren', 'Gemeindehaus | sanieren'];
