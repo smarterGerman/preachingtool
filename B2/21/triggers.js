@@ -4,7 +4,7 @@ let allTriggerAnswersJSON = `[
 "arm + Frau" : ["Oh mein Gott! Die arme Frau!"],
 "arm + Nachbarn" : ["Oh mein Gott! Die armen Nachbarn!"],
 "best + Schuhe" : ["Oh mein Gott! Die besten Schuhe!"],
-"neu + Fahrrad" : ["Oh mein Gott! Das neue Fahrrad!",],
+"neu + Fahrrad" : ["Oh mein Gott! Das neue Fahrrad!"],
 "arm + Hund" : ["Oh mein Gott! Der arme Hund!"],
 "gut + Essen" : ["Oh mein Gott! Das gute Essen!"],
 "alt + Hexe" : ["Oh mein Gott! Die alte Hexe!"],
