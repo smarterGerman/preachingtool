@@ -1,7 +1,7 @@
 let allTriggerAnswersJSON = `[
-{"schön + Tag" : ["Das ist oder das war ein schöner Tag."],
+{"schön + Tag" : ["Das ist ein schöner Tag."],
 "schön + Kind" : ["Das ist ein schönes Kind."],
-"schön + Situation" : ["Das ist ja eine schöne Situation."],
+"schön + Situation" : ["Das ist eine schöne Situation."],
 "schön + Schuhe" : ["Das sind schöne Schuhe."],
 "schön + Pullover" : ["Das ist ein schöner Pullover."],
 "schön + Auto" : ["Das ist ein schönes Auto."],
