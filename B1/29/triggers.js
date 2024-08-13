@@ -8,7 +8,7 @@ let allTriggerAnswersJSON = `[
 "Der Täter kann identifiziert werden" : ["Man kann den Täter identifizieren.", "Der Täter ist zu identifizieren.", "Der Täter ist identifizierbar.", "Der Täter lässt sich identifizieren."],
 "Die Tür kann einfach ersetzt werden." : ["Man kann die Tür einfach ersetzen.", "Die Tür ist einfach zu ersetzen.", "Die Tür ist einfach ersetzbar.", "Die Tür lässt sich einfach ersetzen."],
 "Die gewünschte Person kann nicht erreicht werden." : ["Man kann die gewünschte Person nicht erreichen.", "Die gewünschte Person ist nicht zu erreichen.", "Die gewünschte Person ist nicht erreichbar.", "Die gewünschte Person lässt sich nicht erreichen."],
-"Der Porsche 911 kann nicht verkauft werden." : ["Man kann den Porsche nicht verkaufen.", "Der Porsche ist nicht zu verkaufen.", "Der Porsche ist nicht verkäuflich.", "Der Porsche lässt sich nicht kaufen."]}
+"Der Porsche 911 kann nicht verkauft werden." : ["Man kann den Porsche nicht verkaufen.", "Der Porsche ist nicht zu verkaufen.", "Der Porsche ist nicht verkäuflich.", "Der Porsche lässt sich nicht verkaufen."]}
 ]`;
 
 const triggers = ['Das Wasser kann getrunken werden.', 'Die Unterschrift kann nicht gelesen werden.', 'Das Paket kann nicht zugestellt werden.', 'Die Datei kann nicht aufgefunden werden.', 'Das Gesicht konnte nicht erkannt werden.', 'Das Auto kann hier angemeldet werden.', 'Der Täter kann identifiziert werden', 'Die Tür kann einfach ersetzt werden.', 'Die gewünschte Person kann nicht erreicht werden.', 'Der Porsche 911 kann nicht verkauft werden.'];
