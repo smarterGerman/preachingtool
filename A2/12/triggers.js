@@ -6,7 +6,7 @@ let allTriggerAnswersJSON = `[
 "in + Stadt" : ["Wohin gehst du? Gehst du in die Stadt?", "Nein, ich gehe nicht in die Stadt.", "Warum gehst du nicht in die Stadt?", "Weil ich nicht in die Stadt gehe."],
 "an + Strand" : ["Wohin gehst du? Gehst du an den Strand?", "Nein, ich gehe nicht an den Strand.", "Warum gehst du nicht an den Strand?", "Weil ich nicht an den Strand gehe."],
 "vor + Tür" : ["Wohin gehst du? Gehst du vor die Tür?", "Nein, ich gehe nicht vor die Tür.", "Warum gehst du nicht vor die Tür?", "Weil ich nicht vor die Tür gehe."],
-"hinter + Haus" : ["Wohin gehst du? Gehst du hinter das Haus?", "Nein, ich gehe nicht hinter das Haus.", "Warum gehst du nicht hinter das Haus?", "Weil ich nicht hinter das Haus gehe."],
+"hinter + Haus" : ["Wohin gehst du? Gehst du hinters Haus?", "Nein, ich gehe nicht hinters Haus.", "Warum gehst du nicht hinters Haus?", "Weil ich nicht hinters Haus gehe."],
 "unter + Dusche" : ["Wohin gehst du? Gehst du unter die Dusche?", "Nein, ich gehe nicht unter die Dusche.", "Warum gehst du nicht unter die Dusche?", "Weil ich nicht unter die Dusche gehe."],
 "auf + Markt" : ["Wohin gehst du? Gehst du auf den Markt?", "Nein, ich gehe nicht auf den Markt.", "Warum gehst du nicht auf den Markt?", "Weil ich nicht auf den Markt gehe."]}
 ]`;
