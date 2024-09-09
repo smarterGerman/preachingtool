@@ -1,5 +1,5 @@
 let allTriggerAnswersJSON = `[
-{"Peter kommt später." : ["Peter wird wohl gleich kommen."],
+{"Peter kommt später." : ["Peter wird wohl später kommen."],
 "Es regnet gleich." : ["Es wird wohl gleich regnen."],
 "Peter ist krank." : ["Peter wird wohl krank sein."],
 "Das schaffe ich nicht." : ["Das werde ich wohl nicht schaffen."],
