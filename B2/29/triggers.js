@@ -1,7 +1,7 @@
 let allTriggerAnswersJSON = `[
 {"zu wenig≠länger schlafen" : ["Ich habe zu wenig geschlafen.", "Ich hätte gerne länger geschlafen.", "Hätte ich doch nur länger geschlafen.", "Hätte, hätte, Fahrradkette."],
 "spät≠früh aufstehen" : ["Ich bin zu spät aufgestanden.", "Ich wäre gerne früher aufgestanden.", "Wäre ich doch nur früher aufgestanden.", "Hätte, hätte, Fahrradkette."],
-"einen langweiligen≠interessanten Beruf lernen" : ["Ich habe einen langweiligen Beruf gelernt.", "Ich hätte gerne einen interessant(er)en Beruf gelernt.", "Hätte ich doch nur einen interessant(er)en Beruf gelernt.", "Hätte, hätte, Fahrradkette."],
+"einen langweiligen≠interessanten Beruf lernen" : ["Ich habe einen langweiligen Beruf gelernt.", "Ich hätte gerne einen interessanteren Beruf gelernt.", "Hätte ich doch nur einen interessanteren Beruf gelernt.", "Hätte, hätte, Fahrradkette."],
 "einen dummen≠interessanten Mann heiraten" : ["Ich habe einen dummen Mann geheiratet.", "Ich hätte gerne einen interessanten Mann geheiratet.", "Hätte ich doch nur einen interessanten Mann geheiratet.", "Hätte, hätte, Fahrradkette."],
 "ein gebrauchtes≠neues Auto kaufen" : ["Ich habe ein gebrauchtes Auto gekauft.", "Ich hätte gerne ein neues Auto gekauft.", "Hätte ich doch nur ein neues Auto gekauft.", "Hätte, hätte, Fahrradkette."],
 "in einem fremden≠meinem eigenen Bett aufwachen" : ["Ich bin in einem fremden Bett aufgewacht.", "Ich wäre gerne in meinem eigenen Bett aufgewacht.", "Wäre ich doch nur in meinem eigenen Bett aufgewacht.", "Hätte, hätte, Fahrradkette."],
