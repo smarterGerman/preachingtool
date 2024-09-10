@@ -11,4 +11,4 @@ let allTriggerAnswersJSON = `[
 "krank sein | sich ins Bett legen" : ["Was machst du, wenn du krank bist?", "Dann lege ich mich ins Bett.", "Und du? Was machst du, wenn du krank bist?", "Wenn ich krank bin, dann lege ich mich meistens auch ins Bett."]}
 ]`;
 
-const triggers = ['müde sein | einen Kaffee trinken', 'gestresst sein | meditieren', 'erkältet sein | Ingwertee mit Zitrone trinken', 'traurig sein | Klavier spielen', 'verliebt sein | verrückte Sachen machen', 'wütend sein | laut werden', 'nervös sein | meine Katze streicheln', 'lustlos sein | sich eine Massage gönnen', 'glücklich sein | ein Lied pfeifen', 'krank sein | sich ins Bett legen'];
+const triggers = ['müde sein | einen Kaffee trinken', 'gestresst sein | meditieren', 'erkaeltet sein | Tee trinken', 'traurig sein | Klavier spielen', 'verliebt sein | verrückte Sachen machen', 'wütend sein | laut werden', 'nervös sein | meine Katze streicheln', 'lustlos sein | sich eine Massage gönnen', 'glücklich sein | ein Lied pfeifen', 'krank sein | sich ins Bett legen'];
