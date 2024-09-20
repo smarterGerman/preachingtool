@@ -289,7 +289,7 @@ function finishGame(){
         audio_img.src = "https://www.filepicker.io/api/file/VyfbFTekQn6m2LEPlNm5";
         recognition.stop();
         let poopScript = transcript;
-        poopScript = transcript.replace(/grossen/gi, 'großen').replace(/gross/gi,'groß').replace(/grosse/gi,'große').replace(/grosses/gi,'großes').replace(/weiss/gi,'weiß').replace(/beisse/gi,'beiße').replace(/beisst/gi,'beißt').replace(/beissen/gi,'beißen').replace(/Fussball/gi,'Fußball');
+        poopScript = transcript.replace(/grossen/gi, 'großen').replace(/gross/gi,'groß').replace(/grosse/gi,'große').replace(/grosses/gi,'großes').replace(/weiss/gi,'weiß').replace(/beisse/gi,'beiße').replace(/beisst/gi,'beißt').replace(/beissen/gi,'beißen').replace(/Fussball/gi,'Fußball').replace(/Na denn/gi, 'Na den');
         p.textContent = poopScript;
         p = document.createElement('p');
         words.appendChild(p);
@@ -338,7 +338,7 @@ function finishGame(){
       // recognition.stop();
       recognition.stop();
       let poopScript = transcript;
-      poopScript = transcript.replace(/grossen/gi, 'großen').replace(/gross/gi,'groß').replace(/grosse/gi,'große').replace(/grosses/gi,'großes').replace(/weiss/gi,'weiß').replace(/beisse/gi,'beiße').replace(/beisst/gi,'beißt').replace(/beissen/gi,'beißen').replace(/Fussball/gi,'Fußball');
+      poopScript = transcript.replace(/grossen/gi, 'großen').replace(/gross/gi,'groß').replace(/grosse/gi,'große').replace(/grosses/gi,'großes').replace(/weiss/gi,'weiß').replace(/beisse/gi,'beiße').replace(/beisst/gi,'beißt').replace(/beissen/gi,'beißen').replace(/Fussball/gi,'Fußball').replace(/Na denn/gi, 'Na den');
       p.textContent = poopScript;
       p = document.createElement('p');
       words.appendChild(p);
