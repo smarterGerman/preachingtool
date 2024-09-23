@@ -1,7 +1,7 @@
 let allTriggerAnswersJSON = `[
 {"Er arbeitet hier. | angestellt" : ["Kennst du die Person dort?", "Er arbeitet hier.", "Aha, er ist ein Angestellter", "Du hast es erfasst."],
 "Sie ist meine Nichte. | verwandt" : ["Kennst du die Person dort?", "Sie ist meine Nichte.", "Aha, sie ist deine Verwandte.", "Du hast es erfasst."],
-"Er kommt aus Deutschland. | Deutsch" : ["Kennst du die Person dort?", "Er kommt aus Deutschland..", "Aha, er ist ein Deutscher.", "Du hast es erfasst."],
+"Er kommt aus Deutschland. | Deutsch" : ["Kennst du die Person dort?", "Er kommt aus Deutschland.", "Aha, er ist ein Deutscher.", "Du hast es erfasst."],
 "Ich kenne sie | vertraut" : ["Kennst du die Person dort?", "Ich kenne sie.", "Aha, sie ist eine Vertraute.", "Du hast es erfasst."],
 "Ich liebe ihn | geliebt" : ["Kennst du die Person dort?", "Ich liebe ihn.", "Aha, er ist ein Geliebter.", "Du hast es erfasst."],
 "Ich habe Angst vor ihr. | verrückt" : ["Kennst du die Person dort?", "Ich habe Angst vor ihr.", "Aha, sie ist eine Verrückte.", "Du hast es erfasst."],
