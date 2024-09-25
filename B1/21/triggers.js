@@ -1,5 +1,5 @@
 let allTriggerAnswersJSON = `[
-{"Mann | jung" : ["Ich habe einen Mann.", "Er ist älter als ich.", "Also habe ich einen älteren Mann.", "Und das gefällt mir."],
+{"Mann | jung" : ["Ich habe einen Mann.", "Er ist jünger als ich.", "Also habe ich einen jüngeren Mann.", "Und das gefällt mir."],
 "Kind | intelligent" : ["Ich habe ein Kind.", "Es ist intelligenter als ich.", "Also habe ich ein intelligenteres Kind.", "Und das gefällt mir."],
 "Frau | alt" : ["Ich habe eine Frau.", "Sie ist älter als ich.", "Also habe ich eine ältere Frau.", "Und das gefällt mir."],
 "Nachbarin | neugierig" : ["Ich habe eine Nachbarin.", "Sie ist neugieriger als ich.", "Also habe ich eine neugierigere Nachbarin.", "Und das gefällt mir."],
