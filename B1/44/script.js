@@ -289,7 +289,17 @@ function finishGame(){
         audio_img.src = "https://www.filepicker.io/api/file/VyfbFTekQn6m2LEPlNm5";
         recognition.stop();
         let poopScript = transcript;
-        poopScript = transcript.replace(/grossen/gi, 'großen').replace(/gross/gi,'groß').replace(/grosse/gi,'große').replace(/grosses/gi,'großes').replace(/weiss/gi,'weiß').replace(/beisse/gi,'beiße').replace(/beisst/gi,'beißt').replace(/beissen/gi,'beißen').replace(/Fussball/gi,'Fußball').replace(/Na denn/gi, 'Na den').replace(/bevor ich hinter der Tür stand ich nirgends/gi, "Bevor ich hinter der Tür stand, stand ich nirgends.");
+        poopScript = transcript.replace(/grossen/gi, 'großen').replace(/gross/gi,'groß').replace(/grosse/gi,'große').replace(/grosses/gi,'großes').replace(/weiss/gi,'weiß').replace(/beisse/gi,'beiße').replace(/beisst/gi,'beißt').replace(/beissen/gi,'beißen').replace(/Fussball/gi,'Fußball').replace(/Na denn/gi, 'Na den')
+        .replace(/bevor ich hinter der Tür stand ich nirgends/gi, "Bevor ich hinter der Tür stand, stand ich nirgends.")
+        .replace(/bevor ich hinter dem Kino stand ich nirgends/gi, "Bevor ich hinter dem Kino stand, stand ich nirgends.")
+        .replace(/bevor ich hinter der Schule stand ich nirgends/gi, "Bevor ich hinter der Schule stand, stand ich nirgends.")
+        .replace(/bevor ich hinter dem Aldi stand ich nirgends/gi, "Bevor ich hinter dem Aldi stand, stand ich nirgends.")
+        .replace(/bevor ich hinter der Ampel stand ich nirgends/gi, "Bevor ich hinter der Ampel stand, stand ich nirgends.")
+        .replace(/bevor ich hinter dem Kottbusser stand ich nirgends/gi, "Bevor ich hinter dem Kottbusser stand, stand ich nirgends.")
+        .replace(/bevor ich hinter dem Spielplatz stand ich nirgends/gi, "Bevor ich hinter dem Spielplatz stand, stand ich nirgends.")
+        .replace(/bevor ich hinter dem Kino stand ich nirgends/gi, "Bevor ich hinter dem Kino stand, stand ich nirgends.")
+        .replace(/bevor ich hinter der Tiefgarage stand ich nirgends/gi, "Bevor ich hinter der Tiefgarage stand, stand ich nirgends.")
+        .replace(/bevor ich hinter dem Fernsehturm stand ich nirgends/gi, "Bevor ich hinter dem Fernsehturm stand, stand ich nirgends.");
         p.textContent = poopScript;
         p = document.createElement('p');
         words.appendChild(p);
@@ -338,7 +348,17 @@ function finishGame(){
       // recognition.stop();
       recognition.stop();
       let poopScript = transcript;
-      poopScript = transcript.replace(/grossen/gi, 'großen').replace(/gross/gi,'groß').replace(/grosse/gi,'große').replace(/grosses/gi,'großes').replace(/weiss/gi,'weiß').replace(/beisse/gi,'beiße').replace(/beisst/gi,'beißt').replace(/beissen/gi,'beißen').replace(/Fussball/gi,'Fußball').replace(/Na denn/gi, 'Na den').replace(/bevor ich hinter der Tür stand ich nirgends/gi, "Bevor ich hinter der Tür stand, stand ich nirgends.");
+      poopScript = transcript.replace(/grossen/gi, 'großen').replace(/gross/gi,'groß').replace(/grosse/gi,'große').replace(/grosses/gi,'großes').replace(/weiss/gi,'weiß').replace(/beisse/gi,'beiße').replace(/beisst/gi,'beißt').replace(/beissen/gi,'beißen').replace(/Fussball/gi,'Fußball').replace(/Na denn/gi, 'Na den')
+      .replace(/bevor ich hinter der Tür stand ich nirgends/gi, "Bevor ich hinter der Tür stand, stand ich nirgends.")
+      .replace(/bevor ich hinter dem Kino stand ich nirgends/gi, "Bevor ich hinter dem Kino stand, stand ich nirgends.")
+      .replace(/bevor ich hinter der Schule stand ich nirgends/gi, "Bevor ich hinter der Schule stand, stand ich nirgends.")
+      .replace(/bevor ich hinter dem Aldi stand ich nirgends/gi, "Bevor ich hinter dem Aldi stand, stand ich nirgends.")
+      .replace(/bevor ich hinter der Ampel stand ich nirgends/gi, "Bevor ich hinter der Ampel stand, stand ich nirgends.")
+      .replace(/bevor ich hinter dem Kottbusser stand ich nirgends/gi, "Bevor ich hinter dem Kottbusser stand, stand ich nirgends.")
+      .replace(/bevor ich hinter dem Spielplatz stand ich nirgends/gi, "Bevor ich hinter dem Spielplatz stand, stand ich nirgends.")
+      .replace(/bevor ich hinter dem Kino stand ich nirgends/gi, "Bevor ich hinter dem Kino stand, stand ich nirgends.")
+      .replace(/bevor ich hinter der Tiefgarage stand ich nirgends/gi, "Bevor ich hinter der Tiefgarage stand, stand ich nirgends.")
+      .replace(/bevor ich hinter dem Fernsehturm stand ich nirgends/gi, "Bevor ich hinter dem Fernsehturm stand, stand ich nirgends.");
       p.textContent = poopScript;
       p = document.createElement('p');
       words.appendChild(p);
