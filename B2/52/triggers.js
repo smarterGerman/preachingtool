@@ -1,2 +1,30 @@
-
-
+let allTriggerAnswersJSON = `[
+    {"Er lernt Deutsch. Er verbessert seine Chancen auf dem Arbeitsmarkt." : ["Indem er Deutsch lernt, verbessert er seine Chancen auf dem Arbeitsmarkt."],
+    "Sie hört ihrem Vater zu. Sie vermeidet Streit." : ["Indem sie ihrem Vater zuhört, vermeidet sie Streit."],
+    "Man verzichtet auf Flugreisen. Man schont die Umwelt." : ["Indem man auf Flugreisen verzichtet, schont man die Umwelt."],
+    "Ich treibe viel Sport. Ich bleibe gesund." : ["Indem ich viel Sport treibe, bleibe ich gesund."],
+    "Ich bestehe die Prüfung. Ich bereite mich gut vor." : ["Indem ich mich gut vorbereite, bestehe ich die Prüfung."],
+    "Er microdosiert LSD. Er steigert seine Arbeitsleistung." : ["Indem er LSD microdosiert, steigert er seine Arbeitsleistung."],
+    "Ich vermeide Konflikte. Ich denke nach bevor ich handle." : ["Indem ich nachdenke, bevor ich handle, vermeide ich Konflikte."],
+    "Wir gehen eine Viertelstunde früher los. Wir kommen pünktlich." : ["Indem wir eine Viertelstunde früher losgehen, kommen wir pünktlich."],
+    "Ich konsumiere weniger. Ich habe mehr Geld." : ["Indem ich weniger konsumiere, habe ich mehr Geld."],
+    "Sie arbeitet langsamer. Sie hat weniger Stress." : ["Indem sie langsamer arbeitet, hat sie weniger Stress."],
+    "Der Fernfahrer kommt schneller ans Ziel. Er macht keine Pause." : ["Indem der Fernfahrer keine Pause macht, kommt er schneller ans Ziel."],
+    "Ihr holt euch eine Putzkraft. Ihr schafft euch mehr Freiraum." : ["Indem ihr euch eine Putzkraft holt, schafft ihr euch mehr Freiraum."],
+    "Die Gesellschaft recycelt Plastik. Sie hält so die Ozeane etwas sauberer." : ["Indem die Gesellschaft Plastik recycelt, hält sie die Ozeane etwas sauberer."],
+    "Ich konzentriere mich auf das Wesentliche. Ich habe mehr Zeit für die schönen Dinge im Leben." : ["Indem ich mich auf das Wesentliche konzentriere, habe ich mehr Zeit für die schönen Dinge im Leben."]}
+    ]`;
+const triggers = ['Er lernt Deutsch. Er verbessert seine Chancen auf dem Arbeitsmarkt.', 
+    'Sie hört ihrem Vater zu. Sie vermeidet Streit.',
+    'Man verzichtet auf Flugreisen. Man schont die Umwelt.',
+    'Ich treibe viel Sport. Ich bleibe gesund.',
+    'Ich bestehe die Prüfung. Ich bereite mich gut vor.',
+    'Er microdosiert LSD. Er steigert seine Arbeitsleistung.',
+    'Ich vermeide Konflikte. Ich denke nach bevor ich handle.',
+    'Wir gehen eine Viertelstunde früher los. Wir kommen pünktlich.',
+    'Ich konsumiere weniger. Ich habe mehr Geld.',
+    'Sie arbeitet langsamer. Sie hat weniger Stress.',
+    'Der Fernfahrer kommt schneller ans Ziel. Er macht keine Pause.',
+    'Ihr holt euch eine Putzkraft. Ihr schafft euch mehr Freiraum.',
+    'Die Gesellschaft recycelt Plastik. Sie hält so die Ozeane etwas sauberer.',
+    'Ich konzentriere mich auf das Wesentliche. Ich habe mehr Zeit für die schönen Dinge im Leben.'];

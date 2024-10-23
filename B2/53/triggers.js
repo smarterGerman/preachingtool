@@ -1,2 +1,30 @@
-
-
+let allTriggerAnswersJSON = `[
+    {"Deutsch lernen - seine Chancen auf dem Arbeitsmarkt verbessern" : ["Indem er Deutsch lernt, verbessert er seine Chancen auf dem Arbeitsmarkt."],
+    "dem Vater zuhören - Streit vermeiden" : ["Indem sie ihrem Vater zuhört, vermeidet sie Streit."],
+    "auf Flugreisen verzichten - die Umwelt schonen" : ["Indem man auf Flugreisen verzichtet, schont man die Umwelt."],
+    "viel Sport treiben - gesund bleiben" : ["Indem ich viel Sport treibe, bleibe ich gesund."],
+    "die Prüfung bestehen - sich gut vorbereiten" : ["Indem ich mich gut vorbereite, bestehe ich die Prüfung."],
+    "LSD mikrodosieren - seine Arbeitsleistung steigern" : ["Indem er LSD microdosiert, steigert er seine Arbeitsleistung."],
+    "Konflikte vermeiden - nachdenken bevor man handelt" : ["Indem ich nachdenke, bevor ich handle, vermeide ich Konflikte."],
+    "eine Viertelstunde früher losgehen - pünktlich kommen" : ["Indem wir eine Viertelstunde früher losgehen, kommen wir pünktlich."],
+    "weniger konsumieren - mehr Geld haben." : ["Indem ich weniger konsumiere, habe ich mehr Geld."],
+    "langsamer arbeiten - weniger Stress haben" : ["Indem sie langsamer arbeitet, hat sie weniger Stress."],
+    "keine Pause machen - schneller ans Ziel kommen" : ["Indem der Fernfahrer keine Pause macht, kommt er schneller ans Ziel."],
+    "sich eine Putzkraft holen - sich mehr Freiraum schaffen" : ["Indem ihr euch eine Putzkraft holt, schafft ihr euch mehr Freiraum."],
+    "Plastik recyceln - die Ozeane etwas sauberer halten" : ["Indem die Gesellschaft Plastik recycelt, hält sie die Ozeane etwas sauberer."],
+    "sich auf das Wesentliche konzentrieren - mehr Zeit für die schönen Dinge im Leben haben" : ["Indem ich mich auf das Wesentliche konzentriere, habe ich mehr Zeit für die schönen Dinge im Leben."]}
+    ]`;
+const triggers = ['Deutsch lernen - seine Chancen auf dem Arbeitsmarkt verbessern', 
+    'dem Vater zuhören - Streit vermeiden',
+    'auf Flugreisen verzichten - die Umwelt schonen',
+    'viel Sport treiben - gesund bleiben',
+    'die Prüfung bestehen - sich gut vorbereiten',
+    'LSD mikrodosieren - seine Arbeitsleistung steigern',
+    'Konflikte vermeiden - nachdenken bevor man handelt',
+    'eine Viertelstunde früher losgehen - pünktlich kommen',
+    'weniger konsumieren - mehr Geld haben.',
+    'langsamer arbeiten - weniger Stress haben',
+    'keine Pause machen - schneller ans Ziel kommen',
+    'sich eine Putzkraft holen - sich mehr Freiraum schaffen',
+    'Plastik recyceln - die Ozeane etwas sauberer halten',
+    'sich auf das Wesentliche konzentrieren - mehr Zeit für die schönen Dinge im Leben haben'];
