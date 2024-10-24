@@ -236,7 +236,8 @@ function startRecording(){
         audio_img.src = "https://www.filepicker.io/api/file/VyfbFTekQn6m2LEPlNm5";
         recognition.stop();
         let poopScript = transcript;
-        poopScript = transcript.replace(/grossen/gi, 'großen').replace(/gross/gi,'groß').replace(/grosse/gi,'große').replace(/grosses/gi,'großes').replace(/weiss/gi,'weiß').replace(/beisse/gi,'beiße').replace(/beisst/gi,'beißt').replace(/beissen/gi,'beißen').replace(/Fussball/gi,'Fußball');
+        poopScript = transcript.replace(/grossen/gi, 'großen').replace(/gross/gi,'groß').replace(/grosse/gi,'große').replace(/grosses/gi,'großes').replace(/weiss/gi,'weiß').replace(/beisse/gi,'beiße').replace(/beisst/gi,'beißt').replace(/beissen/gi,'beißen').replace(/Fussball/gi,'Fußball')
+        .replace(/Micro dosiert/gi,'microdosiert');
         p = document.createElement('p');
         words.appendChild(p);
         // Remove special characters from current_trigger 
