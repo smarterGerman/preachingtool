@@ -21,7 +21,7 @@ let allTriggerAnswersJSON = `[
 "zu viel in Kauf nehmen - to accept too much" : ["Was ist denn das Problem?", "Ich nehme zu viel in Kauf.", "Bist du dir da ganz sicher?", "Ja, ich nehme zu viel in Kauf."],
 "sich in mit jemandem in Verbindung setzen - to get in touch with someone" : ["Was ist denn das Problem?", "Ich muss mich mit jemandem in Verbindung setzen.", "Bist du dir da ganz sicher?", "Ja, ich muss mich mit jemandem in Verbindung setzen."],
 "in Kraft treten - to come into effect/force | Gesetz - law" : ["Was ist denn das Problem?", "Das Gesetz tritt in Kraft.", "Bist du dir da ganz sicher?", "Ja, das Gesetz tritt in Kraft."],
-"sich in jemandes Lage versetzen - to put oneself into someone"s position  | deine - your" : ["Was ist denn das Problem?", "Ich versetze mich in deine Lage.", "Bist du dir da ganz sicher?", "Ja, ich versetze mich in deine Lage."],
+"sich in jemandes Lage versetzen - to put oneself into someone's position  | deine - your" : ["Was ist denn das Problem?", "Ich versetze mich in deine Lage.", "Bist du dir da ganz sicher?", "Ja, ich versetze mich in deine Lage."],
 "zur Rechenschaft ziehen - to hold sb to account | dich - you" : ["Was ist denn das Problem?", "Ich ziehe dich zur Rechenschaft.", "Bist du dir da ganz sicher?", "Ja, ich ziehe dich zur Rechenschaft."],
 "zur Rede stellen - to confront | dich - you" : ["Was ist denn das Problem?", "Ich stelle dich zur Rede.", "Bist du dir da ganz sicher?", "Ja, ich stelle dich zur Rede."],
 "zur Sprache kommen - to come up for discussion | das - that" : ["Was ist denn das Problem?", "Das kommt zur Sprache.", "Bist du dir da ganz sicher?", "Ja, das kommt zur Sprache."],
