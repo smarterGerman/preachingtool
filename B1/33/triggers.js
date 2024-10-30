@@ -4,7 +4,7 @@ let allTriggerAnswersJSON = `[
 "Die Mauer wurde frisch gestrichen." : ["Ich sehe eine frisch gestrichene Mauer."],
 "Der Zug ist verspätet." : ["Ich sehe einen verspäteten Zug."],
 "Der Fisch ist frisch gefangen." : ["Ich sehe einen frisch gefangenen Fisch."],
-"Der Mann wurde geschieden." : ["ch sehe einen geschiedenen Mann."],
+"Der Mann wurde geschieden." : ["Ich sehe einen geschiedenen Mann."],
 "Das Bier wurde frisch gezapft." : ["Ich sehe ein frisch gezapftes Bier."],
 "Der Ausweis wurde gefälscht." : ["Ich sehe einen gefälschten Ausweis."],
 "Das Hemd wurde frisch gewaschen." : ["Ich sehe ein frisch gewaschenes Hemd."],
