@@ -8,7 +8,7 @@ let allTriggerAnswersJSON = `[
 "Kollegin | Chefin |  rausschmeißen" : ["Ich habe gehört, dass die Kollegin rausgeschmissen wird.", "Das stimmt. Die Kollegin wird rausgeschmissen.", "Von wem wird die Kollegin denn rausgeschmissen?", "Sie wird von der Chefin rausgeschmissen."],
 "Stadion | Bauamt | bauen" : ["Ich habe gehört, dass das Stadion gebaut wird.", "Das stimmt. Das Stadion wird gebaut.", "Von wem wird das Stadion denn gebaut?", "Es wird vom Bauamt gebaut."],
 "Kino | Eigentümer | schließen" : ["Ich habe gehört, dass das Kino geschlossen wird.", "Das stimmt. Das Kino wird geschlossen.", "Von wem wird das Kino denn geschlossen?", "Es wird vom Eigentümer geschlossen."],
-"Schulen (pl) | Eltern (pl) | renovieren" : ["Ich habe gehört, dass die Schulen renoviert werden.", "Das stimmt. Die Schulen werden renoviert .", "Von wem wird die Schulen denn renoviert?", "Sie werden von den Eltern renoviert."]}
+"Schulen (pl) | Eltern (pl) | renovieren" : ["Ich habe gehört, dass die Schulen renoviert werden.", "Das stimmt. Die Schulen werden renoviert.", "Von wem wird die Schulen denn renoviert?", "Sie werden von den Eltern renoviert."]}
 ]`;
 
 const triggers = ['Redakteur | Eigentümer | entlassen werden', 'Institut | Bezirksamt | schließen', 'Kirche | Regierung | umbauen', 'Zirkus | Tierschutzverein | boykottieren', 'Preise (pl) | Ölkonzerne (pl) |  erhöhen', 'Denkmal | Gemeinde | etwas abreißen', 'Kollegin | Chefin |  rausschmeißen', 'Stadion | Bauamt | bauen', 'Kino | Eigentümer | schließen', 'Schulen (pl) | Eltern (pl) | renovieren'];
