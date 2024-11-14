@@ -4,7 +4,7 @@ let allTriggerAnswersJSON = `[
 "sein (=one's) Auto verkaufen" : ["Ich habe mein Auto verkauft.", "Ich hatte mein Auto verkauft.", "Nachdem ich mein Auto verkauft hatte, war ich glücklich.", "Ich bin heute immer noch glücklich."],
 "heiraten" : ["Ich habe geheiratet.", "Ich hatte geheiratet.", "Nachdem ich geheiratet hatte, war ich glücklich.", "Ich bin heute immer noch glücklich."],
 "die Scheidung einreichen" : ["Ich habe die Scheidung eingereicht.", "Ich hatte die Scheidung eingereicht.", "Nachdem ich die Scheidung eingereicht hatte, war ich traurig.", "Ich bin heute immer noch glücklich."],
-"sich zum Pastafarismus bekennen" : ["Ich habe mich zum Pastafarismus bekannt.", "Ich hatte mich zum Pastafarismus bekannt.", "Nachdem ich mich zum Pastafarismus bekannt hatte, war ich glücklich.", "Ich bin heute immer noch glücklich."],
+"sich zum Islam bekennen" : ["Ich habe mich zum Islam bekannt.", "Ich hatte mich zum Islam bekannt.", "Nachdem ich mich zum Islam bekannt hatte, war ich glücklich.", "Ich bin heute immer noch glücklich."],
 "seine Steuererklärung abgeben" : ["Ich habe meine Steuererklärung abgegeben.", "Ich hatte meine Steuererklärung abgegeben.", "Nachdem ich meine Steuererklärung abgegeben hatte, war ich glücklich.", "Ich bin heute immer noch glücklich."],
 "das Problem ansprechen" : ["Ich habe das Problem angesprochen.", "Ich hatte das Problem angesprochen.", "Nachdem ich das Problem angesprochen hatte, war ich glücklich.", "Ich bin heute immer noch glücklich."],
 "mit dem Rauchen aufhören" : ["Ich habe mit dem Rauchen aufgehört.", "Ich hatte mit dem Rauchen aufgehört.", "Nachdem ich mit dem Rauchen aufgehört hatte, war ich glücklich.", "Ich bin heute immer noch glücklich."],
