@@ -1,9 +1,9 @@
 let allTriggerAnswersJSON = `[
 {"die Prüfung bestehen" : ["Ich habe die Prüfung bestanden.", "Ich hatte die Prüfung bestanden.", "Nachdem ich die Prüfung bestanden hatte, war ich glücklich.", "Ich bin heute immer noch glücklich."],
-"durch die Fahrprüfung fallen" : ["Ich bin durch die Fahrprüfung gefallen.", "Ich war durch die Fahrprüfung gefallen.", "Nachdem ich durch die Fahrprüfung gefallen war, war ich traurig.", "Ich bin heute immer noch glücklich."],
+"durch die Fahrprüfung fallen" : ["Ich bin durch die Fahrprüfung gefallen.", "Ich war durch die Fahrprüfung gefallen.", "Nachdem ich durch die Fahrprüfung gefallen war, war ich traurig.", "Ich bin heute immer noch traurig."],
 "sein (=one's) Auto verkaufen" : ["Ich habe mein Auto verkauft.", "Ich hatte mein Auto verkauft.", "Nachdem ich mein Auto verkauft hatte, war ich glücklich.", "Ich bin heute immer noch glücklich."],
 "heiraten" : ["Ich habe geheiratet.", "Ich hatte geheiratet.", "Nachdem ich geheiratet hatte, war ich glücklich.", "Ich bin heute immer noch glücklich."],
-"die Scheidung einreichen" : ["Ich habe die Scheidung eingereicht.", "Ich hatte die Scheidung eingereicht.", "Nachdem ich die Scheidung eingereicht hatte, war ich traurig.", "Ich bin heute immer noch glücklich."],
+"die Scheidung einreichen" : ["Ich habe die Scheidung eingereicht.", "Ich hatte die Scheidung eingereicht.", "Nachdem ich die Scheidung eingereicht hatte, war ich traurig.", "Ich bin heute immer noch traurig."],
 "sich zum Islam bekennen" : ["Ich habe mich zum Islam bekannt.", "Ich hatte mich zum Islam bekannt.", "Nachdem ich mich zum Islam bekannt hatte, war ich glücklich.", "Ich bin heute immer noch glücklich."],
 "seine Steuererklärung abgeben" : ["Ich habe meine Steuererklärung abgegeben.", "Ich hatte meine Steuererklärung abgegeben.", "Nachdem ich meine Steuererklärung abgegeben hatte, war ich glücklich.", "Ich bin heute immer noch glücklich."],
 "das Problem ansprechen" : ["Ich habe das Problem angesprochen.", "Ich hatte das Problem angesprochen.", "Nachdem ich das Problem angesprochen hatte, war ich glücklich.", "Ich bin heute immer noch glücklich."],
