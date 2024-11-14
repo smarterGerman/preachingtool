@@ -11,4 +11,4 @@ let allTriggerAnswersJSON = `[
 "die Operation überstehen" : ["Ich habe die Operation überstanden.", "Ich hatte die Operation überstanden.", "Nachdem ich die Operation überstanden hatte, war ich glücklich.", "Ich bin heute immer noch glücklich."]}
 ]`;
 
-const triggers = ['die Prüfung bestehen', 'durch die Fahrprüfung fallen', "sein (=one's) Auto verkaufen", 'heiraten', 'die Scheidung einreichen', 'sich zum Pastafarismus bekennen', 'seine Steuererklärung abgeben', 'das Problem ansprechen', 'mit dem Rauchen aufhören', 'die Operation überstehen'];
+const triggers = ['die Prüfung bestehen', 'durch die Fahrprüfung fallen', "sein (=one's) Auto verkaufen", 'heiraten', 'die Scheidung einreichen', 'sich zum Islam bekennen', 'seine Steuererklärung abgeben', 'das Problem ansprechen', 'mit dem Rauchen aufhören', 'die Operation überstehen'];
