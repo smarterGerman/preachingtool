@@ -8,7 +8,7 @@ let allTriggerAnswersJSON = `[
 "vor dem Spielplatz" : ["Ich stehe vor dem Spielplatz.", "Vorher stand ich hinter dem Spielplatz.", "Und wo standest du davor?", "Bevor ich hinter dem Spielplatz stand, stand ich nirgends."],
 "vor dem Kino" : ["Ich stehe vor dem Kino.", "Vorher stand ich hinter dem Kino.", "Und wo standest du davor?", "Bevor ich hinter dem Kino stand, stand ich nirgends."],
 "vor der Tiefgarage" : ["Ich stehe vor der Tiefgarage.", "Vorher stand ich hinter der Tiefgarage.", "Und wo standest du davor?", "Bevor ich hinter der Tiefgarage stand, stand ich nirgends."],
-"vor dem Fernsehturm" : ["Ich stehe vor dem Fernsehturm.", "Vorher stand ich dahinter.", "Und wo standest du davor?", "Bevor ich hinter dem Fernsehturm stand, stand ich nirgends."]}
+"vor dem Fernsehturm" : ["Ich stehe vor dem Fernsehturm.", "Vorher stand ich hinter dem Fernsehturm.", "Und wo standest du davor?", "Bevor ich hinter dem Fernsehturm stand, stand ich nirgends."]}
 ]`;
 
 const triggers = ['vor der Tür', 'vor dem Kino', 'vor der Schule', 'vor dem Aldi', 'vor der Ampel', 'vor dem Kottbusser Tor', 'vor dem Spielplatz', 'vor dem Kino', 'vor der Tiefgarage', 'vor dem Fernsehturm'];
