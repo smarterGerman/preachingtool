@@ -11,4 +11,4 @@ let allTriggerAnswersJSON = `[
 "Freund | heiß" : ["Mein Freund ist heiß.", "Dein Freund ist heißer als meiner.", "Mein  Freund ist heiß. Dein Freund ist heißer. Aber sein Freund ist am heißesten.", "Und sie hat gar keinen Freund"]}
 ]`;
 
-const triggers = ['Chef | gemein', 'Auto | dreckig', 'Katze | leise', 'Muckis (pl) | groß', 'Problem | groß', 'Soße | scharf', 'Wohnung | zentral', 'Kochkunst | gut', 'IQ | hoch', 'Freund | heiß'];
+const triggers = ['Chef | gemein', 'Auto | dreckig', 'Katze | leise', 'Muckis (pl) | groß', 'Problem | groß', 'Soße | scharf', 'Wohnung | zentral', 'Kochkünste | gut', 'IQ | hoch', 'Freund | heiß'];
