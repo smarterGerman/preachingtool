@@ -1,5 +1,5 @@
 let allTriggerAnswersJSON = `[
-{"es mögen | Klamotten kaufen" : ["Kaufst du ein?", "Ich mag es, einzukaufen.", "Warum magst du es denn, einzukaufen?", "Weil ich es schlicht und einfach mag."],
+{"es mögen | einkaufen" : ["Kaufst du ein?", "Ich mag es, einzukaufen.", "Warum magst du es denn, einzukaufen?", "Weil ich es schlicht und einfach mag."],
 "es leid sein | alles organisieren" : ["Organisierst du alles?", "Ich bin es leid, alles zu organisieren.", "Warum bist du es denn leid, alles zu organisieren?", "Weil ich es schlicht und einfach leid bin."],
 "es ist nötig | aufräumen" : ["Räumst du auf?", "Es ist nötig, aufzuräumen.", "Warum ist es denn nötig, aufzuräumen?", "Weil es schlicht und einfach nötig ist."],
 "es hassen | kochen" : ["Kochst du?", "Ich hasse es, zu kochen.", "Warum hasst du es denn, zu kochen?", "Weil ich es schlicht und einfach hasse."],
@@ -11,4 +11,4 @@ let allTriggerAnswersJSON = `[
 "es ist selbstverständlich | alles alleine machen" : ["Machst du alles alleine?", "Es ist selbstverständlich, alles alleine zu machen.", "Warum ist es denn selbstverständlich, alles alleine zu machen?", "Weil es schlicht und einfach selbstverständlich ist."]}
 ]`;
 
-const triggers = ['es mögen | Klamotten kaufen', 'es leid sein | alles organisieren', 'es ist nötig | aufräumen', 'es hassen | kochen', 'es fühlt sich gut an | die Arbeit stehen lassen', 'es macht Spaß | putzen', 'es tut mir gut | rauchen', 'es liegt mir  | handwerklich arbeiten', 'es ist langweilig | für die Prüfung lernen', 'es ist selbstverständlich | alles alleine machen'];
+const triggers = ['es mögen | einkaufen', 'es leid sein | alles organisieren', 'es ist nötig | aufräumen', 'es hassen | kochen', 'es fühlt sich gut an | die Arbeit stehen lassen', 'es macht Spaß | putzen', 'es tut mir gut | rauchen', 'es liegt mir  | handwerklich arbeiten', 'es ist langweilig | für die Prüfung lernen', 'es ist selbstverständlich | alles alleine machen'];
