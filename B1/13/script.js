@@ -272,7 +272,7 @@ function finishGame(){
       // Reset correct answer div 
       correct_answers_div.innerText = "";
       // MIC ON
-      audio_img.src = "https://www.filepicker.io/api/file/Vd1N70dPS1yslZ2XwZEJ";
+  audio_img.src = "https://raw.githubusercontent.com/smarterGerman/preachingtool/main/icons/preaching-tool-microphone-button-active-symbol.png";
       // const transcript = event.results[event.results.length - 1][0].transcript;
       const transcript = Array.from(event.results)
       .map(result => result[0])
@@ -320,7 +320,7 @@ function finishGame(){
     
     correct_answers_div.innerText = "";
     // MIC ON 
-    audio_img.src = "https://www.filepicker.io/api/file/Vd1N70dPS1yslZ2XwZEJ"
+  audio_img.src = "https://raw.githubusercontent.com/smarterGerman/preachingtool/main/icons/preaching-tool-microphone-button-active-symbol.png"
     // const transcript = event.results[event.results.length - 1][0].transcript;
     const transcript = Array.from(event.results)
       .map(result => result[0])
@@ -378,7 +378,7 @@ window.addEventListener("keydown", (event) => {
       countTrigger();
       initialCounter = false;
     }
-    audio_img.src = "https://www.filepicker.io/api/file/Vd1N70dPS1yslZ2XwZEJ";
+  audio_img.src = "https://raw.githubusercontent.com/smarterGerman/preachingtool/main/icons/preaching-tool-microphone-button-active-symbol.png";
     startRecording();
     // if(!preachingStarted){
     //   // cancelSpeech();
