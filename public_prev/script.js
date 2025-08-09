@@ -407,7 +407,7 @@ function finishGame(){
     }
     if (preachingStarted){
       cancelSpeech();
-      audio_img.src = "https://www.filepicker.io/api/file/Vd1N70dPS1yslZ2XwZEJ"
+  audio_img.src = "https://raw.githubusercontent.com/smarterGerman/preachingtool/main/icons/preaching-tool-microphone-button-active-symbol.png"
       recognition.start();
     }
     preachingStarted = 1;
