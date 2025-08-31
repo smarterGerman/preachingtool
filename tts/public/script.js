@@ -326,7 +326,7 @@ function finishGame(){
     }
     recognition.addEventListener('end', () => {
       // MIC OFF 
-      audio_img.src = "https://raw.githubusercontent.com/smarterGerman/preachingtool/main/icons/preaching-tool-skip-button-symbol.png"
+      audio_img.src = "https://raw.githubusercontent.com/smarterGerman/preachingtool/main/icons/preaching-tool-microphone-button-symbol.png"
     });
     test = false; 
   } else {
@@ -402,7 +402,7 @@ function finishGame(){
     }
     recognition.addEventListener('end', () => { 
       // MIC OFF
-      audio_img.src = "https://raw.githubusercontent.com/smarterGerman/preachingtool/main/icons/preaching-tool-skip-button-symbol.png"
+      audio_img.src = "https://raw.githubusercontent.com/smarterGerman/preachingtool/main/icons/preaching-tool-microphone-button-symbol.png"
     });
   }
   });
