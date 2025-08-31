@@ -1,0 +1,686 @@
+{
+  "mode": "apply",
+  "root": "/Users/denkmuskel/preachingtool",
+  "replacedInFiles": [
+    {
+      "file": "backup_20250831_175552/A1/publicOnePC/script.js",
+      "replacements": 1,
+      "changes": [
+        {
+          "index": 2474,
+          "beforeSnippet": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAACWCAYAAA...(12442 chars)...",
+          "afterSnippet": "https://raw.githubusercontent.com/smarterGerman/preachingtool/main/icons/preaching-tool-microphone-button-active-symbol.png"
+        }
+      ]
+    },
+    {
+      "file": "backup_20250831_175552/A2/public/oldA2script.js",
+      "replacements": 1,
+      "changes": [
+        {
+          "index": 4019,
+          "beforeSnippet": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAACWCAYAAA...(12442 chars)...",
+          "afterSnippet": "https://raw.githubusercontent.com/smarterGerman/preachingtool/main/icons/preaching-tool-microphone-button-active-symbol.png"
+        }
+      ]
+    },
+    {
+      "file": "backup_20250831_175552/A2/publicOnePC/script.js",
+      "replacements": 1,
+      "changes": [
+        {
+          "index": 2474,
+          "beforeSnippet": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAACWCAYAAA...(12442 chars)...",
+          "afterSnippet": "https://raw.githubusercontent.com/smarterGerman/preachingtool/main/icons/preaching-tool-microphone-button-active-symbol.png"
+        }
+      ]
+    },
+    {
+      "file": "backup_20250831_175552/B1/publicOnePC/script.js",
+      "replacements": 1,
+      "changes": [
+        {
+          "index": 2474,
+          "beforeSnippet": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAACWCAYAAA...(12442 chars)...",
+          "afterSnippet": "https://raw.githubusercontent.com/smarterGerman/preachingtool/main/icons/preaching-tool-microphone-button-active-symbol.png"
+        }
+      ]
+    },
+    {
+      "file": "backup_20250831_175552/B2/publicOnePC/script.js",
+      "replacements": 1,
+      "changes": [
+        {
+          "index": 2474,
+          "beforeSnippet": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAACWCAYAAA...(12442 chars)...",
+          "afterSnippet": "https://raw.githubusercontent.com/smarterGerman/preachingtool/main/icons/preaching-tool-microphone-button-active-symbol.png"
+        }
+      ]
+    },
+    {
+      "file": "public_prev/script.js",
+      "replacements": 1,
+      "changes": [
+        {
+          "index": 4019,
+          "beforeSnippet": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAACWCAYAAA...(12442 chars)...",
+          "afterSnippet": "https://raw.githubusercontent.com/smarterGerman/preachingtool/main/icons/preaching-tool-microphone-button-active-symbol.png"
+        }
+      ]
+    },
+    {
+      "file": "v2/A1/public/script.js",
+      "replacements": 1,
+      "changes": [
+        {
+          "index": 4019,
+          "beforeSnippet": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAACWCAYAAA...(12442 chars)...",
+          "afterSnippet": "https://raw.githubusercontent.com/smarterGerman/preachingtool/main/icons/preaching-tool-microphone-button-active-symbol.png"
+        }
+      ]
+    },
+    {
+      "file": "v2/A2/public/script.js",
+      "replacements": 1,
+      "changes": [
+        {
+          "index": 4019,
+          "beforeSnippet": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAACWCAYAAA...(12442 chars)...",
+          "afterSnippet": "https://raw.githubusercontent.com/smarterGerman/preachingtool/main/icons/preaching-tool-microphone-button-active-symbol.png"
+        }
+      ]
+    },
+    {
+      "file": "v2/B1/public/script.js",
+      "replacements": 1,
+      "changes": [
+        {
+          "index": 4019,
+          "beforeSnippet": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAACWCAYAAA...(12442 chars)...",
+          "afterSnippet": "https://raw.githubusercontent.com/smarterGerman/preachingtool/main/icons/preaching-tool-microphone-button-active-symbol.png"
+        }
+      ]
+    },
+    {
+      "file": "v2/B1/publicOnePC/script.js",
+      "replacements": 1,
+      "changes": [
+        {
+          "index": 2424,
+          "beforeSnippet": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAACWCAYAAA...(12442 chars)...",
+          "afterSnippet": "https://raw.githubusercontent.com/smarterGerman/preachingtool/main/icons/preaching-tool-microphone-button-active-symbol.png"
+        }
+      ]
+    },
+    {
+      "file": "v2/backup/public/script.js",
+      "replacements": 1,
+      "changes": [
+        {
+          "index": 4400,
+          "beforeSnippet": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAACWCAYAAA...(12442 chars)...",
+          "afterSnippet": "https://raw.githubusercontent.com/smarterGerman/preachingtool/main/icons/preaching-tool-microphone-button-active-symbol.png"
+        }
+      ]
+    }
+  ],
+  "skipped": [
+    {
+      "file": "backup_20250831_175552/A1/21/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "backup_20250831_175552/A1/22/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "backup_20250831_175552/tts/public/script.js",
+      "reason": "not-mic-related",
+      "index": 4042
+    },
+    {
+      "file": "backup_20250831_175552/tts/script.js",
+      "reason": "not-mic-related",
+      "index": 4042
+    },
+    {
+      "file": "v1/A1/1/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A1/10/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A1/11/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A1/12/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A1/13/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A1/14/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A1/15/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A1/16/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A1/17/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A1/18/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A1/19/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A1/2/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A1/20/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A1/21/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A1/21/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A1/22/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A1/22/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A1/23/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A1/24/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A1/25/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A1/26/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A1/27/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A1/28/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A1/29/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A1/3/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A1/30/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A1/31/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A1/32/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A1/33/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A1/34/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A1/35/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A1/36/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A1/37/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A1/38/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A1/39/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A1/4/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A1/40/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A1/41/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A1/42/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A1/43/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A1/44/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A1/45/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A1/46/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A1/47/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A1/48/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A1/49/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A1/5/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A1/50/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A1/6/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A1/7/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A1/8/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A1/9/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A1/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A2/1/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A2/10/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A2/11/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A2/12/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A2/13/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A2/14/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A2/15/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A2/16/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A2/17/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A2/18/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A2/19/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A2/2/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A2/20/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A2/21/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A2/22/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A2/23/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A2/24/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A2/25/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A2/26/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A2/27/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A2/28/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A2/29/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A2/3/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A2/30/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A2/31/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A2/32/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A2/33/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A2/34/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A2/35/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A2/36/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A2/37/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A2/38/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A2/39/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A2/4/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A2/40/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A2/41/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A2/42/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A2/43/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A2/44/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A2/45/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A2/46/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A2/47/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A2/48/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A2/49/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A2/5/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A2/50/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A2/6/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A2/7/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A2/8/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A2/9/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v1/A2/public/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v2/A1/21/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    },
+    {
+      "file": "v2/A1/22/script.js",
+      "reason": "not-mic-related",
+      "index": 3276
+    }
+  ],
+  "startTime": "2025-08-31T17:55:30.789Z",
+  "endTime": "2025-08-31T17:55:31.064Z",
+  "stats": {
+    "filesScanned": 1645,
+    "filesModified": 11,
+    "totalReplacements": 11
+  }
+}
