@@ -24,6 +24,8 @@ for name, url in icons.items():
 replacements = {
     'https://www.filepicker.io/api/file/VyfbFTekQn6m2LEPlNm5': base64_icons['mike_inactive'],
     'https://www.filepicker.io/api/file/WPV0ut4XRqqLIv7R9SYa': base64_icons['skip'],
+    'https://www.filepicker.io/api/file/Qf8Um3rTJihrNb0j2bCg': base64_icons['mike_active'],
+
 }
 
 # Find and replace in all files
