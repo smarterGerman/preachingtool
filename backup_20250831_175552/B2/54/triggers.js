@@ -1,0 +1,14 @@
+let allTriggerAnswersJSON = `[
+{"Ich bin pleite. | Geld ausgeben" : ["Du siehst aber scheiße aus.", "Ich bin pleite.", "Dann hättest du nicht so viel Geld ausgeben sollen.", "Danke, das ist sehr hilfreich."],
+"Ich habe mich geschnitten. | besser aufpassen" : ["Du siehst aber scheiße aus.", "Ich habe mich geschnitten.", "Dann hättest du besser aufpassen sollen.", "Danke, das ist sehr hilfreich."],
+"Seine Frau lässt sich von ihm scheiden. | nicht fremdgehen" : ["Er sieht aber scheiße aus.", "Seine Frau lässt sich von ihm scheiden.", "Dann hätte er nicht fremdgehen sollen.", "Danke, das ist sehr hilfreich."],
+"Sie ist hundemüde. | früher ins Bett gehen" : ["Sie sieht aber scheiße aus.", "Sie ist hundemüde.", "Dann hätte sie früher ins Bett gehen sollen.", "Danke, das ist sehr hilfreich."],
+"Er ist elendig verhungert. | (et)was essen" : ["Er sieht aber scheiße aus.", "Er ist elendig verhungert.", "Dann hätte er etwas essen sollen", "Danke, das ist sehr hilfreich."],
+"Er hat einen Unfall gebaut. | nicht betrunken Auto fahren" : ["Er sieht aber scheiße aus.", "Er hat einen Unfall gebaut.", "Dann hätte er nicht betrunken Auto fahren sollen.", "Danke, das ist sehr hilfreich."],
+"Sein Computer ist kaputt gegangen. Alle seine Daten sind verloren. | ein Backup machen" : ["Er sieht aber scheiße aus.", "Sein Computer ist kaputt gegangen. Alle seine Daten sind verloren.", "Dann hätte er ein Backup machen sollen.", "Danke, das ist sehr hilfreich."],
+"Sie hat einen Scheißjob. | (et)was Vernünftiges lernen" : ["Sie sieht aber scheiße aus.", "Sie hat einen Scheißjob.", "Dann hätte sie etwas Vernünftiges lernen sollen.", "Danke, das ist sehr hilfreich."],
+"Deutsch ist einfach zu schwierig für mich. | eine andere Sprache lernen" : ["Du siehst aber scheiße aus.", "Deutsch ist einfach zu schwierig für mich.", "Dann hättest du eine andere Sprache lernen sollen.", "Danke, das ist sehr hilfreich."],
+"Ich habe es einfach nicht geschafft. | sich helfen lassen" : ["Du siehst aber scheiße aus.", "Ich habe es einfach nicht geschafft.", "Dann hättest du dir helfen lassen sollen.", "Danke, das ist sehr hilfreich."]}
+]`;
+
+const triggers = ['Ich bin pleite. | Geld ausgeben', 'Ich habe mich geschnitten. | besser aufpassen', 'Seine Frau lässt sich von ihm scheiden. | nicht fremdgehen', 'Sie ist hundemüde. | früher ins Bett gehen', 'Er ist elendig verhungert. | (et)was essen', 'Er hat einen Unfall gebaut. | nicht betrunken Auto fahren', 'Sein Computer ist kaputt gegangen. Alle seine Daten sind verloren. | ein Backup machen', 'Sie hat einen Scheißjob. | (et)was Vernünftiges lernen', 'Deutsch ist einfach zu schwierig für mich. | eine andere Sprache lernen', 'Ich habe es einfach nicht geschafft. | sich helfen lassen'];

@@ -1,0 +1,14 @@
+let allTriggerAnswersJSON = `[
+{"Bruder | stark" : ["Mein Bruder ist stärker als dein Bruder.", "Stimmt ja gar nicht. Mein Bruder ist mindestens genauso stark wie dein Bruder.", "Du erzählst ja Quatsch. Mein Bruder ist definitiv stärker als dein Bruder.", "Wenn Du meinst."],
+"Auto | schnell" : ["Mein Auto ist schneller als dein Auto.", "Stimmt ja gar nicht. Mein Auto ist mindestens genauso schnell wie dein Auto.", "Du erzählst ja Quatsch. Mein Auto ist definitiv schneller als dein Auto.", "Wenn Du meinst."],
+"Arbeit | wichtig" : ["Meine Arbeit ist wichtiger als deine Arbeit.", "Stimmt ja gar nicht. Meine Arbeit ist mindestens genauso wichtig wie deine Arbeit.", "Du erzählst ja Quatsch. Meine Arbeit ist definitiv wichtiger als deine Arbeit.", "Wenn Du meinst."],
+"Kopfschmerzen | groß" : ["Meine Kopfschmerzen sind größer als deine Kopfschmerzen.", "Stimmt ja gar nicht. Meine Kopfschmerzen sind mindestens genauso groß wie deine Kopfschmerzen.", "Du erzählst ja Quatsch. Meine Kopfschmerzen sind definitiv größer als deine Kopfschmerzen.", "Wenn Du meinst."],
+"Deutsch | gut" : ["Mein Deutsch ist besser als dein Deutsch.", "Stimmt ja gar nicht. Mein Deutsch ist mindestens genauso gut wie dein Deutsch.", "Du erzählst ja Quatsch. Mein Deutsch ist definitiv besser als dein Deutsch.", "Wenn Du meinst."],
+"Handtasche | teuer" : ["Meine Handtasche ist teurer als deine Handtasche.", "Stimmt ja gar nicht. Meine Handtasche ist mindestens genauso teuer wie deine Handtasche.", "Du erzählst ja Quatsch. Meine Handtasche ist definitiv teurer als deine Handtasche.", "Wenn Du meinst."],
+"Probleme | groß" : ["Meine Probleme sind größer als deine Probleme.", "Stimmt ja gar nicht. Meine Probleme sind mindestens genauso groß wie deine Probleme.", "Du erzählst ja Quatsch. Meine Probleme sind definitiv größer als deine Probleme.", "Wenn Du meinst."],
+"Firma | erfolgreich" : ["Meine Firma ist erfolgreicher als deine Firma.", "Stimmt ja gar nicht. Meine Firma ist mindestens genauso erfolgreich wie deine Firma.", "Du erzählst ja Quatsch. Meine Firma ist definitiv erfolgreicher als deine Firma.", "Wenn Du meinst."],
+"Kaffee | lecker sein" : ["Mein Kaffee ist leckerer als dein Kaffee.", "Stimmt ja gar nicht. Mein Kaffee ist mindestens genauso lecker wie dein Kaffee.", "Du erzählst ja Quatsch. Mein Kaffee ist definitiv leckerer als dein Kaffee.", "Wenn Du meinst."],
+"Ego | klein" : ["Mein Ego ist kleiner als dein Ego.", "Stimmt ja gar nicht. Mein Ego ist mindestens genauso klein wie dein Ego.", "Du erzählst ja Quatsch. Mein Ego ist definitiv kleiner als dein Ego.", "Wenn Du meinst."]}
+]`;
+
+const triggers = ['Bruder | stark', 'Auto | schnell', 'Arbeit | wichtig', 'Kopfschmerzen | groß', 'Deutsch | gut', 'Handtasche | teuer', 'Probleme | groß', 'Firma | erfolgreich', 'Kaffee | lecker sein', 'Ego | klein'];

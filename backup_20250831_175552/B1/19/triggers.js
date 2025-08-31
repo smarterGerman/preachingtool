@@ -1,0 +1,14 @@
+let allTriggerAnswersJSON = `[
+{"sehen | nach Hause kommen | das Licht brennt" : ["Was haben Sie gesehen, als Sie gestern nach Hause gekommen sind?", "Als ich nach Hause gekommen bin, hat das Licht gebrannt.", "Und sonst nichts?", "Sonst nichts."],
+"spüren| meinen Arm brechen | Schmerzen haben" : ["Was haben Sie gespürt, als Sie Ihren Arm gebrochen haben?", "Als ich meinen Arm gebrochen habe, hatte ich Schmerzen.", "Und sonst nichts?", "Sonst nichts."],
+"machen müssen | klein sein | früh ins Bett müssen" : ["Was mussten Sie machen, als Sie klein waren?", "Als ich klein war, musste ich früh ins Bett.", "Und sonst nichts?", "Sonst nichts."],
+"machen | kündigen | mein Chef weint" : ["Was hat Ihr Chef gemacht, als Sie gekündigt haben?", "Als ich gekündigt habe, hat mein Chef geweint.", "Und sonst nichts?", "Sonst nichts."],
+"sich fühlen | Aufwachen | schweißgebadet sein" : ["Wie haben Sie sich gefühlt, als Sie aufgewacht sind?", "Als ich aufgewacht bin, war ich schweißgebadet.", "Und sonst nichts?", "Sonst nichts."],
+"sagen  | meine Mutter ruft an | nicht rangehen" : ["Was haben Sie gesagt, als Sie Ihre Mutter angerufen haben?", "Als ich meine Mutter angerufen habe, ging sie nicht dran.", "Und sonst nichts?", "Sonst nichts."],
+"sehen | eben nachschauen | niemand ist da" : ["Was haben Sie gesehen, als Sie eben nachgeschaut haben?", "Als ich eben nachschaute, war niemand da.", "Und sonst nichts?", "Sonst nichts."],
+"sehen | die Sonne geht unter | der Himmel ist feuerrot" : ["Was haben Sie gesehen, als die Sonne untergegangen ist?", "Als die Sonne unterging, war der Himmel feuerrot gewesen.", "Und sonst nichts?", "Sonst nichts."],
+"machen | es klingelt | unter der Dusche stehen" : ["Was haben Sie gemacht, als es geklingelt hat?", "Als es klingelte, stand ich unter der Dusche.", "Und sonst nicht?", "Sonst nichts."],
+"passieren | Mehl vom Nachbarn ausleihen wollen | er macht nicht auf" : ["Was ist passiert, als Sie Mehl vom Nachbarn ausleihen wollten?", "Als ich Mehl vom Nachbarn ausleihen wollte, macht er nicht auf.", "Und sonst nichts?", "Sonst nichts."]}
+]`;
+
+const triggers = ['sehen | nach Hause kommen | das Licht brennt', 'spüren| meinen Arm brechen | Schmerzen haben', 'machen müssen | klein sein | früh ins Bett müssen', 'machen | kündigen | mein Chef weint', 'sich fühlen | Aufwachen | schweißgebadet sein', 'sagen  | meine Mutter ruft an | nicht rangehen', 'sehen | eben nachschauen | niemand ist da', 'sehen | die Sonne geht unter | der Himmel ist feuerrot', 'machen | es klingelt | unter der Dusche stehen', 'passieren | Mehl vom Nachbarn ausleihen wollen | er macht nicht auf'];

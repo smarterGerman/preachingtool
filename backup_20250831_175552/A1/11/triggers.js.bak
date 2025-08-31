@@ -1,0 +1,14 @@
+let allTriggerAnswersJSON = `[
+{"sprechen" : ["Sprichst du gerne?", "Ich spreche nicht so gerne.", "Und du? Sprichst du denn gerne?", "Ich spreche auch nicht so gerne."],
+"waschen" : ["Wäschst du gerne?", "Ich wasche nicht so gerne.", "Und du? Wäschst du denn gerne?", "Ich wasche auch nicht so gerne."],
+"laufen" : ["Läufst du gerne?", "Ich laufe nicht so gerne.", "Und du? Läufst du denn gerne?", "Ich laufe auch nicht so gerne."],
+"schlafen" : ["Schläfst du gern?", "Ich schlafe nicht so gern.", "Und du? Schläfst du denn gern?", "Ich schlafe auch nicht so gern."],
+"lesen" : ["Liest du gern?", "Ich lese nicht so gern.", "Und du? Liest du denn gern?", "Ich lese auch nicht so gern."],
+"fahren" : ["Fährst du gern?", "Ich fahre nicht so gern.", "Und du? Fährst du denn gern?", "Ich fahre auch nicht so gern."],
+"geben" : ["Gibst du gern?", "Ich gebe nicht so gern.", "Und du? Gibst du denn gern?", "Ich gebe auch nicht so gern."],
+"nehmen" : ["Nimmst du gern?", "Ich nehme nicht so gern.", "Und du? Nimmst du denn gern?", "Ich nehme auch nicht so gern."],
+"tragen" : ["Trägst du gern?", "Ich trage nicht so gern.", "Und du? Trägst du denn gern?", "Ich trage auch nicht so gern."],
+"saufen" : ["Säufst du gern?", "Ich saufe nicht so gern.", "Und du? Säufst du denn gern?", "Ich saufe auch nicht so gern."]}
+]`;
+
+const triggers = ['sprechen', 'waschen', 'laufen', 'schlafen', 'lesen', 'fahren', 'geben', 'nehmen', 'tragen', 'saufen'];

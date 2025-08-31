@@ -1,0 +1,14 @@
+let allTriggerAnswersJSON = `[
+{"schenken | Mann | Halskette" : ["Schenkst du deinem Mann eine Halskette?", "Ich weiß nicht, ob ich meinem Mann eine Halskette schenke.", "Aber du hast doch gesagt, dass du deinem Mann eine Halskette schenkst.", "Daran kann ich mich nicht mehr erinnern."],
+"kaufen | Kind | Buch" : ["Kaufst du deinem Kind ein Buch?", "Ich weiß nicht, ob ich meinem Kind ein Buch kaufe.", "Aber du hast doch gesagt, dass du deinem Kind ein Buch kaufst.", "Daran kann ich mich nicht mehr erinnern."],
+"machen | Mutter | Kaffee" : ["Machst du deiner Mutter einen Kaffee?", "Ich weiß nicht, ob ich meiner Mutter einen Kaffee mache.", "Aber du hast doch gesagt, dass du deiner Mutter einen Kaffee machst.", "Daran kann ich mich nicht mehr erinnern."],
+"wünschen | Kollege (pl) | schönes Wochenende" : ["Wünschst du deinen Kollegen ein schönes Wochenende?", "Ich weiß nicht, ob ich meinen Kollegen ein schönes Wochenende wünsche.", "Aber du hast doch gesagt, dass du deinen Kollegen ein schönes Wochenende wünschst.", "Daran kann ich mich nicht mehr erinnern."],
+"geben | Frau | Kuss" : ["Gibst du deiner Frau einen Kuss?", "Ich weiß nicht, ob ich meiner Frau einen Kuss gebe.", "Aber du hast doch gesagt, dass du deiner Frau einen Kuss gibst.", "Daran kann ich mich nicht mehr erinnern."],
+"verraten | Nachbar (pl) | Geheimnis" : ["Verrätst du deinen Nachbarn ein Geheimnis?", "Ich weiß nicht, ob ich meinen Nachbarn ein Geheimnis verrate.", "Aber du hast doch gesagt, dass du deinen Nachbarn ein Geheimnis verrätst.", "Daran kann ich mich nicht mehr erinnern."],
+"bringen | Vater | Bier" : ["Bringst du deinem Vater ein Bier?", "Ich weiß nicht, ob ich meinem Vater ein Bier bringe.", "Aber du hast doch gesagt, dass du deinem Vater ein Bier bringst.", "Daran kann ich mich nicht mehr erinnern."],
+"schicken | Kundin | Email" : ["Schickst du deiner Kundin eine E-Mail?", "Ich weiß nicht, ob ich meiner Kundin eine E-Mail schicke.", "Aber du hast doch gesagt, dass du deiner Kundin eine E-Mail schickst.", "Daran kann ich mich nicht mehr erinnern."],
+"empfehlen | Opa | Zahnprothese" : ["Empfiehlst du deinem Opa eine Zahnprothese?", "Ich weiß nicht, ob ich meinem Opa eine Zahnprothese empfehle.", "Aber du hast doch gesagt, dass du deinem Opa eine Zahnprothese empfiehlst.", "Daran kann ich mich nicht mehr erinnern."],
+"bestellen | Chef | Krawatte" : ["Bestellst du deinem Chef eine Krawatte?", "Ich weiß nicht, ob ich meinem Chef eine Krawatte bestelle.", "Aber du hast doch gesagt, dass du deinem Chef eine Krawatte bestellst.", "Daran kann ich mich nicht mehr erinnern."]}
+]`;
+
+const triggers = ['schenken | Mann | Halskette', 'kaufen | Kind | Buch', 'machen | Mutter | Kaffee', 'wünschen | Kollege (pl) | schönes Wochenende', 'geben | Frau | Kuss', 'verraten | Nachbar (pl) | Geheimnis', 'bringen | Vater | Bier', 'schicken | Kundin | Email', 'empfehlen | Opa | Zahnprothese', 'bestellen | Chef | Krawatte'];

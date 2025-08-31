@@ -1,0 +1,9 @@
+let allTriggerAnswersJSON = `[
+{"wie eine bezahlbare Wohnung finden" : ["Wie finde ich eine bezahlbare Wohnung in Berlin?", "Entschuldige, ich habe gerade nicht zugehört. Was hast du gefragt?", "Ich habe gefragt, wie ich eine bezahlbare Wohnung in Berlin finde.", "Du, das weiß ich auch nicht."],
+"wie an eine einfache Bürgschaft kommen" : ["Wie komme ich an eine einfache Bürgschaft?", "Entschuldige, ich habe gerade nicht zugehört. Was hast du gefragt?", "Ich habe gefragt, wie ich an eine einfache Bürgschaft komme.", "Du, das weiß ich auch nicht."],
+"was in den Händen halten" : ["Was hältst du da in den Händen?", "Entschuldigung, ich habe gerade nicht zugehört. Was hast du gefragt?", "Ich habe gefragt, was du da in den Händen hältst.", "Du, das weiß ich auch nicht."],
+"warum Gentrifizierung eine Rolle spielt | Rolle" : ["Warum spielt Gentrifizierung so eine große Rolle?", "Entschuldige, ich habe gerade nicht zugehört. Was hast du gefragt?", "Ich habe gefragt, warum Gentrifizierung so eine große Rolle spielt.", "Du, das weiß ich auch nicht."],
+"warum eine einfache Mietfreiheitsbescheinigung brauchen" : ["Warum brauche ich eine aktuelle Mietfreiheitsbescheinigung?", "Entschuldige, ich habe gerade nicht zugehört. Was hast du gefragt?", "Ich habe gefragt, warum ich eine aktuelle Mietfreiheitsbescheinigung brauche.", "Du, das weiß ich auch nicht."]}
+]`;
+
+const triggers = ['wie eine bezahlbare Wohnung finden', 'wie an eine einfache Bürgschaft kommen', 'was in den Händen halten', 'warum Gentrifizierung eine Rolle spielt | Rolle', 'warum eine einfache Mietfreiheitsbescheinigung brauchen'];

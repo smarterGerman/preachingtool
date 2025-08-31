@@ -1,0 +1,20 @@
+let allTriggerAnswersJSON = `[
+{"Mann | Dackel | Pudel" : ["Schenkst du deinem Mann einen Dackel?", "Ich schenke meinem Mann keinen Dackel.", "Warum schenkst du deinem Mann keinen Dackel?", "Weil ich meinem Mann einen Pudel schenke."],
+"Mann | Kochbuch | Wörterbuch" : ["Schenkst du deinem Mann ein Kochbuch?", "Ich schenke meinem Mann kein Kochbuch.", "Warum schenkst du deinem Mann kein Kochbuch?", "Weil ich meinem Mann ein Wörterbuch schenke."],
+"Mann | Teetasse | Kaffeetasse" : ["Schenkst du deinem Mann eine Teetasse?", "Ich schenke meinem Mann keine Teetasse.", "Warum schenkst du deinem Mann keine Teetasse?", "Weil ich meinem Mann eine Kaffeetasse schenke."],
+"Mann | Fußballkarten | Opernkarten" : ["Schenkst du deinem Mann Fußballkarten?", "Ich schenke meinem Mann keine Fußballkarten.", "Warum schenkst du deinem Mann keine Fußballkarten?", "Weil ich meinem Mann Opernkarten schenke."],
+"Kind | Dackel | Pudel" : ["Schenkst du deinem Kind einen Dackel?", "Ich schenke meinem Kind keinen Dackel.", "Warum schenkst du deinem Kind keinen Dackel?", "Weil ich meinem Kind einen Pudel schenke."],
+"Kind | Kochbuch | Wörterbuch" : ["Schenkst du deinem Kind ein Kochbuch?", "Ich schenke meinem Kind kein Kochbuch.", "Warum schenkst du deinem Kind kein Kochbuch?", "Weil ich meinem Kind ein Wörterbuch schenke."],
+"Kind | Teetasse | Kaffeetasse" : ["Schenkst du deinem Kind eine Teetasse?", "Ich schenke meinem Kind keine Teetasse.", "Warum schenkst du deinem Kind keine Teetasse?", "Weil ich meinem Kind eine Kaffeetasse schenke."],
+"Kind | Fußballkarten | Opernkarten" : ["Schenkst du deinem Kind Fußballkarten?", "Ich schenke meinem Kind keine Fußballkarten.", "Warum schenkst du deinem Kind keine Fußballkarten?", "Weil ich meinem Kind Opernkarten schenke."],
+"Frau | Dackel | Pudel" : ["Schenkst du deiner Frau einen Dackel?", "Ich schenke meiner Frau keinen Dackel.", "Warum schenkst du deiner Frau keinen Dackel?", "Weil ich meiner Frau einen Pudel schenke."],
+"Frau | Kochbuch | Wörterbuch" : ["Schenkst du deiner Frau ein Kochbuch?", "Ich schenke meiner Frau kein Kochbuch.", "Warum schenkst du deiner Frau kein Kochbuch?", "Weil ich meiner Frau ein Wörterbuch schenke."],
+"Frau | Teetasse | Kaffeetasse" : ["Schenkst du deiner Frau eine Teetasse?", "Ich schenke meiner Frau keine Teetasse.", "Warum schenkst du deiner Frau keine Teetasse?", "Weil ich meiner Frau eine Kaffeetasse schenke."],
+"Frau | Fußballkarten | Opernkarten" : ["Schenkst du deiner Frau Fußballkarten?", "Ich schenke meiner Frau keine Fußballkarten.", "Warum schenkst du deiner Frau keine Fußballkarten?", "Weil ich meiner Frau Opernkarten schenke."],
+"Eltern | Dackel | Pudel" : ["Schenkst du deinen Eltern einen Dackel?", "Ich schenke meinen Eltern keinen Dackel.", "Warum schenkst du deinen Eltern keinen Dackel?", "Weil ich meinen Eltern einen Pudel schenke."],
+"Eltern | Kochbuch | Wörterbuch" : ["Schenkst du deinen Eltern ein Kochbuch?", "Ich schenke meinen Eltern kein Kochbuch.", "Warum schenkst du deinen Eltern kein Kochbuch?", "Weil ich meinen Eltern ein Wörterbuch schenke."],
+"Eltern | Teetasse | Kaffeetasse" : ["Schenkst du deinen Eltern eine Teetasse?", "Ich schenke meinen Eltern keine Teetasse.", "Warum schenkst du deinen Eltern keine Teetasse?", "Weil ich meinen Eltern eine Kaffeetasse schenke."],
+"Eltern | Opernkarten | Fußballkarten" : ["Schenkst du deinen Eltern Fußballkarten?", "Ich schenke meinen Eltern keine Fußballkarten.", "Warum schenkst du deinen Eltern keine Fußballkarten?", "Weil ich meinen Eltern Opernkarten schenke."]}
+]`;
+
+const triggers = ['Mann | Dackel | Pudel', 'Mann | Kochbuch | Wörterbuch', 'Mann | Teetasse | Kaffeetasse', 'Mann | Fußballkarten | Opernkarten', 'Kind | Dackel | Pudel', 'Kind | Kochbuch | Wörterbuch', 'Kind | Teetasse | Kaffeetasse', 'Kind | Fußballkarten | Opernkarten', 'Frau | Dackel | Pudel', 'Frau | Kochbuch | Wörterbuch', 'Frau | Teetasse | Kaffeetasse', 'Frau | Fußballkarten | Opernkarten', 'Eltern | Dackel | Pudel', 'Eltern | Kochbuch | Wörterbuch', 'Eltern | Teetasse | Kaffeetasse', 'Eltern | Opernkarten | Fußballkarten'];
