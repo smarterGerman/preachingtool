@@ -218,11 +218,11 @@ function finishGame(){
         p = document.createElement('p');
         tutorialContainer.appendChild(p);
       }
-      for(i = 0; i < example_preaching.length; i++){
-        p.innerText = example_preaching[i];
-        p = document.createElement('p');
-        tutorialContainer.appendChild(p);
-      }
+      for(let i = 0; i < example_preaching.length; i++){
+  let tp = document.createElement('p');
+  tp.innerText = example_preaching[i];
+  tutorialContainer.appendChild(tp);
+}
       tutorialContainer.classList.remove("hide-konstantin")
       words.classList.add("blur-konstantin");
       navigationContainer.classList.add("blur-konstantin");
