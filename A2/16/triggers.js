@@ -8,7 +8,7 @@ let allTriggerAnswersJSON = `[
 "Instrument | Harfe | Schlagzeug" : ["Wenn du ein Instrument wärst, was für ein Instrument wärst du?", "Wenn ich ein Instrument wäre, wäre ich eine Harfe.", "Und du? Was für ein Instrument wärst du?", "Ich wäre ein Schlagzeug."],
 "Möbelstück | Ohrensessel | Sofa" : ["Wenn du ein Möbelstück wärst, was für ein Möbelstück wärst du?", "Wenn ich ein Möbelstück wäre, wäre ich ein Ohrensessel.", "Und du? Was für ein Möbelstück wärst du?", "Ich wäre ein Sofa."],
 "Schuh | Stöckelschuh | Turnschuh" : ["Wenn du ein Schuh wärst, was für ein Schuh wärst du?", "Wenn ich ein Schuh wäre, wäre ich ein Stöckelschuh.", "Und du? Was für ein Schuh wärst du?", "Ich wäre ein Turnschuh."],
-"Buch | Autobiographie | Krimi" : ["Wenn du ein Buch wärst, was für ein Buch wärst du?", "Wenn ich ein Buch wäre, wäre ich eine Autobiographie.", "Und du? Was für ein Buch wärst du?", "Ich wäre ein Krimi."]}
+"Buch | Autobiografie | Krimi" : ["Wenn du ein Buch wärst, was für ein Buch wärst du?", "Wenn ich ein Buch wäre, wäre ich eine Autobiografie.", "Und du? Was für ein Buch wärst du?", "Ich wäre ein Krimi."]}
 ]`;
 
-const triggers = ['Hund | Schäferhund | Pudel', 'Getränk | Bier | Limonade', 'Suppe | Kürbissuppe | Kartoffelsuppe', 'Frucht | Mandarine | Granatapfel', 'Gemüse | Artischocke | Karotte', 'Film | Krimi | Komödie', 'Instrument | Harfe | Schlagzeug', 'Möbelstück | Ohrensessel | Sofa', 'Schuh | Stöckelschuh | Turnschuh', 'Buch | Autobiographie | Krimi'];
+const triggers = ['Hund | Schäferhund | Pudel', 'Getränk | Bier | Limonade', 'Suppe | Kürbissuppe | Kartoffelsuppe', 'Frucht | Mandarine | Granatapfel', 'Gemüse | Artischocke | Karotte', 'Film | Krimi | Komödie', 'Instrument | Harfe | Schlagzeug', 'Möbelstück | Ohrensessel | Sofa', 'Schuh | Stöckelschuh | Turnschuh', 'Buch | Autobiografie | Krimi'];
