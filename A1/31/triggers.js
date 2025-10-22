@@ -11,4 +11,4 @@ let allTriggerAnswersJSON = `[
 "angeln" : ["Willst du mit mir angeln?", "Ich will nicht mit dir angeln.", "Aber alle wollen mit mir angeln.", "Ich will aber nicht."]}
 ]`;
 
-const triggers = ['tanzen', 'Klavierspielen', 'kochen', 'zeichnen', 'improvisieren', 'Wein trinken', 'klettern', 'Schach spielen', 'singen', 'angeln'];
+const triggers = ['tanzen', 'Klavier spielen', 'kochen', 'zeichnen', 'improvisieren', 'Wein trinken', 'klettern', 'Schach spielen', 'singen', 'angeln'];
