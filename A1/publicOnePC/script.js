@@ -207,13 +207,18 @@ function startRecording(){
     recognition.continuous = true;
     recognition.interimResults = true;
     recognition.lang = 'de-DE';
+
+    // Add onend event listener to reset icon when recognition stops
+    recognition.onend = function() {
+      audio_img.src = "https://raw.githubusercontent.com/smarterGerman/preachingtool/main/icons/preaching-tool-microphone-button-inactive-symbol.png";
+    };
     recognition.start();
     recognition.onresult = function (event) {
 // TOOL SPEAKS FIRST 
     // Reset correct answer div 
     correct_answers_div.innerText = "";
     // MIC ON
-    audio_img.src = "https://www.filepicker.io/api/file/Vd1N70dPS1yslZ2XwZEJ";
+    audio_img.src = "https://raw.githubusercontent.com/smarterGerman/preachingtool/main/icons/preaching-tool-microphone-button-active-symbol.png";
     const transcript = Array.from(event.results)
     .map(result => result[0])
     .map(result => result.transcript)
@@ -233,7 +238,7 @@ function startRecording(){
     p.textContent = poopScript;
     // Here is where stuff is being written 
     if (event.results[0].isFinal) {
-        audio_img.src = "https://www.filepicker.io/api/file/VyfbFTekQn6m2LEPlNm5";
+        audio_img.src = "https://raw.githubusercontent.com/smarterGerman/preachingtool/main/icons/preaching-tool-microphone-button-inactive-symbol.png";
         recognition.stop();
         let poopScript = transcript;
         poopScript = transcript.replace(/grossen/gi, 'großen').replace(/gross/gi,'groß').replace(/grosse/gi,'große').replace(/grosses/gi,'großes').replace(/weiss/gi,'weiß').replace(/beisse/gi,'beiße').replace(/beisst/gi,'beißt').replace(/beissen/gi,'beißen').replace(/Fussball/gi,'Fußball');
@@ -266,7 +271,7 @@ function startRecording(){
       countTrigger();
       initialCounter = false;
     }
-    audio_img.src = "https://www.filepicker.io/api/file/Vd1N70dPS1yslZ2XwZEJ";
+    audio_img.src = "https://raw.githubusercontent.com/smarterGerman/preachingtool/main/icons/preaching-tool-microphone-button-active-symbol.png";
     startRecording();
   });
 
@@ -277,7 +282,7 @@ function startRecording(){
       countTrigger();
       initialCounter = false;
     }
-    audio_img.src = "https://www.filepicker.io/api/file/Vd1N70dPS1yslZ2XwZEJ";
+    audio_img.src = "https://raw.githubusercontent.com/smarterGerman/preachingtool/main/icons/preaching-tool-microphone-button-active-symbol.png";
     startRecording();
   }
   // Key command to go to next trigger 
