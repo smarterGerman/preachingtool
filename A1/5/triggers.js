@@ -1,5 +1,5 @@
 let allTriggerAnswersJSON = `[
-{"Kaffee" : ["Hättest du gerneeinen Kaffee?", "Ich hätte gerne einen Kaffee.", "Hättest du gerne einen großen Kaffee?", "Ich hätte lieber einen kleinen Kaffee."],
+{"Kaffee" : ["Hättest du gerne einen Kaffee?", "Ich hätte gerne einen Kaffee.", "Hättest du gerne einen großen Kaffee?", "Ich hätte lieber einen kleinen Kaffee."],
 "Glas Saft" : ["Hättest du gerne ein Glas Saft?", "Ich hätte gerne ein Glas Saft.", "Hättest du gerne ein großes Glas Saft?", "Ich hätte lieber ein kleines Glas Saft."],
 "Unterhose" : ["Hättest du gerne eine Unterhose?", "Ich hätte gerne eine Unterhose.", "Hättest du gerne eine große Unterhose?", "Ich hätte lieber eine kleine Unterhose."],
 "Fisch" : ["Hättest du gerne einen Fisch?", "Ich hätte gerne einen Fisch.", "Hättest du gerne einen großen Fisch?", "Ich hätte lieber einen kleinen Fisch."],
