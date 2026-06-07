@@ -8,7 +8,7 @@ let allTriggerAnswersJSON = `[
 "Wohnung | zentral" : ["Meine Wohnung ist zentral.", "Deine Wohnung ist zentraler als meine.*", "Meine Wohnung ist zentral. Deine Wohnung ist zentraler. Aber seine Wohnung ist am zentralsten.", "Und sie hat gar keine Wohnung."],
 "Kochkunst | gut" : ["Meine Kochkünste sind gut.", "Deine Kochkünste sind besser als meine.*", "Meine Kochkünste sind gut. Deine Kochkünste sind besser. Aber seine Kochkünste sind am besten.", "Und sie kann gar nicht kochen."],
 "IQ | hoch" : ["Mein IQ ist hoch.", "Dein IQ ist höher als meiner.*", "Mein IQ ist hoch. Dein IQ ist höher. Aber sein IQ ist am höchsten.", "Und sie hat gar keinen IQ."],
-"Freund | heiß" : ["Mein Freund ist heiß.", "Dein Freund ist heißer als meiner.*", "Mein  Freund ist heiß. Dein Freund ist heißer. Aber sein Freund ist am heißesten.", "Und sie hat gar keinen Freund"]}
+"Freund | heiß" : ["Mein Freund ist heiß.", "Dein Freund ist heißer als meiner.*", "Mein Freund ist heiß. Dein Freund ist heißer. Aber sein Freund ist am heißesten.", "Und sie hat gar keinen Freund"]}
 ]`;
 
 const triggers = ['Chef | gemein', 'Auto | dreckig', 'Katze | leise', 'Muckis (pl) | groß', 'Problem | groß', 'Soße | scharf', 'Wohnung | zentral', 'Kochkunst | gut', 'IQ | hoch', 'Freund | heiß'];

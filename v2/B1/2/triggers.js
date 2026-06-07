@@ -7,7 +7,7 @@ let allTriggerAnswersJSON = `[
 "Idee | klein" : ["Ich sehe eine Idee.", "Ich sehe eine kleine Idee. Und du?", "Ich sehe auch eine Idee.", "Ich sehe eine kleine Idee."],
 "Supermarkt | klein" : ["Ich sehe einen Supermarkt.", "Ich sehe einen kleinen Supermarkt. Und du?", "Ich sehe auch einen Supermarkt.", "Ich sehe einen kleinen Supermarkt."],
 "Mutter | klein" : ["Ich sehe eine Mutter.", "Ich sehe eine kleine Mutter. Und du?", "Ich sehe auch eine Mutter.", "Ich sehe eine kleine Mutter."],
-"Papier | klein" : ["Ich sehe ein Papier.", "Ich sehe ein kleines Papier. Und du?", "Ich sehe auch  ein Papier.", "Ich sehe ein kleines Papier."],
+"Papier | klein" : ["Ich sehe ein Papier.", "Ich sehe ein kleines Papier. Und du?", "Ich sehe auch ein Papier.", "Ich sehe ein kleines Papier."],
 "Brot | klein" : ["Ich sehe ein Brot.", "Ich sehe ein kleines Brot. Und du?", "Ich sehe auch ein Brot.", "Ich sehe ein kleines Brot."]}
 ]`;
 

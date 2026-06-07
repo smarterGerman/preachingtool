@@ -1,6 +1,6 @@
 let allTriggerAnswersJSON = `[
 {"Kaffee" : ["Möchtest du einen frischen Kaffee?", "Ich möchte keinen frischen Kaffee.", "Was? Du möchtest keinen frischen Kaffee?", "Nein, ich möchte lieber keinen frischen Kaffee."],
-"Glas Saft" : ["Möchtest du ein frisches Glas Saft?", "Ich möchte  kein frisches Glas Saft.", "Was? Du möchtest  kein frisches Glas Saft?", "Nein, ich möchte lieber kein frisches Glas Saft."],
+"Glas Saft" : ["Möchtest du ein frisches Glas Saft?", "Ich möchte kein frisches Glas Saft.", "Was? Du möchtest kein frisches Glas Saft?", "Nein, ich möchte lieber kein frisches Glas Saft."],
 "Unterhose" : ["Möchtest du eine frische Unterhose?", "Ich möchte keine frische Unterhose.", "Was? Du möchtest keine frische Unterhose?", "Nein, ich möchte lieber keine frische Unterhose."],
 "Fisch" : ["Möchtest du einen frischen Fisch?", "Ich möchte keinen frischen Fisch.", "Was? Du möchtest keinen frischen Fisch?", "Nein, ich möchte lieber keinen frischen Fisch."],
 "Salat" : ["Möchtest du einen frischen Salat?", "Ich möchte keinen frischen Salat.", "Was? Du möchtest keinen frischen Salat?", "Nein, ich möchte lieber keinen frischen Salat."],
