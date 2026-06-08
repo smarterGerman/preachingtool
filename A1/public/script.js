@@ -63,7 +63,7 @@ function computerOutput(computerSpeech) {
   computerSpeech = computerSpeech.replace(/ü/g,"ue");
   computerSpeech = computerSpeech.replace(/Ü/g,"Ue");
   computerSpeech = computerSpeech.replace(/ß/g,"ss");
-  computerSpeech = computerSpeech.replace(/[^a-zA-Z0-9 ]/g, "");
+  computerSpeech = computerSpeech.replace(/[^a-zA-Z0-9 ]/g, "").replace(/\s+/g," ").trim();
   // console.log(computerSpeech);
   if(!preachingStarted){
     globalThis.audio = new Audio('../audio/' + computerSpeech + '.mp3');
