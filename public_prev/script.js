@@ -63,7 +63,7 @@ function computerOutput(computerSpeech) {
   computerSpeech = computerSpeech.replace(/ü/g,"ue");
   computerSpeech = computerSpeech.replace(/Ü/g,"Ue");
   computerSpeech = computerSpeech.replace(/ß/g,"ss");
-  computerSpeech = computerSpeech.replace(/[^a-zA-Z0-9 ]/g, "");
+  computerSpeech = computerSpeech.replace(/[^a-zA-Z0-9 ]/g, "").replace(/\s+/g," ").trim();
   // console.log(computerSpeech);
   globalThis.audio = new Audio('../audio/' + computerSpeech + '.mp3');
   // let audio = new Audio('audio/Ich sehe einen Stuhl.mp3');
@@ -291,7 +291,7 @@ function finishGame(){
         // Remove special characters from current_trigger 
         current_trigger = current_trigger.replace(/\n/g,"");
         if(paragraphs.length > 1) {
-          if(paragraphs[paragraphs.length - 2].innerText.toLowerCase().replace(/[.,?!;:]/g,"") == allTriggerAnswersData[0][current_trigger][current_trigger_index].toLowerCase().replace(/[.,?!;:]/g,"")){
+          if(paragraphs[paragraphs.length - 2].innerText.toLowerCase().replace(/[.,?!;:]/g,"").replace(/\s+/g," ").trim() == allTriggerAnswersData[0][current_trigger][current_trigger_index].toLowerCase().replace(/[.,?!;:]/g,"").replace(/\s+/g," ").trim()){
             // console.log("I am in the TOOL LOOP");
             paragraphs[paragraphs.length - 2].style.color = "green";
             // if(current_trigger_index == 3){
@@ -347,7 +347,7 @@ function finishGame(){
         // Remove special characters from current_trigger 
         current_trigger = current_trigger.replace(/\n/g,"");
         if(paragraphs.length > 1) {
-          if(paragraphs[paragraphs.length - 2].innerText.toLowerCase().replace(/[.,?!;:]/g,"") == allTriggerAnswersData[0][current_trigger][current_trigger_index].toLowerCase().replace(/[.,?!;:]/g,"")){
+          if(paragraphs[paragraphs.length - 2].innerText.toLowerCase().replace(/[.,?!;:]/g,"").replace(/\s+/g," ").trim() == allTriggerAnswersData[0][current_trigger][current_trigger_index].toLowerCase().replace(/[.,?!;:]/g,"").replace(/\s+/g," ").trim()){
             paragraphs[paragraphs.length - 2].style.color = "green";
           if(allTriggerAnswersData[0][current_trigger][current_trigger_index + 1]){
             sleepFor(2, toolAnswer);
