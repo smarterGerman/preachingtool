@@ -7,7 +7,7 @@ let allTriggerAnswersJSON = `[
 "sich freuen" : ["Warum freust du dich?", "Ich freue mich doch nicht.", "Sicher, dass du dich nicht freust?", "Ich freue mich nie."],
 "sich wundern" : ["Warum wunderst du dich?", "Ich wundere mich doch nicht.", "Sicher, dass du dich nicht wunderst?", "Ich wundere mich nie."],
 "sich ärgern" : ["Warum ärgerst du dich?", "Ich ärgere mich doch nicht.", "Sicher, dass du dich nicht ärgerst?", "Ich ärgere mich nie."],
-"sich entschuldigen" : ["Warum entschuldigst du dich?", "Ich entschuldige mich nicht.", "Sicher, dass du dich nicht entschuldigst?", "Ich entschuldige mich nie."],
+"sich entschuldigen" : ["Warum entschuldigst du dich?", "Ich entschuldige mich doch nicht.", "Sicher, dass du dich nicht entschuldigst?", "Ich entschuldige mich nie."],
 "sich fürchten" : ["Warum fürchtest du dich?", "Ich fürchte mich doch nicht.", "Sicher, dass du dich nicht fürchtest?", "Ich fürchte mich nie."]}
 ]`;
 
