@@ -1,5 +1,5 @@
 let allTriggerAnswersJSON = `[
-{"Bruder | jung | alt" : ["Mein Bruder ist jung.", "Aber ich bin jünger.", "Also bin ich der/die Jüngere.", "Und er ist der Ältere."],
+{"Bruder | jung | alt" : ["Mein Bruder ist jung.", "Aber ich bin jünger.", ["Also bin ich der Jüngere.", "Also bin ich die Jüngere."], "Und er ist der Ältere."],
 "Kind | neugierig | desinteressiert" : ["Mein Kind ist neugierig.", "Aber ich bin neugieriger als es.", "Also bin ich die Neugierigere von uns beiden.", "Und er ist der Desinteressiertere."],
 "Schwester | dumm | schlau" : ["Meine Schwester ist dumm.", "Aber ich bin dümmer als sie.", "Also bin ich die Dümmere von uns beiden.", "Und sie ist die Schlauere."],
 "Mann | fleißig | faul" : ["Mein Mann ist fleißig.", "Aber ich bin fleißiger als er.", "Also bin ich die Fleißigere von uns beiden.", "Und er ist der Faulere."],

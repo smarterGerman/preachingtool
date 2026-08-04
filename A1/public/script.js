@@ -10,21 +10,32 @@ function normalizeForMatch(text){
   return text.toLowerCase().replace(/[.,?!;:]/g,"").replace(/(\d)\s+(?=\d)/g,"$1").replace(/\s+/g," ").trim();
 }
 
+function answerAlternatives(expected){
+  return Array.isArray(expected) ? expected : [expected];
+}
+
+function primaryAnswer(expected){
+  return answerAlternatives(expected)[0];
+}
+
 // Chrome's top speech hypothesis is unstable on short utterances (it returned
 // "möchtest" for correct "machtest" audio), so the verdict checks every
 // returned alternative for an exact match with the expected sentence. The
 // recognizer is never given the expected text, and nothing is accepted that
 // the recognizer did not itself return.
 function findMatchingAlternative(results, expected){
-  const targets = [normalizeForMatch(expected)];
-  // Number drills store both spellings as "zehn - 10". The learner always
-  // speaks the word; Chrome writes it down as either the word or the digits,
-  // so both count as the same answer. Nothing else is accepted - "elf Uhr"
-  // or a different number still fails.
-  const numberPair = expected.match(/^(.+?) - (\d+)[.?!]?$/);
-  if (numberPair) {
-    targets.push(normalizeForMatch(numberPair[1]));
-    targets.push(normalizeForMatch(numberPair[2]));
+  const targets = [];
+  for (const answer of answerAlternatives(expected)) {
+    targets.push(normalizeForMatch(answer));
+    // Number drills store both spellings as "zehn - 10". The learner always
+    // speaks the word; Chrome writes it down as either the word or the digits,
+    // so both count as the same answer. Nothing else is accepted - "elf Uhr"
+    // or a different number still fails.
+    const numberPair = answer.match(/^(.+?) - (\d+)[.?!]?$/);
+    if (numberPair) {
+      targets.push(normalizeForMatch(numberPair[1]));
+      targets.push(normalizeForMatch(numberPair[2]));
+    }
   }
   for (let j = 0; j < results[0].length; j++) {
     const candidate = applySzRules(Array.from(results).map(r => (j < r.length ? r[j] : r[0]).transcript).join(''));
@@ -113,8 +124,9 @@ function stopRecording(){
   recognition.stop();
 }
 function toolAnswer(){
-  p.innerText = allTriggerAnswersData[0][current_trigger][current_trigger_index +1];
-  computerOutput(allTriggerAnswersData[0][current_trigger][current_trigger_index +1]);
+  const answer = primaryAnswer(allTriggerAnswersData[0][current_trigger][current_trigger_index +1]);
+  p.innerText = answer;
+  computerOutput(answer);
   current_trigger_index += 2; 
   // console.log("Trigger Index: " + current_trigger_index);
   p = document.createElement('p');
@@ -125,8 +137,9 @@ function computerFirst(){
   current_trigger = current_trigger.replace(/\n/g,"");
   p = document.createElement('p');
   words.appendChild(p);
-  p.innerText = allTriggerAnswersData[0][current_trigger][current_trigger_index];
-  computerOutput(allTriggerAnswersData[0][current_trigger][current_trigger_index]);
+  const answer = primaryAnswer(allTriggerAnswersData[0][current_trigger][current_trigger_index]);
+  p.innerText = answer;
+  computerOutput(answer);
   current_trigger_index += 1;
   p = document.createElement('p');
   words.appendChild(p);
@@ -347,7 +360,7 @@ function finishGame(){
         }
         else {
           paragraphs[paragraphs.length - 2].style.color = "red";
-          correct_answers_div.innerHTML = "<span style=\"color: red; font-weight: 500;\">Correct: </span>" + allTriggerAnswersData[0][current_trigger][current_trigger_index];
+          correct_answers_div.innerHTML = "<span style=\"color: red; font-weight: 500;\">Correct: </span>" + primaryAnswer(allTriggerAnswersData[0][current_trigger][current_trigger_index]);
         }
       }
     }
@@ -401,7 +414,7 @@ function finishGame(){
         }
         else {
           paragraphs[paragraphs.length - 2].style.color = "red";
-          correct_answers_div.innerHTML = "<span style=\"color: red; font-weight: 500;\">Correct: </span>" + allTriggerAnswersData[0][current_trigger][current_trigger_index];
+          correct_answers_div.innerHTML = "<span style=\"color: red; font-weight: 500;\">Correct: </span>" + primaryAnswer(allTriggerAnswersData[0][current_trigger][current_trigger_index]);
         }
       }
     }

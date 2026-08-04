@@ -7,7 +7,7 @@ let allTriggerAnswersJSON = `[
 "bis morgen fertig werden mit | meine Hausarbeit" : ["Könntest du dich mit deiner Hausarbeit beeilen?", "Gerne. Aber du müsstest mal eine Minute warten.", "Könntest du nicht mal eine Ausnahme machen?", "Na gut. Ausnahmsweise."],
 "leben in | Großstadt" : ["Könntest du mit mir in eine Großstadt ziehen?", "Gerne. Aber du müsstest mal eine Minute warten.", "Könntest du nicht mal eine Ausnahme machen?", "Na gut. Ausnahmsweise."],
 "vorbeikommen bei | du (in dative)" : ["Könnte ich heute bei dir vorbeikommen?", "Gerne. Aber du müsstest mal eine Minute warten.", "Könntest du nicht mal eine Ausnahme machen?", "Na gut. Ausnahmsweise."],
-"leihen | dein Auto" : ["Könnte/Dürfte ich mir dein Auto leihen?", "Gerne. Aber du müsstest mal eine Minute warten.", "Könntest du nicht mal eine Ausnahme machen?", "Na gut. Ausnahmsweise."],
+"leihen | dein Auto" : [["Könnte ich mir dein Auto leihen?", "Dürfte ich mir dein Auto leihen?"], "Gerne. Aber du müsstest mal eine Minute warten.", "Könntest du nicht mal eine Ausnahme machen?", "Na gut. Ausnahmsweise."],
 "anprobieren | Pullover" : ["Könnte ich mal deinen Pullover anprobieren?", "Gerne. Aber du müsstest mal eine Minute warten.", "Könntest du nicht mal eine Ausnahme machen?", "Na gut. Ausnahmsweise."]}
 ]`;
 

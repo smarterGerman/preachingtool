@@ -7,7 +7,7 @@ let allTriggerAnswersJSON = `[
 "zu spät kommen" : ["Kamst du gestern zu spät?", "Ich kam gestern nicht zu spät.", "Warum kamst du gestern nicht zu spät?", "Weil ich gestern nicht zu spät kam."],
 "die Bedienungsanleitung lesen" : ["Last du gestern die Bedienungsanleitung?", "Ich las gestern nicht die Bedienungsanleitung.", "Warum last du gestern nicht die Bedienungsanleitung?", "Weil ich gestern die Bedienungsanleitung nicht las."],
 "auf dem Schlauch stehen" : ["Standst du gestern auf dem Schlauch?", "Ich stand gestern nicht auf dem Schlauch.", "Warum standst du gestern nicht auf dem Schlauch?", "Weil ich gestern nicht auf dem Schlauch stand."],
-"10 Kilo abnehmen" : ["Nahmst du gestern 10 Kilo ab?", "Ich nahm gestern nicht/keine 10 Kilo ab.", "Warum nahmst du gestern nicht/keine 10 Kilo ab?", "Weil ich gestern nicht/keine 10 Kilo abnahm."],
+"10 Kilo abnehmen" : ["Nahmst du gestern 10 Kilo ab?", ["Ich nahm gestern keine 10 Kilo ab.", "Ich nahm gestern nicht 10 Kilo ab."], ["Warum nahmst du gestern keine 10 Kilo ab?", "Warum nahmst du gestern nicht 10 Kilo ab?"], ["Weil ich gestern keine 10 Kilo abnahm.", "Weil ich gestern nicht 10 Kilo abnahm."]],
 "mir/dir auf die Mailbox sprechen" : ["Sprachst du mir gestern auf die Mailbox?", "Ich sprach dir gestern nicht auf die Mailbox.", "Warum sprachst du mir gestern nicht auf die Mailbox?", "Weil ich dir gestern nicht auf die Mailbox sprach."]}
 ]`;
 
