@@ -5,7 +5,9 @@ function applySzRules(text){
 }
 
 function normalizeForMatch(text){
-  return text.toLowerCase().replace(/[.,?!;:]/g,"").replace(/\s+/g," ").trim();
+  // Spaces between digits are display grouping only ("0044 7868 726250" vs
+  // Chrome's "00447868726250"), so they never decide a verdict.
+  return text.toLowerCase().replace(/[.,?!;:]/g,"").replace(/(\d)\s+(?=\d)/g,"$1").replace(/\s+/g," ").trim();
 }
 
 // Chrome's top speech hypothesis is unstable on short utterances (it returned
@@ -14,10 +16,19 @@ function normalizeForMatch(text){
 // recognizer is never given the expected text, and nothing is accepted that
 // the recognizer did not itself return.
 function findMatchingAlternative(results, expected){
-  const expectedNorm = normalizeForMatch(expected);
+  const targets = [normalizeForMatch(expected)];
+  // Number drills store both spellings as "zehn - 10". The learner always
+  // speaks the word; Chrome writes it down as either the word or the digits,
+  // so both count as the same answer. Nothing else is accepted - "elf Uhr"
+  // or a different number still fails.
+  const numberPair = expected.match(/^(.+?) - (\d+)[.?!]?$/);
+  if (numberPair) {
+    targets.push(normalizeForMatch(numberPair[1]));
+    targets.push(normalizeForMatch(numberPair[2]));
+  }
   for (let j = 0; j < results[0].length; j++) {
     const candidate = applySzRules(Array.from(results).map(r => (j < r.length ? r[j] : r[0]).transcript).join(''));
-    if (normalizeForMatch(candidate) == expectedNorm) return candidate;
+    if (targets.indexOf(normalizeForMatch(candidate)) !== -1) return candidate;
   }
   return null;
 }
