@@ -6,7 +6,7 @@ let allTriggerAnswersJSON = `[
 "telefonieren" : ["Telefoniertest du gestern?", "Ich telefonierte gestern nicht.", "Warum telefoniertest du gestern nicht?", "Weil ich gestern nicht telefonierte."],
 "Deutsch lernen" : ["Lerntest du gestern Deutsch?", "Ich lernte gestern nicht Deutsch.", "Warum lerntest du gestern nicht Deutsch?", "Weil ich gestern nicht Deutsch lernte."],
 "etwas/nichts sagen" : ["Sagtest du gestern etwas?", "Ich sagte gestern nichts.", "Warum sagtest du gestern nichts?", "Weil ich gestern nichts sagte."],
-"sein Zimmer aufräumen" : ["Räumtest du gestern dein Zimmer auf?", "Ich räumte gestern mein Zimmer nicht auf.", "Warum räumtest du gestern dein Zimmer nicht auf?", "Weil ich gestern mein Zimmer nicht aufräumte."],
+"sein Zimmer aufräumen" : ["Räumtest du gestern dein Zimmer auf?", "Ich räumte gestern nicht mein Zimmer auf.", "Warum räumtest du gestern dein Zimmer nicht auf?", "Weil ich gestern nicht mein Zimmer aufräumte."],
 "seine Brille reinigen" : ["Reinigtest du gestern deine Brille?", "Ich reinigte gestern nicht meine Brille.", "Warum reinigtest du gestern nicht deine Brille?", "Weil ich gestern nicht meine Brille reinigte."],
 "ein neues Handy kaufen" : ["Kauftest du gestern ein neues Handy?", "Ich kaufte gestern kein neues Handy.", "Warum kauftest du gestern kein neues Handy?", "Weil ich gestern kein neues Handy kaufte."]}
 ]`;
