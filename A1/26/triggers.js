@@ -7,8 +7,8 @@ let allTriggerAnswersJSON = `[
 "für jemanden tanzen" : ["Für wen tanzt du?", "Ich tanze für dich!", "Für mich? Warum denn für mich?", "Ach, einfach nur so."],
 "für jemanden kämpfen" : ["Für wen kämpfst du?", "Ich kämpfe für dich!", "Für mich? Warum denn für mich?", "Ach, einfach nur so."],
 "für jemanden beten" : ["Für wen betest du?", "Ich bete für dich!", "Für mich? Warum denn für mich?", "Ach, einfach nur so."],
-"für jemanden sorgen" : ["Für wen sorgst du?", "Ich sorge für dich!", "Für mich? Warum denn für mich?", "Ach, einfach nur so."],
+"für jemanden arbeiten" : ["Für wen arbeitest du?", "Ich arbeite für dich!", "Für mich? Warum denn für mich?", "Ach, einfach nur so."],
 "für jemanden backen" : ["Für wen backst du?", "Ich backe für dich!", "Für mich? Warum denn für mich?", "Ach, einfach nur so."]}
 ]`;
 
-const triggers = ['für jemanden kochen', 'für jemanden zahlen', 'für jemanden bügeln', 'für jemanden singen', 'für jemanden putzen', 'für jemanden tanzen', 'für jemanden kämpfen', 'für jemanden beten', 'für jemanden sorgen', 'für jemanden backen'];
+const triggers = ['für jemanden kochen', 'für jemanden zahlen', 'für jemanden bügeln', 'für jemanden singen', 'für jemanden putzen', 'für jemanden tanzen', 'für jemanden kämpfen', 'für jemanden beten', 'für jemanden arbeiten', 'für jemanden backen'];
