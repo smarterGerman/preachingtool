@@ -12,7 +12,7 @@ let allTriggerAnswersJSON = `[
 "Die Bombe hat den Wagen zerstört (=destroyed)." : ["Was hat die Bombe gemacht?", "Die Bombe hat den Wagen zerstört.", "Und jetzt?", "Jetzt ist der Wagen zerstört."],
 "Das Krokodil hat seine Nahrung verdaut (=digested)." : ["Was hat das Krokodil gemacht?", "Das Krokodil hat die Nahrung verdaut.", "Und jetzt?", "Jetzt ist die Nahrung verdaut."],
 "Sie haben alle Süßigkeiten aufgegessen (=eaten up)." : ["Was haben sie gemacht?", "Sie haben alles Süßigkeiten aufgegessen.", "Und jetzt?", "Jetzt sind alle Süßigkeiten aufgegessen."],
-"Der Leiter hat das Seminar beendet." : ["Was hat derLeiter gemacht?", "Der Leiter hat das Seminar beendet.", "Und jetzt?", "Jetzt ist das Seminar beendet."],
+"Der Leiter hat das Seminar beendet." : ["Was hat der Leiter gemacht?", "Der Leiter hat das Seminar beendet.", "Und jetzt?", "Jetzt ist das Seminar beendet."],
 "Die Lehrerin hat die Klassenarbeiten (=tests) ausgeteilt (=distributed)." : ["Was hat die Lehrerin gemacht?", "die Lehrerin hat die Klassenarbeiten ausgeteilt.", "Und jetzt?", "Jetzt sind alle Klassenarbeiten ausgeteilt."],
 "Ich habe alle Aufgaben richtig beantwortet." : ["Was habe ich gemacht?", "Du hast alle Aufgaben richtig beantwortet.", "Und jetzt?", "Jetzt sind alle Aufgaben richtig beantwortet."],
 "Die Soldaten haben den Terroristen festgenommen (=arrested)." : ["Was haben die Soldaten gemacht?", "Die Soldaten haben den Terroristen festgenommen.", "Und jetzt?", "Jetzt ist der Terrorist festgenommen."],
