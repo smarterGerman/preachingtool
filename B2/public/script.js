@@ -1,4 +1,26 @@
 window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+function applySzRules(text){
+  return text.replace(/grossen/gi, 'großen').replace(/gross/gi,'groß').replace(/grosse/gi,'große').replace(/grosses/gi,'großes').replace(/weiss/gi,'weiß').replace(/beisse/gi,'beiße').replace(/beisst/gi,'beißt').replace(/beissen/gi,'beißen').replace(/Fussball/gi,'Fußball');
+}
+
+function normalizeForMatch(text){
+  return text.toLowerCase().replace(/[.,?!;:]/g,"").replace(/\s+/g," ").trim();
+}
+
+// Chrome's top speech hypothesis is unstable on short utterances (it returned
+// "möchtest" for correct "machtest" audio), so the verdict checks every
+// returned alternative for an exact match with the expected sentence. The
+// recognizer is never given the expected text, and nothing is accepted that
+// the recognizer did not itself return.
+function findMatchingAlternative(results, expected){
+  const expectedNorm = normalizeForMatch(expected);
+  for (let j = 0; j < results[0].length; j++) {
+    const candidate = applySzRules(Array.from(results).map(r => (j < r.length ? r[j] : r[0]).transcript).join(''));
+    if (normalizeForMatch(candidate) == expectedNorm) return candidate;
+  }
+  return null;
+}
 Element.prototype.remove = function() {
   this.parentElement.removeChild(this);
 }
@@ -264,6 +286,7 @@ function finishGame(){
     recognition.continuous = true;
     recognition.interimResults = true;
     recognition.lang = 'de-DE';
+    recognition.maxAlternatives = 10;
 
     // Add onend event listener to reset icon when recognition stops
     recognition.onend = function() {
@@ -293,15 +316,16 @@ function finishGame(){
       if (event.results[0].isFinal) {
         audio_img.src = "https://raw.githubusercontent.com/smarterGerman/preachingtool/main/icons/preaching-tool-microphone-button-inactive-symbol.png";
         recognition.stop();
-        let poopScript = transcript;
-        poopScript = transcript.replace(/grossen/gi, 'großen').replace(/gross/gi,'groß').replace(/grosse/gi,'große').replace(/grosses/gi,'großes').replace(/weiss/gi,'weiß').replace(/beisse/gi,'beiße').replace(/beisst/gi,'beißt').replace(/beissen/gi,'beißen').replace(/Fussball/gi,'Fußball');
+        // Remove special characters from current_trigger
+        current_trigger = current_trigger.replace(/\n/g,"");
+        const expectedAnswer = (allTriggerAnswersData[0][current_trigger] || [])[current_trigger_index];
+        const matchedAlt = expectedAnswer ? findMatchingAlternative(event.results, expectedAnswer) : null;
+        let poopScript = matchedAlt !== null ? matchedAlt : applySzRules(transcript);
         p.textContent = poopScript;
         p = document.createElement('p');
         words.appendChild(p);
-        // Remove special characters from current_trigger 
-        current_trigger = current_trigger.replace(/\n/g,"");
         if(paragraphs.length > 1) {
-          if(paragraphs[paragraphs.length - 2].innerText.toLowerCase().replace(/[.,?!;:]/g,"").replace(/\s+/g," ").trim() == allTriggerAnswersData[0][current_trigger][current_trigger_index].toLowerCase().replace(/[.,?!;:]/g,"").replace(/\s+/g," ").trim()){
+          if(matchedAlt !== null){
             paragraphs[paragraphs.length - 2].style.color = "green";
             if(allTriggerAnswersData[0][current_trigger][current_trigger_index + 1]){
               sleepFor(2, toolAnswer);
@@ -342,15 +366,16 @@ function finishGame(){
       audio_img.src = "https://raw.githubusercontent.com/smarterGerman/preachingtool/main/icons/preaching-tool-microphone-button-inactive-symbol.png";
       // recognition.stop();
       recognition.stop();
-      let poopScript = transcript;
-      poopScript = transcript.replace(/grossen/gi, 'großen').replace(/gross/gi,'groß').replace(/grosse/gi,'große').replace(/grosses/gi,'großes').replace(/weiss/gi,'weiß').replace(/beisse/gi,'beiße').replace(/beisst/gi,'beißt').replace(/beissen/gi,'beißen').replace(/Fussball/gi,'Fußball');
+      // Remove special characters from current_trigger
+      current_trigger = current_trigger.replace(/\n/g,"");
+      const expectedAnswer = (allTriggerAnswersData[0][current_trigger] || [])[current_trigger_index];
+      const matchedAlt = expectedAnswer ? findMatchingAlternative(event.results, expectedAnswer) : null;
+      let poopScript = matchedAlt !== null ? matchedAlt : applySzRules(transcript);
       p.textContent = poopScript;
       p = document.createElement('p');
       words.appendChild(p);
-      // Remove special characters from current_trigger 
-      current_trigger = current_trigger.replace(/\n/g,"");
       if(paragraphs.length > 1) {
-        if(paragraphs[paragraphs.length - 2].innerText.toLowerCase().replace(/[.,?!;:]/g,"").replace(/\s+/g," ").trim() == allTriggerAnswersData[0][current_trigger][current_trigger_index].toLowerCase().replace(/[.,?!;:]/g,"").replace(/\s+/g," ").trim()){
+        if(matchedAlt !== null){
           paragraphs[paragraphs.length - 2].style.color = "green";
           if(allTriggerAnswersData[0][current_trigger][current_trigger_index + 1]){
             sleepFor(2, toolAnswer);
