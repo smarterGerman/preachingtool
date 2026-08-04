@@ -1,5 +1,5 @@
 let allTriggerAnswersJSON = `[
-{"Deutsch lernen | einen besseren Job finden" : ["Wozu lernst du eigentlich Deutsch?", "Um einen besseren Job zu finden.", "Das habe ich nicht verstanden. Warum lernst du nochmal Deutsch? -", "Damit ich einen besseren Job finde."],
+{"Deutsch lernen | einen besseren Job finden" : ["Wozu lernst du eigentlich Deutsch?", "Um einen besseren Job zu finden.", "Das habe ich nicht verstanden. Warum lernst du nochmal Deutsch?", "Damit ich einen besseren Job finde."],
 "so früh schlafen gehen | morgen früh fit sein" : ["Wozu gehst du eigentlich so früh schlafen?", "Um morgen früh fit zu sein.", "Das habe ich nicht verstanden. Warum gehst du nochmal so früh schlafen?", "Damit ich morgen früh fit bin."],
 "Geld sparen | in Urlaub fahren können" : ["Wozu sparst du eigentlich Geld?", "Um in Urlaub fahren zu können.", "Das habe ich nicht verstanden. Warum sparst du nochmal Geld?", "Damit ich in Urlaub fahren kann."],
 "ein Fahrrad kaufen | nicht mehr mit der U-Bahn fahren müssen" : ["Wozu kaufst du eigentlich ein Fahrrad?", "Um nicht mehr mit der U-Bahn fahren zu müssen.", "Das habe ich nicht verstanden. Warum kaufst du nochmal ein Fahrrad?", "Damit ich nicht mehr mit der U-Bahn fahren muss."],
