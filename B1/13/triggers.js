@@ -7,7 +7,7 @@ let allTriggerAnswersJSON = `[
 "rechtzeitig losgehen | nicht zu spät kommen" : ["Wozu gehst du eigentlich rechtzeitig los?", "Um nicht zu spät zu kommen.", "Das habe ich nicht verstanden. Warum gehst du nochmal rechtzeitig los?", "Damit ich nicht zu spät komme."],
 "so viel lernen | gut auf die Prüfung vorbereitet sein" : ["Wozu lernst du eigentlich so viel?", "Um gut auf die Prüfung vorbereitet zu sein.", "Das habe ich nicht verstanden. Warum lernst du nochmal so viel?", "Damit ich gut auf die Prüfung vorbereitet bin."],
 "so viel reden | vom Thema ablenken" : ["Wozu redest du eigentlich so viel?", "Um vom Thema abzulenken.", "Das habe ich nicht verstanden. Warum redest du nochmal so viel?", "Damit ich vom Thema ablenken kann."],
-"so viel Geld ausgeben | meinen Minderwertigkeitskomplex kompensieren" : ["Wozu gibt du eigentlich so viel Geld aus?", "Um meinen Minderwertigkeitskomplex zu kompensieren.", "Das habe ich nicht verstanden. Warum gibst du nochmal so viel Geld aus?", "Damit ich meinen Minderwertigkeitskomplex kompensieren kann."],
+"so viel Geld ausgeben | meinen Minderwertigkeitskomplex kompensieren" : ["Wozu gibst du eigentlich so viel Geld aus?", "Um meinen Minderwertigkeitskomplex zu kompensieren.", "Das habe ich nicht verstanden. Warum gibst du nochmal so viel Geld aus?", "Damit ich meinen Minderwertigkeitskomplex kompensieren kann."],
 "der Vogel steht so früh auf | den Wurm fangen" : ["Wozu steht der Vogel eigentlich so früh auf?", "Um den Wurm zu fangen.", "Das habe ich nicht verstanden. Warum steht der Vogel nochmal so früh auf?", ["Damit er den Wurm fangen kann.", "Damit er den Wurm fängt."]]}
 ]`;
 
